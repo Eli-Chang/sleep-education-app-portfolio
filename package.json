@@ -1,0 +1,17 @@
+{
+  "name": "sleep-education-app-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Public-safe TypeScript reference slice for a bilingual sleep-education product architecture.",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
