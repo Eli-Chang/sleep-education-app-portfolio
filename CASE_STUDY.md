@@ -4,6 +4,8 @@
 
 People learning about obstructive sleep apnea and PAP therapy may need short, clear, bilingual information that remains usable across device constraints and intermittent connectivity. A public portfolio also needs a strict boundary between software demonstration and clinical guidance.
 
+The product-domain scope is OSA/PAP education design, while this public checkout uses a deliberately generic sleep-planning lesson. The lesson demonstrates navigation, parity, consent, teach-back, and fallback behavior; it does not provide OSA/PAP instructions.
+
 ## Intended user need
 
 The demonstration models a learner moving through concise educational screens, checking understanding, saving progress, optionally preparing a teach-back response, and receiving a local fallback when network support is unavailable.

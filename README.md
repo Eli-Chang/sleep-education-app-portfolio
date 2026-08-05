@@ -10,6 +10,8 @@ This is a portfolio demonstration created to show software and product-learning 
 
 Health-education interfaces should be understandable, accessible, and usable when attention, language preference, device capability, and connectivity vary. This small public edition demonstrates the control points that make those requirements inspectable without shipping clinical records or real educational material.
 
+The portfolio scope is obstructive sleep apnea and PAP-therapy education design, but the bundled three-screen lesson intentionally uses generic sleep-planning examples. It demonstrates the interaction and safety controls without presenting OSA/PAP instructions or clinical guidance.
+
 ## My role in this edition
 
 I independently implemented the public portfolio application's TypeScript domain contracts, synthetic lesson set, progress model, navigation, narration contract, knowledge-check behavior, consent boundary, error handling, tests, and neutral demonstration UI. The public edition does not claim ownership of any material outside this repository.
