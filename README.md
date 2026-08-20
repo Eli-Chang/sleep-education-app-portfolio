@@ -1,65 +1,56 @@
-# Sleep Education App Portfolio
+# Sleep Education App
 
-> A sanitized demonstration application exploring accessible, bilingual patient education for obstructive sleep apnea and PAP therapy.
+An AI-assisted, bilingual Expo learning experience for sleep-health education.
 
-## Scope and disclaimer
+This public portfolio repository is the recruiter-facing slice of a larger product workflow. It shows how I directed requirements, curriculum structure, privacy boundaries, consent flows, state handling, evaluation criteria, and acceptance checks while using AI coding tools for implementation. I reviewed the generated technical output, corrected defects, and validated the finished behavior; this is not a claim that every line was written unaided.
 
-This is a portfolio demonstration created to show software and product-learning work. It is not affiliated with or endorsed by any healthcare organization, research group, laboratory, or clinical partner. It is not a production clinical application, does not provide medical advice, contains synthetic demonstration content only, contains no patient or research data, and makes no claim of clinical effectiveness.
+## What is here
 
-## Problem
+- 7 structured learning modules with 102 English curriculum screens mirrored to Spanish.
+- Offline-first local progress, quiz and reflection state, narration controls, and responsive Expo web/mobile UI.
+- A deliberately bounded optional AI lesson companion routed through a protected Cloudflare Worker.
+- Explicit affirmative consent, reversible AI access, bounded conversation context, identifier screening, safe fallback behavior, and no client-side provider key.
+- Deterministic tests for content parity, question quality, progress behavior, privacy boundaries, human-voice checks, and safety contracts.
+- Synthetic safety fixtures and public-safe evidence fixtures for the Worker; no patient records, PHI, learner accounts, or private telemetry.
 
-Health-education interfaces should be understandable, accessible, and usable when attention, language preference, device capability, and connectivity vary. This small public edition demonstrates the control points that make those requirements inspectable without shipping clinical records or real educational material.
+## Recruiter quick start
 
-The portfolio scope is obstructive sleep apnea and PAP-therapy education design, but the bundled three-screen lesson intentionally uses generic sleep-planning examples. It demonstrates the interaction and safety controls without presenting OSA/PAP instructions or clinical guidance.
-
-## My role in this edition
-
-I independently implemented the public portfolio application's TypeScript domain contracts, synthetic lesson set, progress model, navigation, narration contract, knowledge-check behavior, consent boundary, error handling, tests, and neutral demonstration UI. The public edition does not claim ownership of any material outside this repository.
-
-## Demonstrated features
-
-- English/Spanish module and screen identifier parity.
-- Synthetic lesson navigation and single-choice knowledge checks.
-- Immutable progress transitions with local serialization and restoration contracts.
-- A narration cue contract that can feed a platform speech adapter.
-- Consent-gated AI teach-back with bounded input and a no-request-before-consent test.
-- Offline-safe local fallback when consent is absent or a service is unavailable.
-- Explicit privacy, accessibility, translation, and clinical-review limitations.
-
-## Architecture
-
-```mermaid
-flowchart LR
-  UI[Lesson UI] --> Content[Synthetic bilingual content]
-  UI --> Navigation[Lesson navigation]
-  UI --> Progress[Local progress state]
-  UI --> Narration[Narration adapter contract]
-  UI --> Check[Knowledge check]
-  UI --> Consent{Explicit AI consent?}
-  Consent -- no --> Local[Local fallback]
-  Consent -- yes --> Boundary[Bounded teach-back boundary]
-  Boundary --> Worker[Optional server endpoint]
+```text
+npm install
+npm run validate:content
+npm test
+npm run typecheck
+npm run web
 ```
 
-## Run it
+The optional Worker has its own README and check command:
 
-From this repository directory:
-
-```powershell
-npm.cmd ci
-npm.cmd run check
+```text
+cd cloudflare-worker
+npm install
+npm run check
 ```
 
-The checks are deterministic and do not contact a network.
+The default app runs without an AI provider. Local AI development requires a locally created `.dev.vars` file; never commit provider keys or deployment credentials.
 
-## Privacy and safety
+## Product and safety boundary
 
-Read [PRIVACY.md](PRIVACY.md), [SECURITY.md](SECURITY.md), and [DISCLAIMER.md](DISCLAIMER.md). Consent is enforced at the request boundary; the public test suite proves that a request function is not invoked before consent. No credentials, accounts, analytics, patient data, research data, or remote content are included.
+The app presents general educational material and is not a diagnostic tool, treatment planner, clinical decision support system, or substitute for a healthcare professional. It does not collect patient identifiers, medical records, or free-text symptom histories. The AI companion cannot diagnose, prescribe, change medication or PAP settings, or replace urgent care. Users can revoke AI access from settings, and unsupported or unsafe requests fall back to a non-AI guidance path.
 
-## Bilingual QA
+The curriculum is source-derived educational content. It has not been presented here as clinical validation, professional translation, patient outcomes, or deployment evidence. Clinical and translation review remain required before real-world use.
 
-The validator compares ordered module and screen identifiers, checks locale markers, requires synthetic markers, and requires the exact English or Spanish demonstration notice on every screen. This is a parity check, not proof of professional translation quality.
+## Public asset policy
 
-## Limitations
+Only assets with a clear public-domain or documented Creative Commons attribution are included. Source-derived images with unresolved reuse permissions were withheld from this repository even when the lesson text references the topic. See [docs/image-sources.md](docs/image-sources.md).
 
-This edition does not claim clinical validation, deployment, patient use, health outcomes, or production equivalence. Native speech, device storage, accessibility automation, visual regression, professional translation review, and clinical review remain future work for a real product.
+## Evidence and verification
+
+- `npm run validate:content` checks module/screen counts and English/Spanish ID parity.
+- `npm test` covers deterministic product and safety contracts.
+- `npm run typecheck` checks the Expo TypeScript surface.
+- `cloudflare-worker/npm run check` runs Worker typecheck plus its deterministic tests.
+- `screenshots/` contains representative local QA captures; they are demonstrations, not user or patient data.
+
+## License
+
+The source code is released under the MIT License. Third-party assets retain their own licenses and attributions. See [LICENSE](LICENSE) and [docs/image-sources.md](docs/image-sources.md).

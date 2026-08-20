@@ -1,0 +1,7 @@
+{
+  "primary": "openai/gpt-oss-120b",
+  "fallback": "qwen/qwen3.6-27b",
+  "deprecated": ["llama-3.3-70b-versatile"],
+  "include_reasoning": false,
+  "reasoning_effort": "low"
+}

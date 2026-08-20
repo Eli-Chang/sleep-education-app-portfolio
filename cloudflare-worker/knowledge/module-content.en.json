@@ -1,0 +1,2765 @@
+{
+  "version": "module-content.v1",
+  "locale": "en",
+  "generated_from": "src/content",
+  "entries": [
+    {
+      "module_id": "m1",
+      "module_title": "Intro to Sleep Apnea",
+      "screen_id": "m1-01",
+      "language": "en",
+      "approved_text": "Introduction to Sleep Apnea\nIn this section, we'll learn more about what sleep apnea is and how to treat it! We'll cover why sleep apnea happens, what it means and why it's important to address, and how to treat it!",
+      "learning_objective": "Understand obstructive breathing, symptoms, evaluation, and how PAP supports an open airway.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-01.ts",
+      "source_hash": "960369a6730d47e0645a8f2aaa8e1d8b49345377066090f4121712b0fd7393eb",
+      "translation_status": "source",
+      "stable_link_id": "m1:m1-01"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Intro to Sleep Apnea",
+      "screen_id": "m1-03",
+      "language": "en",
+      "approved_text": "Physiology of Sleep Apnea\nIn this video, we'll dive more into understanding why OSA, or obstructive sleep apnea, happens. In OSA, your throat relaxes so much that it narrows and/or creates a blockage during sleep, leading to difficulty breathing. (Imagine sucking air through a straw and then pinching the straw.) Your brain senses the lack of oxygen and wakes you up just enough to breathe (though you might not remember it). In OSA, these interruptions happen many times a night, leading to poor sleep quality. Over time, this repeated strain stresses your body causing poor quality of life.\nIn this video, we'll dive more into understanding why OSA, or obstructive sleep apnea, happens.\nIn OSA, your throat relaxes so much that it narrows and/or creates a blockage during sleep, leading to difficulty breathing. (Imagine sucking air through a straw and then pinching the straw.) Your brain senses the lack of oxygen and wakes you up just enough to breathe (though you might not remember it). In OSA, these interruptions happen many times a night, leading to poor sleep quality. Over time, this repeated strain stresses your body causing poor quality of life.",
+      "learning_objective": "Understand obstructive breathing, symptoms, evaluation, and how PAP supports an open airway.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-01.ts",
+      "source_hash": "960369a6730d47e0645a8f2aaa8e1d8b49345377066090f4121712b0fd7393eb",
+      "translation_status": "source",
+      "stable_link_id": "m1:m1-03"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Intro to Sleep Apnea",
+      "screen_id": "m1-q1",
+      "language": "en",
+      "approved_text": "True or false? You have obstructive sleep apnea even if you don’t snore.\nTrue or false? You have obstructive sleep apnea even if you don’t snore. True or false? Let us know what you think below! True or false? You have obstructive sleep apnea even if you don’t snore. True – you can totally have sleep apnea without snoring False – you have to snore to have sleep apnea\nTrue – you can totally have sleep apnea without snoring\nFalse – you have to snore to have sleep apnea",
+      "learning_objective": "Understand obstructive breathing, symptoms, evaluation, and how PAP supports an open airway.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-01.ts",
+      "source_hash": "960369a6730d47e0645a8f2aaa8e1d8b49345377066090f4121712b0fd7393eb",
+      "translation_status": "source",
+      "stable_link_id": "m1:m1-q1"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Intro to Sleep Apnea",
+      "screen_id": "m1-04",
+      "language": "en",
+      "approved_text": "Apnea and Hypopnea\nYou may hear two terms when discussing a sleep study: • Apnea means airflow stops or nearly stops for a period of time.\n• Hypopnea means airflow becomes partly reduced. The image compares typical breathing with obstructive sleep apnea. With typical breathing, the airway stays open so air can move past the tongue and soft palate. In OSA, those tissues narrow or block the airway, so airflow is reduced or stops even though the person is still trying to breathe. Both apnea and hypopnea can disturb sleep and may affect oxygen levels. A sleep study measures breathing events and other information to help a clinician understand what is happening during sleep.\nYou may hear two terms when discussing a sleep study:\n• Apnea means airflow stops or nearly stops for a period of time.\n• Hypopnea means airflow becomes partly reduced.\nThe image compares typical breathing with obstructive sleep apnea. With typical breathing, the airway stays open so air can move past the tongue and soft palate. In OSA, those tissues narrow or block the airway, so airflow is reduced or stops even though the person is still trying to breathe.\nBoth apnea and hypopnea can disturb sleep and may affect oxygen levels. A sleep study measures breathing events and other information to help a clinician understand what is happening during sleep.",
+      "learning_objective": "Understand obstructive breathing, symptoms, evaluation, and how PAP supports an open airway.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-01.ts",
+      "source_hash": "960369a6730d47e0645a8f2aaa8e1d8b49345377066090f4121712b0fd7393eb",
+      "translation_status": "source",
+      "stable_link_id": "m1:m1-04"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Intro to Sleep Apnea",
+      "screen_id": "m1-05",
+      "language": "en",
+      "approved_text": "What are the symptoms of sleep apnea?\nOSA does not feel the same for everyone. Possible nighttime signs include loud snoring, pauses in breathing noticed by another person, gasping, choking, frequent awakenings, or restless sleep. Possible morning or daytime experiences include dry mouth, headache, tiredness, difficulty concentrating, irritability, or feeling unrefreshed after sleep. Having one of these symptoms does not by itself prove that someone has OSA.\nOSA does not feel the same for everyone.\nPossible nighttime signs include loud snoring, pauses in breathing noticed by another person, gasping, choking, frequent awakenings, or restless sleep.\nPossible morning or daytime experiences include dry mouth, headache, tiredness, difficulty concentrating, irritability, or feeling unrefreshed after sleep.\nHaving one of these symptoms does not by itself prove that someone has OSA.",
+      "learning_objective": "Understand obstructive breathing, symptoms, evaluation, and how PAP supports an open airway.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-01.ts",
+      "source_hash": "960369a6730d47e0645a8f2aaa8e1d8b49345377066090f4121712b0fd7393eb",
+      "translation_status": "source",
+      "stable_link_id": "m1:m1-05"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Intro to Sleep Apnea",
+      "screen_id": "m1-r1",
+      "language": "en",
+      "approved_text": "Personal reflection\nWhich experiences have you noticed? Snoring. Waking up gasping or choking. Someone has noticed pauses in my breathing. Morning headache. Dry mouth when I wake. Daytime tiredness. Difficulty concentrating. None of these. I am not sure.\nWhich experiences have you noticed?\nSnoring.\nWaking up gasping or choking.\nSomeone has noticed pauses in my breathing.\nMorning headache.\nDry mouth when I wake.\nDaytime tiredness.\nDifficulty concentrating.\nNone of these.\nI am not sure.\nThese experiences can have several causes. Your answers do not diagnose OSA. They may help you decide what to discuss with your healthcare professional.",
+      "learning_objective": "Understand obstructive breathing, symptoms, evaluation, and how PAP supports an open airway.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-01.ts",
+      "source_hash": "960369a6730d47e0645a8f2aaa8e1d8b49345377066090f4121712b0fd7393eb",
+      "translation_status": "source",
+      "stable_link_id": "m1:m1-r1"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Intro to Sleep Apnea",
+      "screen_id": "m1-06",
+      "language": "en",
+      "approved_text": "How Is OSA Evaluated?\nSymptoms can raise concern for sleep apnea, but they cannot confirm it on their own. Evaluation may include questions about sleep, health history, information from a partner, and a sleep study performed at home or in a sleep center. The sleep study records breathing and other signals while you sleep. Your healthcare team can explain what type of evaluation is appropriate for you.\nSymptoms can raise concern for sleep apnea, but they cannot confirm it on their own.\nEvaluation may include questions about sleep, health history, information from a partner, and a sleep study performed at home or in a sleep center. The sleep study records breathing and other signals while you sleep.\nYour healthcare team can explain what type of evaluation is appropriate for you.",
+      "learning_objective": "Understand obstructive breathing, symptoms, evaluation, and how PAP supports an open airway.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-01.ts",
+      "source_hash": "960369a6730d47e0645a8f2aaa8e1d8b49345377066090f4121712b0fd7393eb",
+      "translation_status": "source",
+      "stable_link_id": "m1:m1-06"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Intro to Sleep Apnea",
+      "screen_id": "m1-07",
+      "language": "en",
+      "approved_text": "How Does PAP Help?\nPAP stands for positive airway pressure. A PAP machine sends a gentle flow of pressurized air through a mask. The pressure helps hold the upper airway open during sleep. PAP does not force the lungs to breathe, and it is not the same as receiving supplemental oxygen. The amount of pressure and the type of equipment should be managed with the PAP or sleep-care team. PAP helps keep the airway open.\nPAP stands for positive airway pressure. A PAP machine sends a gentle flow of pressurized air through a mask.\nThe pressure helps hold the upper airway open during sleep. PAP does not force the lungs to breathe, and it is not the same as receiving supplemental oxygen.\nThe amount of pressure and the type of equipment should be managed with the PAP or sleep-care team.\nPAP helps keep the airway open.",
+      "learning_objective": "Understand obstructive breathing, symptoms, evaluation, and how PAP supports an open airway.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "content",
+        "PAP"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-01.ts",
+      "source_hash": "960369a6730d47e0645a8f2aaa8e1d8b49345377066090f4121712b0fd7393eb",
+      "translation_status": "source",
+      "stable_link_id": "m1:m1-07"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Intro to Sleep Apnea",
+      "screen_id": "m1-q2",
+      "language": "en",
+      "approved_text": "Knowledge check\nWhich statements accurately describe using PAP? Select all that apply. PAP treats obstructive breathing by delivering supplemental oxygen instead of air. PAP uses pressurized air to help support an open airway during sleep. A mask can deliver the pressurized air from a PAP machine. A person can change PAP pressure safely without discussing it with the care team. Equipment or comfort questions can be discussed with the PAP or sleep-care team.\nWhich statements accurately describe using PAP? Select all that apply.\nPAP treats obstructive breathing by delivering supplemental oxygen instead of air.\nPAP uses pressurized air to help support an open airway during sleep.\nA mask can deliver the pressurized air from a PAP machine.\nA person can change PAP pressure safely without discussing it with the care team.\nEquipment or comfort questions can be discussed with the PAP or sleep-care team.\nCorrect.\nNot quite.\nPAP delivers pressurized air through a mask to help keep the airway open. It is not automatically the same as oxygen therapy, and treatment settings should not be changed without appropriate guidance.",
+      "learning_objective": "Understand obstructive breathing, symptoms, evaluation, and how PAP supports an open airway.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-01.ts",
+      "source_hash": "960369a6730d47e0645a8f2aaa8e1d8b49345377066090f4121712b0fd7393eb",
+      "translation_status": "source",
+      "stable_link_id": "m1:m1-q2"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Intro to Sleep Apnea",
+      "screen_id": "m1-ai1",
+      "language": "en",
+      "approved_text": "Explain it in your own words\nIn your own words, what happens during obstructive sleep apnea?",
+      "learning_objective": "Understand obstructive breathing, symptoms, evaluation, and how PAP supports an open airway.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-01.ts",
+      "source_hash": "960369a6730d47e0645a8f2aaa8e1d8b49345377066090f4121712b0fd7393eb",
+      "translation_status": "source",
+      "stable_link_id": "m1:m1-ai1"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Intro to Sleep Apnea",
+      "screen_id": "m1-recap",
+      "language": "en",
+      "approved_text": "Module recap\nOSA causes repeated narrowing or closure of the upper airway during sleep. These events can reduce airflow and disturb sleep. Symptoms may suggest a problem, but a clinical evaluation and sleep testing are used to understand what is happening. PAP helps support an open airway by delivering pressurized air through a mask.",
+      "learning_objective": "Understand obstructive breathing, symptoms, evaluation, and how PAP supports an open airway.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "summary"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-01.ts",
+      "source_hash": "960369a6730d47e0645a8f2aaa8e1d8b49345377066090f4121712b0fd7393eb",
+      "translation_status": "source",
+      "stable_link_id": "m1:m1-recap"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "How Does Sleep Apnea Impact My Partner?",
+      "screen_id": "m2-01",
+      "language": "en",
+      "approved_text": "How does sleep apnea impact my partner?\nIn this section, we'll learn about how sleep apnea impacts your partner (or others in the bedroom, such as a newborn) and how treatments like CPAP can improve intimacy and quality of life for both you and your partner!",
+      "learning_objective": "Understand shared-sleep effects and supportive, blame-free PAP problem solving.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-02.ts",
+      "source_hash": "9c686c1c76f4f10ee4080bbdfedd1859bb21480ab3c3fa3a92f64b9072e479b3",
+      "translation_status": "source",
+      "stable_link_id": "m2:m2-01"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "How Does Sleep Apnea Impact My Partner?",
+      "screen_id": "m2-r1",
+      "language": "en",
+      "approved_text": "What aspect of your sleep apnea bothers your partner the most?\nWhat aspect of your sleep apnea bothers your partner the most? What aspect of your sleep apnea bothers your partner the most? Snoring Night awakenings (anything that causes them to wake up at night) Changes in mood/energy Sleeping in separate rooms\nSnoring\nNight awakenings (anything that causes them to wake up at night)\nChanges in mood/energy\nSleeping in separate rooms",
+      "learning_objective": "Understand shared-sleep effects and supportive, blame-free PAP problem solving.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-02.ts",
+      "source_hash": "9c686c1c76f4f10ee4080bbdfedd1859bb21480ab3c3fa3a92f64b9072e479b3",
+      "translation_status": "source",
+      "stable_link_id": "m2:m2-r1"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "How Does Sleep Apnea Impact My Partner?",
+      "screen_id": "m2-03",
+      "language": "en",
+      "approved_text": "How can CPAP help improve your partner's sleeping experience?\nContinuous Positive Airway Pressure (CPAP) works by delivering steady airflow through a mask that keeps the upper airway open and stable, preventing the tissue vibrations that cause snoring. This keeps your sleeping sounds low, allowing for a better experience for your partner!\nContinuous Positive Airway Pressure (CPAP) works by delivering steady airflow through a mask that keeps the upper airway open and stable, preventing the tissue vibrations that cause snoring.\nThis keeps your sleeping sounds low, allowing for a better experience for your partner!",
+      "learning_objective": "Understand shared-sleep effects and supportive, blame-free PAP problem solving.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-02.ts",
+      "source_hash": "9c686c1c76f4f10ee4080bbdfedd1859bb21480ab3c3fa3a92f64b9072e479b3",
+      "translation_status": "source",
+      "stable_link_id": "m2:m2-03"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "How Does Sleep Apnea Impact My Partner?",
+      "screen_id": "m2-05",
+      "language": "en",
+      "approved_text": "How can CPAP help improve intimacy? (continued)\nCPAP has been shown to increase intimacy between couples! One study showed that 41% of bed partners reported increased relationship satisfaction (47% said no change), and 71% said that their sleep quality improved.",
+      "learning_objective": "Understand shared-sleep effects and supportive, blame-free PAP problem solving.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-02.ts",
+      "source_hash": "9c686c1c76f4f10ee4080bbdfedd1859bb21480ab3c3fa3a92f64b9072e479b3",
+      "translation_status": "source",
+      "stable_link_id": "m2:m2-05"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "How Does Sleep Apnea Impact My Partner?",
+      "screen_id": "m2-04",
+      "language": "en",
+      "approved_text": "Using CPAP while sleeping with your partner\nAt the very start of your CPAP journey, it is common to adjust to the look of the machine and be intimate. Partners may note issues with intimacy as the CPAP may first seem like a barrier to getting close to each other. However, as time progresses, partners get used to the machine and have reported resumed (and improved) intimacy, better sleep quality, better mood, and better energy for both the bed partner and the patient. Studies show individual with partners actually experience better CPAP adherence, meaning your partner can help keep you accountable! To some couples, it may seem like CPAP is an intimacy barrier, but it is integral for a patient with sleep apnea to use the machine, especially when pregnant. Untreated sleep apnea can have drastic effects on both the mother and the baby, as we learned in the previous modules.\nAt the very start of your CPAP journey, it is common to adjust to the look of the machine and be intimate. Partners may note issues with intimacy as the CPAP may first seem like a barrier to getting close to each other.\nHowever, as time progresses, partners get used to the machine and have reported resumed (and improved) intimacy, better sleep quality, better mood, and better energy for both the bed partner and the patient. Studies show individual with partners actually experience better CPAP adherence, meaning your partner can help keep you accountable!\nTo some couples, it may seem like CPAP is an intimacy barrier, but it is integral for a patient with sleep apnea to use the machine, especially when pregnant. Untreated sleep apnea can have drastic effects on both the mother and the baby, as we learned in the previous modules.",
+      "learning_objective": "Understand shared-sleep effects and supportive, blame-free PAP problem solving.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-02.ts",
+      "source_hash": "9c686c1c76f4f10ee4080bbdfedd1859bb21480ab3c3fa3a92f64b9072e479b3",
+      "translation_status": "source",
+      "stable_link_id": "m2:m2-04"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "How Does Sleep Apnea Impact My Partner?",
+      "screen_id": "m2-q2",
+      "language": "en",
+      "approved_text": "Question time! Which of the following statements is correct? (select all that apply).\nQuestion time! Which of the following statements is correct? (select all that apply). Which of the following statements is correct? (select all that apply). Question time! Which of the following statements is correct? (select all that apply). Using CPAP when sleeping with your partner helps ensure that you guys fall asleep and wake up at exactly the same times. Using CPAP when sleeping with your partner can help improve energy levels for both you and your partner. Using CPAP every other night when sleeping with your partner actually has the same partner benefits as using CPAP every night. Using CPAP when sleeping with your partner may help your partner fall asleep faster\nUsing CPAP when sleeping with your partner helps ensure that you guys fall asleep and wake up at exactly the same times.\nUsing CPAP when sleeping with your partner can help improve energy levels for both you and your partner.\nUsing CPAP every other night when sleeping with your partner actually has the same partner benefits as using CPAP every night.\nUsing CPAP when sleeping with your partner may help your partner fall asleep faster",
+      "learning_objective": "Understand shared-sleep effects and supportive, blame-free PAP problem solving.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-02.ts",
+      "source_hash": "9c686c1c76f4f10ee4080bbdfedd1859bb21480ab3c3fa3a92f64b9072e479b3",
+      "translation_status": "source",
+      "stable_link_id": "m2:m2-q2"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "How Does Sleep Apnea Impact My Partner?",
+      "screen_id": "m2-q1",
+      "language": "en",
+      "approved_text": "True or False?\nTrue or False? True or False? True False\nTrue\nFalse",
+      "learning_objective": "Understand shared-sleep effects and supportive, blame-free PAP problem solving.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-02.ts",
+      "source_hash": "9c686c1c76f4f10ee4080bbdfedd1859bb21480ab3c3fa3a92f64b9072e479b3",
+      "translation_status": "source",
+      "stable_link_id": "m2:m2-q1"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "How Does Sleep Apnea Impact My Partner?",
+      "screen_id": "m2-02",
+      "language": "en",
+      "approved_text": "What Might a Partner Experience?\nA partner may experience interrupted sleep, worry about breathing pauses, difficulty falling back asleep, tiredness the next day, frustration about snoring or disrupted routines, or concern about whether treatment is working. Not every partner has the same experience, and not every patient shares a bed.\nA partner may experience interrupted sleep, worry about breathing pauses, difficulty falling back asleep, tiredness the next day, frustration about snoring or disrupted routines, or concern about whether treatment is working.\nNot every partner has the same experience, and not every patient shares a bed.",
+      "learning_objective": "Understand shared-sleep effects and supportive, blame-free PAP problem solving.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-02.ts",
+      "source_hash": "9c686c1c76f4f10ee4080bbdfedd1859bb21480ab3c3fa3a92f64b9072e479b3",
+      "translation_status": "source",
+      "stable_link_id": "m2:m2-02"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "How Does Sleep Apnea Impact My Partner?",
+      "screen_id": "m2-ai1",
+      "language": "en",
+      "approved_text": "Shared-sleep teach-back\nDescribe one way OSA could affect a partner and one way PAP might help.",
+      "learning_objective": "Understand shared-sleep effects and supportive, blame-free PAP problem solving.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-02.ts",
+      "source_hash": "9c686c1c76f4f10ee4080bbdfedd1859bb21480ab3c3fa3a92f64b9072e479b3",
+      "translation_status": "source",
+      "stable_link_id": "m2:m2-ai1"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "How Does Sleep Apnea Impact My Partner?",
+      "screen_id": "m2-recap",
+      "language": "en",
+      "approved_text": "Module recap\nOSA can disturb a partner’s sleep and cause worry, but experiences differ. PAP may improve shared sleep when treatment is effective. Practical concerns should be addressed without blame, and equipment or treatment problems can be discussed with the PAP team.",
+      "learning_objective": "Understand shared-sleep effects and supportive, blame-free PAP problem solving.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "summary"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-02.ts",
+      "source_hash": "9c686c1c76f4f10ee4080bbdfedd1859bb21480ab3c3fa3a92f64b9072e479b3",
+      "translation_status": "source",
+      "stable_link_id": "m2:m2-recap"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "OSA Outcomes and Motivation",
+      "screen_id": "m3-01",
+      "language": "en",
+      "approved_text": "OSA Outcomes & Motivations\nIn this section, we'll learn about some of the outcomes that untreated vs treated OSA can have on both you and your baby! Then, we'll dive into how to be motivated and committed to treating your sleep apnea so both of you are healthy as can be.",
+      "learning_objective": "Understand health associations, PAP barriers, and realistic next steps without fear or blame.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-03.ts",
+      "source_hash": "d3f81b6ad65ae34b8a6a0af3af1d20888ec6c74698236028cd75710bd3748893",
+      "translation_status": "source",
+      "stable_link_id": "m3:m3-01"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "OSA Outcomes and Motivation",
+      "screen_id": "m3-q1",
+      "language": "en",
+      "approved_text": "True or False? (This question is for learning, not a comprehension check)\nTrue or False? (This question is for learning, not a comprehension check) True or False? (This question is for learning, not a comprehension check) True False\nTrue\nFalse",
+      "learning_objective": "Understand health associations, PAP barriers, and realistic next steps without fear or blame.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-03.ts",
+      "source_hash": "d3f81b6ad65ae34b8a6a0af3af1d20888ec6c74698236028cd75710bd3748893",
+      "translation_status": "source",
+      "stable_link_id": "m3:m3-q1"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "OSA Outcomes and Motivation",
+      "screen_id": "m3-q3",
+      "language": "en",
+      "approved_text": "Select the right answer: (This question is for learning, not a comprehension check)\nSelect the right answer: (This question is for learning, not a comprehension check) Select the right answer: (This question is for learning, not a comprehension check) Pregnant women with untreated OSA during their hospital admission at delivery are at significantly higher risk of: getting a cold having heart problems getting food poisoning having nosebleeds\nPregnant women with untreated OSA during their hospital admission at delivery are at significantly higher risk of:\ngetting a cold\nhaving heart problems\ngetting food poisoning\nhaving nosebleeds",
+      "learning_objective": "Understand health associations, PAP barriers, and realistic next steps without fear or blame.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-03.ts",
+      "source_hash": "d3f81b6ad65ae34b8a6a0af3af1d20888ec6c74698236028cd75710bd3748893",
+      "translation_status": "source",
+      "stable_link_id": "m3:m3-q3"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "OSA Outcomes and Motivation",
+      "screen_id": "m3-q4",
+      "language": "en",
+      "approved_text": "Select the right answer: (This question is for learning, not a comprehension check)\nSelect the right answer: (This question is for learning, not a comprehension check) Select the right answer: (This question is for learning, not a comprehension check) Clinical associations have been observed between pregnant women with sleep disordered breathing (SDB) and ______ newborn birth weights. Abnormally high Normal Abnormally low\nClinical associations have been observed between pregnant women with sleep disordered breathing (SDB) and ______ newborn birth weights.\nAbnormally high\nNormal\nAbnormally low",
+      "learning_objective": "Understand health associations, PAP barriers, and realistic next steps without fear or blame.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-03.ts",
+      "source_hash": "d3f81b6ad65ae34b8a6a0af3af1d20888ec6c74698236028cd75710bd3748893",
+      "translation_status": "source",
+      "stable_link_id": "m3:m3-q4"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "OSA Outcomes and Motivation",
+      "screen_id": "m3-recap",
+      "language": "en",
+      "approved_text": "Overview\nI hope these questions provided an opportunity to learn about how OSA can affect maternal and fetal/neonatal outcomes. Overall, we learned: • Untreated OSA increases the chances of cesarean delivery • Untreated OSA significantly increases the chances of heart problems • Untreated OSA increases the risk of low newborn birth weight\nI hope these questions provided an opportunity to learn about how OSA can affect maternal and fetal/neonatal outcomes. Overall, we learned:\n• Untreated OSA increases the chances of cesarean delivery\n• Untreated OSA significantly increases the chances of heart problems\n• Untreated OSA increases the risk of low newborn birth weight",
+      "learning_objective": "Understand health associations, PAP barriers, and realistic next steps without fear or blame.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "summary"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-03.ts",
+      "source_hash": "d3f81b6ad65ae34b8a6a0af3af1d20888ec6c74698236028cd75710bd3748893",
+      "translation_status": "source",
+      "stable_link_id": "m3:m3-recap"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "OSA Outcomes and Motivation",
+      "screen_id": "m3-04",
+      "language": "en",
+      "approved_text": "Motivations: Why is it so important to use a PAP machine during pregnancy?\nA Positive Airway Pressure (PAP) machine delivers a continuous stream of air at a set pressure that keeps the airway open, and thus prevents airway collapse and hypoxic (low-oxygen events) during sleep. This ensures the health of both you and your baby during and after pregnancy! Consistent PAP treatment for sleep apnea Well-controlled stress levels Well-controlled stress hormones Well-controlled blood pressure Well-controlled blood sugar\nA Positive Airway Pressure (PAP) machine delivers a continuous stream of air at a set pressure that keeps the airway open, and thus prevents airway collapse and hypoxic (low-oxygen events) during sleep.\nThis ensures the health of both you and your baby during and after pregnancy!",
+      "learning_objective": "Understand health associations, PAP barriers, and realistic next steps without fear or blame.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-03.ts",
+      "source_hash": "d3f81b6ad65ae34b8a6a0af3af1d20888ec6c74698236028cd75710bd3748893",
+      "translation_status": "source",
+      "stable_link_id": "m3:m3-04"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "OSA Outcomes and Motivation",
+      "screen_id": "m3-02",
+      "language": "en",
+      "approved_text": "Understanding Health Risk\nWhen research says OSA is associated with an outcome, it means the outcome occurs more often in groups with OSA. It does not mean every person with OSA will experience that outcome. It also does not mean PAP can guarantee that an outcome will be prevented. Your own risk and treatment plan depend on your individual health and should be discussed with your healthcare team.\nWhen research says OSA is associated with an outcome, it means the outcome occurs more often in groups with OSA. It does not mean every person with OSA will experience that outcome.\nIt also does not mean PAP can guarantee that an outcome will be prevented.\nYour own risk and treatment plan depend on your individual health and should be discussed with your healthcare team.",
+      "learning_objective": "Understand health associations, PAP barriers, and realistic next steps without fear or blame.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-03.ts",
+      "source_hash": "d3f81b6ad65ae34b8a6a0af3af1d20888ec6c74698236028cd75710bd3748893",
+      "translation_status": "source",
+      "stable_link_id": "m3:m3-02"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "OSA Outcomes and Motivation",
+      "screen_id": "m3-03",
+      "language": "en",
+      "approved_text": "Struggling With PAP Is Common\nPAP can be difficult for many reasons, including mask discomfort, air leaks, nasal congestion, dryness, reflux, anxiety, tubing problems, machine noise, or uncertainty about whether treatment is helping. A difficulty is not the same as a failure. Start by describing the specific problem as clearly as you can.\nPAP can be difficult for many reasons, including mask discomfort, air leaks, nasal congestion, dryness, reflux, anxiety, tubing problems, machine noise, or uncertainty about whether treatment is helping.\nA difficulty is not the same as a failure.\nStart by describing the specific problem as clearly as you can.",
+      "learning_objective": "Understand health associations, PAP barriers, and realistic next steps without fear or blame.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-03.ts",
+      "source_hash": "d3f81b6ad65ae34b8a6a0af3af1d20888ec6c74698236028cd75710bd3748893",
+      "translation_status": "source",
+      "stable_link_id": "m3:m3-03"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "OSA Outcomes and Motivation",
+      "screen_id": "m3-ai1",
+      "language": "en",
+      "approved_text": "Describe a PAP barrier\nWhat makes PAP hardest for you right now?",
+      "learning_objective": "Understand health associations, PAP barriers, and realistic next steps without fear or blame.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-03.ts",
+      "source_hash": "d3f81b6ad65ae34b8a6a0af3af1d20888ec6c74698236028cd75710bd3748893",
+      "translation_status": "source",
+      "stable_link_id": "m3:m3-ai1"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "OSA Outcomes and Motivation",
+      "screen_id": "m3-ai2",
+      "language": "en",
+      "approved_text": "Build a realistic next step\nWhat is one PAP or sleep-related change you would like to make?",
+      "learning_objective": "Understand health associations, PAP barriers, and realistic next steps without fear or blame.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-03.ts",
+      "source_hash": "d3f81b6ad65ae34b8a6a0af3af1d20888ec6c74698236028cd75710bd3748893",
+      "translation_status": "source",
+      "stable_link_id": "m3:m3-ai2"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "OSA Outcomes and Motivation",
+      "screen_id": "m3-q2",
+      "language": "en",
+      "approved_text": "Knowledge check\nWhich plan is the most specific and useful? “I will be perfect with PAP.” “I will try harder someday.” “I will use PAP when I go to bed tonight and write down any problem that makes me remove it.” “I will change my pressure if PAP feels uncomfortable.”\nWhich plan is the most specific and useful?\n“I will be perfect with PAP.”\n“I will try harder someday.”\n“I will use PAP when I go to bed tonight and write down any problem that makes me remove it.”\n“I will change my pressure if PAP feels uncomfortable.”\nCorrect.\nNot quite.\nA useful plan identifies a specific action and a way to learn from barriers without independently changing treatment.",
+      "learning_objective": "Understand health associations, PAP barriers, and realistic next steps without fear or blame.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-03.ts",
+      "source_hash": "d3f81b6ad65ae34b8a6a0af3af1d20888ec6c74698236028cd75710bd3748893",
+      "translation_status": "source",
+      "stable_link_id": "m3:m3-q2"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Sleep Apnea and Health of Your Pregnancy and Baby",
+      "screen_id": "m4-01",
+      "language": "en",
+      "approved_text": "Sleep Apnea And The Health Of Your Pregnancy and Baby\nIn this module, we'll learn about some of the complications that untreated vs treated sleep apnea can have on you and your baby during pregnancy. To make this module interactive, you will be asked questions that will help you understand the content. Don't worry about getting them wrong- these questions are purely just for learning!\nIn this module, we'll learn about some of the complications that untreated vs treated sleep apnea can have on you and your baby during pregnancy.\nTo make this module interactive, you will be asked questions that will help you understand the content. Don't worry about getting them wrong- these questions are purely just for learning!",
+      "learning_objective": "Understand pregnancy-related associations without deterministic or frightening conclusions.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-04.ts",
+      "source_hash": "113062383ee343889a17c5ce23f95f286ccdeb98cc8e5a4f8ced8706e2da4586",
+      "translation_status": "source",
+      "stable_link_id": "m4:m4-01"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Sleep Apnea and Health of Your Pregnancy and Baby",
+      "screen_id": "m4-q1",
+      "language": "en",
+      "approved_text": "Which of the following conditions are you at risk of if you have sleep apnea during pregnancy? Give it your best guess!\nWhich of the following conditions are you at risk of if you have sleep apnea during pregnancy? Give it your best guess! Hint: There are 3 correct answers. Which of the following conditions are you at risk of if you have sleep apnea during pregnancy? Give it your best guess! Preeclampsia Food allergies Lactose intolerance High blood pressure High blood sugar\nPreeclampsia\nFood allergies\nLactose intolerance\nHigh blood pressure\nHigh blood sugar",
+      "learning_objective": "Understand pregnancy-related associations without deterministic or frightening conclusions.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-04.ts",
+      "source_hash": "113062383ee343889a17c5ce23f95f286ccdeb98cc8e5a4f8ced8706e2da4586",
+      "translation_status": "source",
+      "stable_link_id": "m4:m4-q1"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Sleep Apnea and Health of Your Pregnancy and Baby",
+      "screen_id": "m4-03",
+      "language": "en",
+      "approved_text": "What is gestational diabetes (high blood sugar during pregnancy)?\nWatch this YouTube short by Blue Cross Blue Shield of Michigan to learn more about gestational diabetes!",
+      "learning_objective": "Understand pregnancy-related associations without deterministic or frightening conclusions.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-04.ts",
+      "source_hash": "113062383ee343889a17c5ce23f95f286ccdeb98cc8e5a4f8ced8706e2da4586",
+      "translation_status": "source",
+      "stable_link_id": "m4:m4-03"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Sleep Apnea and Health of Your Pregnancy and Baby",
+      "screen_id": "m4-04",
+      "language": "en",
+      "approved_text": "Which of the following are complications for the mother if she has gestational diabetes?\nWhich of the following are complications for the mother if she has gestational diabetes? Hint: There are 3 correct answers. Which of the following are complications for the mother if she has gestational diabetes? Asthma Requiring C-section Obesity & Type II Diabetes High blood pressure & preeclampsia Broken bones\nAsthma\nRequiring C-section\nObesity & Type II Diabetes\nHigh blood pressure & preeclampsia\nBroken bones",
+      "learning_objective": "Understand pregnancy-related associations without deterministic or frightening conclusions.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-04.ts",
+      "source_hash": "113062383ee343889a17c5ce23f95f286ccdeb98cc8e5a4f8ced8706e2da4586",
+      "translation_status": "source",
+      "stable_link_id": "m4:m4-04"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Sleep Apnea and Health of Your Pregnancy and Baby",
+      "screen_id": "m4-q4",
+      "language": "en",
+      "approved_text": "Which of the following are complications for the baby if the mother has gestational diabetes?\nWhich of the following are complications for the baby if the mother has gestational diabetes? Hint: There are 3 correct answers. Which of the following are complications for the baby if the mother has gestational diabetes? Autism Respiratory Distress Syndrome (difficulty breathing) Excessive birth weight ADHD Premature birth or stillbirth\nAutism\nRespiratory Distress Syndrome (difficulty breathing)\nExcessive birth weight\nADHD\nPremature birth or stillbirth",
+      "learning_objective": "Understand pregnancy-related associations without deterministic or frightening conclusions.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-04.ts",
+      "source_hash": "113062383ee343889a17c5ce23f95f286ccdeb98cc8e5a4f8ced8706e2da4586",
+      "translation_status": "source",
+      "stable_link_id": "m4:m4-q4"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Sleep Apnea and Health of Your Pregnancy and Baby",
+      "screen_id": "m4-05",
+      "language": "en",
+      "approved_text": "What is preeclampsia?\nWatch this YouTube short by Blue Cross Blue Shield of Michigan to learn more about preeclampsia!",
+      "learning_objective": "Understand pregnancy-related associations without deterministic or frightening conclusions.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-04.ts",
+      "source_hash": "113062383ee343889a17c5ce23f95f286ccdeb98cc8e5a4f8ced8706e2da4586",
+      "translation_status": "source",
+      "stable_link_id": "m4:m4-05"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Sleep Apnea and Health of Your Pregnancy and Baby",
+      "screen_id": "m4-06",
+      "language": "en",
+      "approved_text": "What is preeclampsia? (continued)\nIn addition to the information mentioned in the video, it's important to note that preeclampsia puts you at risk for organ damage in addition to just the heart. • Preeclampsia can cause severely high blood pressure and kidney damage, which is why some women have excessive protein in their urine (a sign that the kidneys aren't working properly). • Preeclampsia can also damage your liver, brain, and platelets (blood cells that allow your blood to clot). Finally, it's important to note that preeclampsia can cause disrupted blood flow to the placenta, which can cause a condition known as fetal growth restriction. This is where the baby doesn't receive adequate nutrients through the placenta for proper growth and ends up being smaller for its gestational age.\nIn addition to the information mentioned in the video, it's important to note that preeclampsia puts you at risk for organ damage in addition to just the heart.\n• Preeclampsia can cause severely high blood pressure and kidney damage, which is why some women have excessive protein in their urine (a sign that the kidneys aren't working properly).\n• Preeclampsia can also damage your liver, brain, and platelets (blood cells that allow your blood to clot).\nFinally, it's important to note that preeclampsia can cause disrupted blood flow to the placenta, which can cause a condition known as fetal growth restriction. This is where the baby doesn't receive adequate nutrients through the placenta for proper growth and ends up being smaller for its gestational age.",
+      "learning_objective": "Understand pregnancy-related associations without deterministic or frightening conclusions.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-04.ts",
+      "source_hash": "113062383ee343889a17c5ce23f95f286ccdeb98cc8e5a4f8ced8706e2da4586",
+      "translation_status": "source",
+      "stable_link_id": "m4:m4-06"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Sleep Apnea and Health of Your Pregnancy and Baby",
+      "screen_id": "m4-q6",
+      "language": "en",
+      "approved_text": "Which of the following are complications for the mother or baby if the mother has preeclampsia?\nWhich of the following are complications for the mother or baby if the mother has preeclampsia? Hint: There are 2 correct answers. Which of the following are complications for the mother or baby if the mother has preeclampsia? Tennis elbow Serious heart issues Athlete's foot Fetal growth restriction Cavities\nTennis elbow\nSerious heart issues\nAthlete's foot\nFetal growth restriction\nCavities",
+      "learning_objective": "Understand pregnancy-related associations without deterministic or frightening conclusions.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-04.ts",
+      "source_hash": "113062383ee343889a17c5ce23f95f286ccdeb98cc8e5a4f8ced8706e2da4586",
+      "translation_status": "source",
+      "stable_link_id": "m4:m4-q6"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Sleep Apnea and Health of Your Pregnancy and Baby",
+      "screen_id": "m4-recap",
+      "language": "en",
+      "approved_text": "Let's recap!\nLet's recap what we learned! Here's a diagram that summarizes the different conditions that sleep apnea may put you at risk for. Untreated sleep apnea ↑stress levels, ↑stress hormones ↑blood pressure Preeclampsia Fetal growth restriction Serious heart issues (heart disease, heart failure) ↑insulin resistance ↑blood sugar gestational diabetes Requiring C-section Obesity, Type II Diabetes Respiratory Distress Syndrome (difficulty breathing) Excessive birth weight Premature birth or stillbirth\nLet's recap what we learned! Here's a diagram that summarizes the different conditions that sleep apnea may put you at risk for.",
+      "learning_objective": "Understand pregnancy-related associations without deterministic or frightening conclusions.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "summary"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-04.ts",
+      "source_hash": "113062383ee343889a17c5ce23f95f286ccdeb98cc8e5a4f8ced8706e2da4586",
+      "translation_status": "source",
+      "stable_link_id": "m4:m4-recap"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Sleep Apnea and Health of Your Pregnancy and Baby",
+      "screen_id": "m4-02",
+      "language": "en",
+      "approved_text": "Risk Does Not Mean Destiny\nResearch has found associations between OSA during pregnancy and conditions such as gestational diabetes and hypertensive disorders of pregnancy. An association does not mean OSA is the only cause. It also does not mean every pregnant person with OSA will develop a complication. Learning about these conditions should support informed care, not create fear.\nResearch has found associations between OSA during pregnancy and conditions such as gestational diabetes and hypertensive disorders of pregnancy.\nAn association does not mean OSA is the only cause. It also does not mean every pregnant person with OSA will develop a complication.\nLearning about these conditions should support informed care, not create fear.",
+      "learning_objective": "Understand pregnancy-related associations without deterministic or frightening conclusions.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-04.ts",
+      "source_hash": "113062383ee343889a17c5ce23f95f286ccdeb98cc8e5a4f8ced8706e2da4586",
+      "translation_status": "source",
+      "stable_link_id": "m4:m4-02"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Sleep Apnea and Health of Your Pregnancy and Baby",
+      "screen_id": "m4-q3",
+      "language": "en",
+      "approved_text": "Knowledge check\nWhat does PAP directly treat? It directly treats obstructive breathing during sleep. It guarantees that all pregnancy complications will be prevented. It directly treats gestational diabetes. It replaces prenatal care.\nWhat does PAP directly treat?\nIt directly treats obstructive breathing during sleep.\nIt guarantees that all pregnancy complications will be prevented.\nIt directly treats gestational diabetes.\nIt replaces prenatal care.\nCorrect.\nNot quite.\nPAP directly treats obstructive breathing during sleep. It should not be presented as a guarantee against pregnancy complications or as a replacement for prenatal care.",
+      "learning_objective": "Understand pregnancy-related associations without deterministic or frightening conclusions.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-04.ts",
+      "source_hash": "113062383ee343889a17c5ce23f95f286ccdeb98cc8e5a4f8ced8706e2da4586",
+      "translation_status": "source",
+      "stable_link_id": "m4:m4-q3"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Sleep Apnea and Health of Your Pregnancy and Baby",
+      "screen_id": "m4-ai1",
+      "language": "en",
+      "approved_text": "Association teach-back\nExplain the difference between an association and a guarantee.",
+      "learning_objective": "Understand pregnancy-related associations without deterministic or frightening conclusions.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-04.ts",
+      "source_hash": "113062383ee343889a17c5ce23f95f286ccdeb98cc8e5a4f8ced8706e2da4586",
+      "translation_status": "source",
+      "stable_link_id": "m4:m4-ai1"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Sleep Apnea and Health of Your Pregnancy and Baby",
+      "screen_id": "m4-ai2",
+      "language": "en",
+      "approved_text": "Prepare a care-team question\nWhat would you like to understand better about sleep apnea and pregnancy?",
+      "learning_objective": "Understand pregnancy-related associations without deterministic or frightening conclusions.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-04.ts",
+      "source_hash": "113062383ee343889a17c5ce23f95f286ccdeb98cc8e5a4f8ced8706e2da4586",
+      "translation_status": "source",
+      "stable_link_id": "m4:m4-ai2"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-01",
+      "language": "en",
+      "approved_text": "Healthy Sleep Hygiene\nIn this module, we'll learn about lifestyle interventions and behavior changes that you can implement in your daily life to improve your overall sleep. To make this module interactive, you will be asked questions that will help you understand the content. Don't worry about getting them wrong- these questions are purely just for learning!\nIn this module, we'll learn about lifestyle interventions and behavior changes that you can implement in your daily life to improve your overall sleep.\nTo make this module interactive, you will be asked questions that will help you understand the content. Don't worry about getting them wrong- these questions are purely just for learning!",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-01"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-02",
+      "language": "en",
+      "approved_text": "Why is getting good sleep so important during pregnancy?\nGetting good sleep during pregnancy provides great health benefits for both you and your growing baby! Some of the most notable benefits for you include: • Reduced risk of chronic diseases (diabetes, high blood pressure, high cholesterol) • Improved mood and mental health • Less daytime fatigue, increased energy levels Good sleep is also important during pregnancy as poor sleep is linked to poor outcomes in pregnancy. Next, we'll talk about what sleep hygiene is and how we can use it to improve our sleep!\nGetting good sleep during pregnancy provides great health benefits for both you and your growing baby!\nSome of the most notable benefits for you include:\n• Reduced risk of chronic diseases (diabetes, high blood pressure, high cholesterol)\n• Improved mood and mental health\n• Less daytime fatigue, increased energy levels\nGood sleep is also important during pregnancy as poor sleep is linked to poor outcomes in pregnancy.\nNext, we'll talk about what sleep hygiene is and how we can use it to improve our sleep!",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-02"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-03",
+      "language": "en",
+      "approved_text": "What is Sleep Hygiene?\nSleep hygiene refers to a set of healthy habits, behaviors, and environmental factors that promote consistent, quality sleep, helping you fall asleep faster and stay asleep longer. The elements of sleep hygiene we will go over in this module include: • Establishing a good sleep routine • Addressing difficulty falling asleep • The importance of light, sunshine and darkness • Creating a good sleep environment • Caffeine • The importance of diet and nutrition • The importance of regular exercise • Addressing naps • Stress management for sleep • Sleeping position\nSleep hygiene refers to a set of healthy habits, behaviors, and environmental factors that promote consistent, quality sleep, helping you fall asleep faster and stay asleep longer.\nThe elements of sleep hygiene we will go over in this module include:\n• Establishing a good sleep routine\n• Addressing difficulty falling asleep\n• The importance of light, sunshine and darkness\n• Creating a good sleep environment\n• Caffeine\n• The importance of diet and nutrition\n• The importance of regular exercise\n• Addressing naps\n• Stress management for sleep\n• Sleeping position",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-03"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-q5",
+      "language": "en",
+      "approved_text": "Comprehension Check 1: The Pitfalls of Poor Sleep\nComprehension Check 1: The Pitfalls of Poor Sleep Let's check your knowledge real quick! Select all that apply. (Hint: There are 3 correct answers.) What are some of the consequences of getting poor sleep? Your immune system will be strengthened by poor sleep Increased risk of depression and worse mood symptoms You will be shorter Poor sleep isn't that bad! There are very few consequences. Increased risk of chronic disease (diabetes, high blood pressure, high cholesterol) Increased likelihood of daytime fatigue and lack of energy\nWhat are some of the consequences of getting poor sleep?\nYour immune system will be strengthened by poor sleep\nIncreased risk of depression and worse mood symptoms\nYou will be shorter\nPoor sleep isn't that bad! There are very few consequences.\nIncreased risk of chronic disease (diabetes, high blood pressure, high cholesterol)\nIncreased likelihood of daytime fatigue and lack of energy",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-q5"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-q6",
+      "language": "en",
+      "approved_text": "Comprehension Check 2: The Pitfalls of Poor Sleep During Pregnancy\nComprehension Check 2: The Pitfalls of Poor Sleep During Pregnancy Let's check your knowledge real quick! Select all that apply. (Hint: There are 3 correct answers.) What are some of the consequences of getting poor sleep during pregnancy? Increased chance of needing a C-section Labor will stop entirely Your baby's eye color might change The baby is more likely to be nocturnal Higher chance of longer labors Increased risk of preterm birth\nWhat are some of the consequences of getting poor sleep during pregnancy?\nIncreased chance of needing a C-section\nLabor will stop entirely\nYour baby's eye color might change\nThe baby is more likely to be nocturnal\nHigher chance of longer labors\nIncreased risk of preterm birth",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-q6"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-04",
+      "language": "en",
+      "approved_text": "Establishing a Good Sleep Routine Part 1: Bedtime Routine\nEstablishing a good sleep routine is one of the most important lifestyle modifications that can improve your sleep, mood, and daily energy. There are three components of a good sleep routine that we'll cover. The first component of a good sleep routine is establishing a relaxing bedtime routine about an hour before going to bed. This can involve light (relatively boring) reading, stretching, or taking a warm bath. Listening to calming music and dimming the lights are good practices too. Simply having a bedtime routine signals to your brain and body that it's time to wind down, leading to reduced stress and anxiety, and improve sleep quality, and even cognitive function.\nEstablishing a good sleep routine is one of the most important lifestyle modifications that can improve your sleep, mood, and daily energy. There are three components of a good sleep routine that we'll cover.\nThe first component of a good sleep routine is establishing a relaxing bedtime routine about an hour before going to bed.\nThis can involve light (relatively boring) reading, stretching, or taking a warm bath. Listening to calming music and dimming the lights are good practices too. Simply having a bedtime routine signals to your brain and body that it's time to wind down, leading to reduced stress and anxiety, and improve sleep quality, and even cognitive function.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-04"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-13",
+      "language": "en",
+      "approved_text": "Establishing a Good Sleep Routine Part 2: Sleep/Wake Times\nThe second component of a good sleep routine is keeping the same bedtime and wake times. Wake up around the same time each morning and go to sleep around the same time at night—even if you didn't sleep well the night before. This anchors your body's internal clock (circadian rhythm), and can help you be more tired at night (especially if you didn't sleep well the night before). This applies especially for the weekends! It may be tempting to sleep in on the weekends, but when you shift your sleep schedule back and forth on the weekends (called social jet lag), it's similar to your body crossing time zones on a weekly basis. If you find yourself tired during the week, it may be a sign that you need better sleep in general.\nThe second component of a good sleep routine is keeping the same bedtime and wake times.\nWake up around the same time each morning and go to sleep around the same time at night—even if you didn't sleep well the night before. This anchors your body's internal clock (circadian rhythm), and can help you be more tired at night (especially if you didn't sleep well the night before).\nThis applies especially for the weekends! It may be tempting to sleep in on the weekends, but when you shift your sleep schedule back and forth on the weekends (called social jet lag), it's similar to your body crossing time zones on a weekly basis. If you find yourself tired during the week, it may be a sign that you need better sleep in general.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-13"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-05",
+      "language": "en",
+      "approved_text": "Establishing a Good Sleep Routine Part 3: Avoiding Blue Light Exposure Close to Bedtime\nThe third component of a good sleep routine is avoiding blue light before bedtime. Blue lights (and bright lights in general) inhibit your body's production of the sleepy chemical (melatonin), which is great in the morning when you want to wake up, but is detrimental at night when you want to feel tired. Most electronic devices these days emit lots of blue light, which is why scrolling on your phone before bed is very bad for your sleep. Instead, here are some changes to your routine that can help you feel more tired at night and improve sleep quality: • Keep the lighting at home to a minimum before bedtime. Dim the lights around the house, and when light is still needed, switch to warmer hues (orange/red). • Use night shift/color filters on your phone and reduce the brightness. The best solution would be to not use your devices close to bedtime. Night shift can make your phone emit less blue light at night or turning on a red color filter can completely eliminate blue light emission from your phone.\nThe third component of a good sleep routine is avoiding blue light before bedtime.\nBlue lights (and bright lights in general) inhibit your body's production of the sleepy chemical (melatonin), which is great in the morning when you want to wake up, but is detrimental at night when you want to feel tired. Most electronic devices these days emit lots of blue light, which is why scrolling on your phone before bed is very bad for your sleep.\nInstead, here are some changes to your routine that can help you feel more tired at night and improve sleep quality:\n• Keep the lighting at home to a minimum before bedtime. Dim the lights around the house, and when light is still needed, switch to warmer hues (orange/red).\n• Use night shift/color filters on your phone and reduce the brightness. The best solution would be to not use your devices close to bedtime. Night shift can make your phone emit less blue light at night or turning on a red color filter can completely eliminate blue light emission from your phone.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-05"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-q7",
+      "language": "en",
+      "approved_text": "Comprehension Check 3: Sleep Hygiene Components\nComprehension Check 3: Sleep Hygiene Components Let's check your knowledge real quick! Select all that apply. (Hint: There are 3 correct answers.) What are 3 activities that you can implement in your life to help improve your sleep? Getting regular exercise every week Eating a big meal before bed Taking a long nap throughout the day Eating nutritious meals every week Getting sunshine in the morning and throughout the day Having caffeine before bed to wake up refreshed\nWhat are 3 activities that you can implement in your life to help improve your sleep?\nGetting regular exercise every week\nEating a big meal before bed\nTaking a long nap throughout the day\nEating nutritious meals every week\nGetting sunshine in the morning and throughout the day\nHaving caffeine before bed to wake up refreshed",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-q7"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-11",
+      "language": "en",
+      "approved_text": "Addressing Difficulty When Falling Asleep\nWhat should you do if you have trouble falling asleep? Having trouble falling asleep may happen around pregnancy. If having trouble falling asleep last for more than 20 minutes, the best thing you can do is to get out of bed, go to another room, and engage in a quiet and relaxing activity in low-light conditions, such as reading, listening to calming music, or practicing meditation. You would want to associate the bed with sleep; so getting out of the bedroom when you are not feeling sleepy helps maintain that association. Only return to bed when you feel sleepy. What you should NOT do if you're having trouble falling asleep is using electronic devices. Electronic devices can signal to your brain to stay awake for longer. Do NOT engage in stimulating activities, like reading a thriller or listening to loud music. Do NOT turn on bright lights in the middle of the night, as that can mess up your ability to fall back to sleep. Do NOT check the time, as this can increase anxiety and frustration around sleep.\nWhat should you do if you have trouble falling asleep?\nHaving trouble falling asleep may happen around pregnancy. If having trouble falling asleep last for more than 20 minutes, the best thing you can do is to get out of bed, go to another room, and engage in a quiet and relaxing activity in low-light conditions, such as reading, listening to calming music, or practicing meditation. You would want to associate the bed with sleep; so getting out of the bedroom when you are not feeling sleepy helps maintain that association. Only return to bed when you feel sleepy.\nWhat you should NOT do if you're having trouble falling asleep is using electronic devices. Electronic devices can signal to your brain to stay awake for longer.\nDo NOT engage in stimulating activities, like reading a thriller or listening to loud music.\nDo NOT turn on bright lights in the middle of the night, as that can mess up your ability to fall back to sleep.\nDo NOT check the time, as this can increase anxiety and frustration around sleep.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-11"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-q1",
+      "language": "en",
+      "approved_text": "Comprehension Check 4: Sleep Routine\nComprehension Check 4: Sleep Routine Let's check your knowledge real quick! Select all that apply. (Hint: There are 3 correct answers.) What are the 3 important components you can implement to improve your sleep routine? Avoiding blue light at night and instead using warmer hues Establishing a consistent bedtime routine Sleeping and waking up at the same times of day Scrolling on your phone before bed to help you fall asleep Stream your favorite show around bedtime Sleeping in on weekends by a couple of hours to “catch up”\nWhat are the 3 important components you can implement to improve your sleep routine?\nAvoiding blue light at night and instead using warmer hues\nEstablishing a consistent bedtime routine\nSleeping and waking up at the same times of day\nScrolling on your phone before bed to help you fall asleep\nStream your favorite show around bedtime\nSleeping in on weekends by a couple of hours to “catch up”",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-q1"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-14",
+      "language": "en",
+      "approved_text": "The Importance of Sunshine\nGet out in the sunshine! Natural light, especially in the morning, promotes quality sleep at night because it helps set your body's internal clock (circadian rhythm), making you more awake and alert during the day, and naturally sleepier when bedtime arrives! This can be going out for a short walk in the morning, or simply opening up all the windows to let the sunshine into your home.\nGet out in the sunshine!\nNatural light, especially in the morning, promotes quality sleep at night because it helps set your body's internal clock (circadian rhythm), making you more awake and alert during the day, and naturally sleepier when bedtime arrives!\nThis can be going out for a short walk in the morning, or simply opening up all the windows to let the sunshine into your home.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-14"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-q4",
+      "language": "en",
+      "approved_text": "Comprehension Check 5: Difficulty When Falling Asleep\nComprehension Check 5: Difficulty When Falling Asleep Let's check your knowledge real quick! Select all that apply. (Hint: There are 3 correct answers.) What should you do if you're having difficulty falling asleep at night? Engage in a quiet, relaxing activity in low-light conditions Get out of bed and go to a different room Check the time and calculate the amount of sleep you're losing Scroll the news on your phone until you're sleepy Stay in bed and be as still as possible until you fall asleep Return to bed when you feel sleepy\nWhat should you do if you're having difficulty falling asleep at night?\nEngage in a quiet, relaxing activity in low-light conditions\nGet out of bed and go to a different room\nCheck the time and calculate the amount of sleep you're losing\nScroll the news on your phone until you're sleepy\nStay in bed and be as still as possible until you fall asleep\nReturn to bed when you feel sleepy",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-q4"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-06",
+      "language": "en",
+      "approved_text": "Establishing a Good Sleep Environment\nHow do I create an optimal sleep environment? There are 4 important components to an optimal sleep environment that we will go over in this module. The first component of an optimal sleep environment is to designate your bedroom only for sleeping (or sex). • This is called stimulus control, where you retrain your brain to associate your bedroom with sleep, and not work, stress, scrolling, or wakefulness. It's a well-proven tactic, especially among patients with insomnia.\nHow do I create an optimal sleep environment?\nThere are 4 important components to an optimal sleep environment that we will go over in this module.\nThe first component of an optimal sleep environment is to designate your bedroom only for sleeping (or sex).\n• This is called stimulus control, where you retrain your brain to associate your bedroom with sleep, and not work, stress, scrolling, or wakefulness. It's a well-proven tactic, especially among patients with insomnia.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-06"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-15",
+      "language": "en",
+      "approved_text": "Establishing a Good Sleep Environment\nThe second component of an optimal sleep environment is to eliminate noise disturbances. • Irregular, non-constant noise can make falling asleep harder and reduce sleep quality even if you're unconscious. Find ways to eliminate noise disturbances, such as cars, aircraft, or hallway noise, and consider the use of earplugs or a white noise machine to drown out noise disturbances.\nThe second component of an optimal sleep environment is to eliminate noise disturbances.\n• Irregular, non-constant noise can make falling asleep harder and reduce sleep quality even if you're unconscious. Find ways to eliminate noise disturbances, such as cars, aircraft, or hallway noise, and consider the use of earplugs or a white noise machine to drown out noise disturbances.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-15"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-16",
+      "language": "en",
+      "approved_text": "Establishing a Good Sleep Environment\nThe third component of an optimal sleep environment is to keep your bedroom as completely dark as possible. • Even small sources of light in the bedroom can disrupt your sleep. Consider using blackout curtains or using an eye mask to eliminate any visual stimulation. • In addition, try to keep the lighting in your home in the evening fairly dim. Being exposed to bright lights before bedtime can impair sleep quality, since your body is signaling for it to be awake. • In some geographic areas/neighborhoods, having a light on in the bedroom or elsewhere in the house can help the house look occupied (to discourage break-ins). If this is the case, it may be best for the lights to be on in places besides the bedrooms, like the porch light or hallway lights. • It is also common to need to turn on the lights to go to the bathroom. In this case, using dim, warm-colored lighting close to the floor (using LED strip is useful for this) can help keep the bedroom dark yet safe to navigate.\nThe third component of an optimal sleep environment is to keep your bedroom as completely dark as possible.\n• Even small sources of light in the bedroom can disrupt your sleep. Consider using blackout curtains or using an eye mask to eliminate any visual stimulation.\n• In addition, try to keep the lighting in your home in the evening fairly dim. Being exposed to bright lights before bedtime can impair sleep quality, since your body is signaling for it to be awake.\n• In some geographic areas/neighborhoods, having a light on in the bedroom or elsewhere in the house can help the house look occupied (to discourage break-ins). If this is the case, it may be best for the lights to be on in places besides the bedrooms, like the porch light or hallway lights.\n• It is also common to need to turn on the lights to go to the bathroom. In this case, using dim, warm-colored lighting close to the floor (using LED strip is useful for this) can help keep the bedroom dark yet safe to navigate.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-16"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-17",
+      "language": "en",
+      "approved_text": "Establishing a Good Sleep Environment\nThe fourth component of an optimal sleep environment is to keep your bedroom at a cooler temperature, around 65°F. • Your body temperature naturally decreases during sleep, and a cooler sleep environment promotes this temperature shift. • This is especially helpful for pregnant women, as increased hormones, blood volume, and metabolic rate can skyrocket body temperatures, leading to hot flashes or night sweats. A cool room allows for efficient cooling of the body.\nThe fourth component of an optimal sleep environment is to keep your bedroom at a cooler temperature, around 65°F.\n• Your body temperature naturally decreases during sleep, and a cooler sleep environment promotes this temperature shift.\n• This is especially helpful for pregnant women, as increased hormones, blood volume, and metabolic rate can skyrocket body temperatures, leading to hot flashes or night sweats. A cool room allows for efficient cooling of the body.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-17"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-07",
+      "language": "en",
+      "approved_text": "Caffeine\nFor women in the early stages of pregnancy, consuming up to 200mg of caffeine (about one 12 oz cup of coffee) at least 8–10 hours before bedtime is generally considered safe. Consuming caffeine at least 90 minutes after waking can also prevent afternoon caffeine crashes. For women in the later stages of pregnancy, it can take the body longer to process caffeine, which means that if you consume caffeine, do it as early as possible. In general, because the metabolism of caffeine can vary widely among pregnant women, many researchers suggest it's safest reduce caffeine consumption as much as possible.\nFor women in the early stages of pregnancy, consuming up to 200mg of caffeine (about one 12 oz cup of coffee) at least 8–10 hours before bedtime is generally considered safe. Consuming caffeine at least 90 minutes after waking can also prevent afternoon caffeine crashes.\nFor women in the later stages of pregnancy, it can take the body longer to process caffeine, which means that if you consume caffeine, do it as early as possible.\nIn general, because the metabolism of caffeine can vary widely among pregnant women, many researchers suggest it's safest reduce caffeine consumption as much as possible.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-07"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-q2",
+      "language": "en",
+      "approved_text": "Comprehension Check 7: Sleep Environment\nComprehension Check 7: Sleep Environment Let's check your knowledge real quick! Select all that apply. (Hint: There are 3 correct answers.) What are 3 important components you can implement to improve your sleep environment? Keep a bright digital clock facing the bed so you can always check the time Eliminate any visual stimulation Sleep with music playing on shuffle all night Keep the bedroom at a cool temperature (60–68°F) Eliminate all noise disturbances Keep the bedroom at a warm temperature (75–82°F)\nWhat are 3 important components you can implement to improve your sleep environment?\nKeep a bright digital clock facing the bed so you can always check the time\nEliminate any visual stimulation\nSleep with music playing on shuffle all night\nKeep the bedroom at a cool temperature (60–68°F)\nEliminate all noise disturbances\nKeep the bedroom at a warm temperature (75–82°F)",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-q2"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-08",
+      "language": "en",
+      "approved_text": "Chrononutrition (Meal Timing for Sleep)\nChrononutrition refers to how meal timing can affect your sleep and circadian rhythm. Let's look at some of the best chrononutrition advice. Front-load your calories and hydration earlier in the day. “Eat breakfast like a king, lunch like a prince, and dinner like a peasant.” • Your body processes food best earlier in the day (the food is more likely to be used for fuel rather than fat). • Your body also feels fuller from the same meal if eaten earlier in the day due to better hormonal signaling and metabolism. This means that eating a big breakfast, then shifting lunch and dinner earlier in the day, could help you feel fuller, with fewer cravings at night. • Consider eating lunch and dinner earlier in the day, finishing your last meal 4–5 hours before bedtime for sleep and general health. • Early hydration helps prevent you from having to pee at night, which pregnant women are more susceptible to since the baby can compress the bladder, and because overall blood volume is higher. Try to avoid big meals at least 3–4 hours before bed. • This helps prevent your body from having to actively digest food while trying to sleep at the same time, which can worsen sleep quality. • Arguably, finishing your last meal even farther from bedtime (5+ hours) is even better, since your resting heart rate will drop, which is a very strong indicator of sleep quality.\nChrononutrition refers to how meal timing can affect your sleep and circadian rhythm. Let's look at some of the best chrononutrition advice.\nFront-load your calories and hydration earlier in the day. “Eat breakfast like a king, lunch like a prince, and dinner like a peasant.”\n• Your body processes food best earlier in the day (the food is more likely to be used for fuel rather than fat).\n• Your body also feels fuller from the same meal if eaten earlier in the day due to better hormonal signaling and metabolism. This means that eating a big breakfast, then shifting lunch and dinner earlier in the day, could help you feel fuller, with fewer cravings at night.\n• Consider eating lunch and dinner earlier in the day, finishing your last meal 4–5 hours before bedtime for sleep and general health.\n• Early hydration helps prevent you from having to pee at night, which pregnant women are more susceptible to since the baby can compress the bladder, and because overall blood volume is higher.\nTry to avoid big meals at least 3–4 hours before bed.\n• This helps prevent your body from having to actively digest food while trying to sleep at the same time, which can worsen sleep quality.\n• Arguably, finishing your last meal even farther from bedtime (5+ hours) is even better, since your resting heart rate will drop, which is a very strong indicator of sleep quality.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-08"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-18",
+      "language": "en",
+      "approved_text": "The Importance of Nutrition\nA nutritious diet, especially rich in fruit, vegetables, lean proteins, and whole grains, is consistently linked with better sleep depth and continuity. This is because the vitamins, minerals, and fiber in these foods reduce blood sugar swings at night and support pathways involved in relaxation and sleep regulation.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-18"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-q8",
+      "language": "en",
+      "approved_text": "Comprehension Check 9: Chrononutrition\nComprehension Check 9: Chrononutrition Let's check your knowledge real quick! Select all that apply. (Hint: There are 3 correct answers.) What are 3 nutritional tips you can follow that are supported by current chrononutrition evidence? Eat breakfast like a peasant, lunch like a prince, and dinner like a king. Hydrating earlier in the day may help reduce nocturia (peeing in the middle of the night). Finishing your last meal closer to bedtime may improve sleep quality by lowering your resting heart rate. Eating earlier may worsen night cravings by lowering satiety hormones. Eat breakfast like a king, lunch like a prince, and dinner like a peasant. The human body processes food better earlier in the day, from a metabolic, hormonal, and fullness standpoint.\nWhat are 3 nutritional tips you can follow that are supported by current chrononutrition evidence?\nEat breakfast like a peasant, lunch like a prince, and dinner like a king.\nHydrating earlier in the day may help reduce nocturia (peeing in the middle of the night).\nFinishing your last meal closer to bedtime may improve sleep quality by lowering your resting heart rate.\nEating earlier may worsen night cravings by lowering satiety hormones.\nEat breakfast like a king, lunch like a prince, and dinner like a peasant.\nThe human body processes food better earlier in the day, from a metabolic, hormonal, and fullness standpoint.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-q8"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-21",
+      "language": "en",
+      "approved_text": "The Importance of Regular Exercise\nRegular exercise is an effective way to improve your sleep! It releases energy, making you feel more tired at night, and can ease mental tensions. Ideally, try to aim for ≥150 minutes/week of moderate–intensity aerobic activity (walking, swimming, etc) and 2 sessions/week of resistance training. Avoid any strenuous exercise right before bed. If you are new to exercise, start out slowly and gradually increase your activity. Consider adding a few minutes of exercise each day until you can stay active for 20–30 minutes. Here's a link to the American College of Obstetricians and Gynecologists page about exercise during pregnancy.\nRegular exercise is an effective way to improve your sleep! It releases energy, making you feel more tired at night, and can ease mental tensions.\nIdeally, try to aim for ≥150 minutes/week of moderate–intensity aerobic activity (walking, swimming, etc) and 2 sessions/week of resistance training. Avoid any strenuous exercise right before bed.\nIf you are new to exercise, start out slowly and gradually increase your activity. Consider adding a few minutes of exercise each day until you can stay active for 20–30 minutes.\nHere's a link to the American College of Obstetricians and Gynecologists page about exercise during pregnancy.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-21"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-10",
+      "language": "en",
+      "approved_text": "Addressing Naps\nIf you are having difficulty falling asleep at night, avoid any naps at least 6 hours before bedtime. Afternoon/evening naps can make you less sleepy when bedtime comes. During pregnancy, it is completely normal to feel more tired throughout the day and need naps. If you do have to nap, try to limit it to a quick 20-minute nap before the afternoon. Long naps may disrupt your nighttime sleep.\nIf you are having difficulty falling asleep at night, avoid any naps at least 6 hours before bedtime. Afternoon/evening naps can make you less sleepy when bedtime comes.\nDuring pregnancy, it is completely normal to feel more tired throughout the day and need naps. If you do have to nap, try to limit it to a quick 20-minute nap before the afternoon. Long naps may disrupt your nighttime sleep.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-10"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-19",
+      "language": "en",
+      "approved_text": "Stress Management for Sleep\nStress can reduce the quality of your sleep because it chronically keeps your body in the awake and alert 'fight or flight' mode, which will make sleep harder and less restful. If you are having trouble with stress or anxiety consistently, or if sleep or anxiety are preventing you from doing your normal activities, talk to your healthcare provider about exploring options to address it. Options may include: • Therapy • Medication • Meditation/mindfulness exercises\nStress can reduce the quality of your sleep because it chronically keeps your body in the awake and alert 'fight or flight' mode, which will make sleep harder and less restful.\nIf you are having trouble with stress or anxiety consistently, or if sleep or anxiety are preventing you from doing your normal activities, talk to your healthcare provider about exploring options to address it.\nOptions may include:\n• Therapy\n• Medication\n• Meditation/mindfulness exercises",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-19"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-20",
+      "language": "en",
+      "approved_text": "Sleeping Position\nAfter 28 weeks, try to sleep on your side as much as possible. After 28 weeks, back sleeping may cause the uterus to press on major blood vessels and reduce blood flow, which could be detrimental to both you and your baby. When sleeping, consider keeping one or both knees bent, placing a pillow between your knees and/or under your belly, or using a full-length body pillow. This may help to improve comfort when side sleeping and support the hips, back and pelvis.\nAfter 28 weeks, try to sleep on your side as much as possible.\nAfter 28 weeks, back sleeping may cause the uterus to press on major blood vessels and reduce blood flow, which could be detrimental to both you and your baby.\nWhen sleeping, consider keeping one or both knees bent, placing a pillow between your knees and/or under your belly, or using a full-length body pillow.\nThis may help to improve comfort when side sleeping and support the hips, back and pelvis.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-20"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-q10",
+      "language": "en",
+      "approved_text": "Comprehension Check 12: Addressing Naps and Sleeping Position\nComprehension Check 12: Addressing Naps and Sleeping Position Let's check your knowledge real quick! Select all that apply. (Hint: There are 3 correct answers.) What 3 pieces of advice you can implement regarding naps and sleeping position? Try using pillows between bent knees or a full-length body pillow for comfort/support. Back sleeping after 28 weeks of gestation may improve health outcomes by keeping the baby relatively elevated. If napping is necessary, consider napping later in the day for at least 30 minutes. If napping is necessary, nap earlier in the day and keep it to ~20 minutes. Avoid using pillows, as they can often over clutter the bedroom. Try to sleep on your side if you are past 28 weeks of gestation.\nWhat 3 pieces of advice you can implement regarding naps and sleeping position?\nTry using pillows between bent knees or a full-length body pillow for comfort/support.\nBack sleeping after 28 weeks of gestation may improve health outcomes by keeping the baby relatively elevated.\nIf napping is necessary, consider napping later in the day for at least 30 minutes.\nIf napping is necessary, nap earlier in the day and keep it to ~20 minutes.\nAvoid using pillows, as they can often over clutter the bedroom.\nTry to sleep on your side if you are past 28 weeks of gestation.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-q10"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-recap",
+      "language": "en",
+      "approved_text": "Final Recap\nCongratulations on completing this Healthy Sleep Hygiene module! You've now learned some of the best habits and interventions to up your sleep game and reap the benefits for both you and your baby. Here's the list of sleep hygiene practices we went over in this module: • Having a sleep routine     • Relaxing activities before bed     • Consistent sleep/wake times     • Limiting blue light • Doing a relaxing activity if having difficulty sleeping • Getting sunlight in the morning and darkness in the evening • Creating a good sleep environment     • Bedroom only for sleep/sex     • Eliminating noise disturbances     • Eliminating visual disturbances     • Keeping the bedroom cool (~65°F) • Not consuming caffeine so close to bedtime/not consuming it at all • Eating a balanced diet, eating earlier in the day, and avoiding late-night snacking • Exercising regularly • Avoiding long naps, napping early in the day if necessary • Seeking medical treatment for chronic stress • Side sleeping, using pillows for comfort/support What are some sleep hygiene practices you learned that you feel confident in implementing in your routine? This question is supposed to be very open-ended and get you thinking about steps you can take to improve your sleep.\nWhat are some sleep hygiene practices you learned that you feel confident in implementing in your routine?",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "reflection"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-recap"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-ai1",
+      "language": "en",
+      "approved_text": "Build a bedtime timeline\nWhat usually happens during the hour before you try to sleep?",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-ai1"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-q3",
+      "language": "en",
+      "approved_text": "Knowledge check\nWhich statement about caffeine is most accurate? Caffeine affects everyone for exactly the same amount of time. Caffeine can affect sleep for several hours, and sensitivity differs between people. Energy drinks do not contain caffeine. The app can determine a personalized safe pregnancy dose.\nWhich statement about caffeine is most accurate?\nCaffeine affects everyone for exactly the same amount of time.\nCaffeine can affect sleep for several hours, and sensitivity differs between people.\nEnergy drinks do not contain caffeine.\nThe app can determine a personalized safe pregnancy dose.\nCorrect.\nNot quite.\nCaffeine can affect sleep for several hours, and sensitivity differs. Pregnancy-specific guidance belongs with the prenatal team.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-q3"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-09",
+      "language": "en",
+      "approved_text": "Daytime Activity May Support Sleep\nRegular physical activity can support health and sleep for many people. Pregnancy recommendations depend on health status, previous activity, symptoms, and guidance from the prenatal care team. The app should encourage appropriate discussion rather than prescribe a new exercise program. Someone experiencing warning symptoms or a medical restriction should follow their clinician’s guidance.\nRegular physical activity can support health and sleep for many people. Pregnancy recommendations depend on health status, previous activity, symptoms, and guidance from the prenatal care team.\nThe app should encourage appropriate discussion rather than prescribe a new exercise program.\nSomeone experiencing warning symptoms or a medical restriction should follow their clinician’s guidance.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-09"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-ai2",
+      "language": "en",
+      "approved_text": "Make one sleep-habit plan\nChoose one sleep habit you would like to work on.",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-ai2"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Healthy Sleep Hygiene",
+      "screen_id": "m5-ai3",
+      "language": "en",
+      "approved_text": "Sleep-hygiene teach-back\nWhy is sleep hygiene helpful but not a treatment for every sleep problem?",
+      "learning_objective": "Build realistic habits and conditions that support sleep without replacing OSA or insomnia care.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-05.ts",
+      "source_hash": "2c8a3b871ad9b705325d60352891807239ed146b6cbeb17c073ae43a63641767",
+      "translation_status": "source",
+      "stable_link_id": "m5:m5-ai3"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Pregnancy Comorbidities and PAP",
+      "screen_id": "m6-01",
+      "language": "en",
+      "approved_text": "Pregnancy Co-morbidities and PAP\nIn this module, we'll learn about the most common symptoms and conditions that are present during pregnancy that may complicate sleep apnea and PAP use, and how to treat them. The conditions we will cover in this module are: • Nasal congestion • GERD • Anxiety To make this module interactive, you will be asked questions that will help you understand the content. Don't worry about getting them wrong- these questions are purely just for learning! The image here shows a woman blowing her nose, another woman who is holding her chest and looks uncomfortable, and a third woman is holding her head and appears worried and anxious.\nIn this module, we'll learn about the most common symptoms and conditions that are present during pregnancy that may complicate sleep apnea and PAP use, and how to treat them. The conditions we will cover in this module are:\n• Nasal congestion\n• GERD\n• Anxiety\nTo make this module interactive, you will be asked questions that will help you understand the content. Don't worry about getting them wrong- these questions are purely just for learning!\nThe image here shows a woman blowing her nose, another woman who is holding her chest and looks uncomfortable, and a third woman is holding her head and appears worried and anxious.",
+      "learning_objective": "Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-06.ts",
+      "source_hash": "6e1fef403e45a07a1ca1ebf50f6863c59d97783e3fe228e7329543ea7d2c3a5a",
+      "translation_status": "source",
+      "stable_link_id": "m6:m6-01"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Pregnancy Comorbidities and PAP",
+      "screen_id": "m6-02",
+      "language": "en",
+      "approved_text": "Nasal Congestion\nBackground Nasal congestion from pregnancy rhinitis (nasal inflammation) is very common, with some reviews reporting it in up to 42% of pregnancies. It is also common for nasal congestion to get worse later in pregnancy. Causes and Complications Body–fluid changes and pregnancy hormones like estrogen and progesterone can all cause the lining of the nose to swell, which can make breathing through the nose harder and cause women to feel congested. This nasal congestion can disrupt sleep, and as the nose is part of the airway, nasal congestion can exacerbate snoring, and worsen sleep apnea. Addressing nasal congestion may help breathing during sleep. Nasal congestion can also impact how well people tolerate the CPAP mask. As the CPAP device blows air through the mask (whether it is a nasal mask, a full face mask, or nasal pillows), nasal congestion often makes CPAP more uncomfortable and may increase leak through the mouth. However, this can be addressed to improve comfort.\nBackground\nNasal congestion from pregnancy rhinitis (nasal inflammation) is very common, with some reviews reporting it in up to 42% of pregnancies. It is also common for nasal congestion to get worse later in pregnancy.\nCauses and Complications\nBody–fluid changes and pregnancy hormones like estrogen and progesterone can all cause the lining of the nose to swell, which can make breathing through the nose harder and cause women to feel congested. This nasal congestion can disrupt sleep, and as the nose is part of the airway, nasal congestion can exacerbate snoring, and worsen sleep apnea. Addressing nasal congestion may help breathing during sleep.\nNasal congestion can also impact how well people tolerate the CPAP mask. As the CPAP device blows air through the mask (whether it is a nasal mask, a full face mask, or nasal pillows), nasal congestion often makes CPAP more uncomfortable and may increase leak through the mouth. However, this can be addressed to improve comfort.",
+      "learning_objective": "Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-06.ts",
+      "source_hash": "6e1fef403e45a07a1ca1ebf50f6863c59d97783e3fe228e7329543ea7d2c3a5a",
+      "translation_status": "source",
+      "stable_link_id": "m6:m6-02"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Pregnancy Comorbidities and PAP",
+      "screen_id": "m6-03",
+      "language": "en",
+      "approved_text": "Nasal Congestion Treatment\nWhen using PAP, consider turning on the heat and/or humidifier elements to help prevent dryness and nasal irritation during sleep. Besides that, nasal sprays are a great low-risk solution for nasal congestion. Consider starting with a simply saline spray before bed. Saline spray or foams can be purchased over the counter and help reduce congestion. They consist of salt and water and are safe to use in pregnancy. If symptoms persist, intranasal steroid sprays such as Fluticasone, or budesonide, which may be purchased over the counter, can be considered. These nasal sprays are also considered safe to use in pregnancy. Possible side effects include nasal dryness, stinging/burning, throat irritation, or nosebleeds, but are usually mild. When using nasal sprays, and after placing the spray inside your nose, make sure to point the tip of the nasal spray outwards towards your eyes and not straight up the nose, to target the outer lining. In case you have nasal congestion that is related to a cold or upper respiratory infection, you may use a topical decongestant sprays such as Afrin, but do not use it for more than 2–3 days. When used for a longer period of time, this type of nasal spray may cause rebound congestion and tends to worsen symptoms.\nWhen using PAP, consider turning on the heat and/or humidifier elements to help prevent dryness and nasal irritation during sleep.\nBesides that, nasal sprays are a great low-risk solution for nasal congestion. Consider starting with a simply saline spray before bed. Saline spray or foams can be purchased over the counter and help reduce congestion. They consist of salt and water and are safe to use in pregnancy.\nIf symptoms persist, intranasal steroid sprays such as Fluticasone, or budesonide, which may be purchased over the counter, can be considered. These nasal sprays are also considered safe to use in pregnancy. Possible side effects include nasal dryness, stinging/burning, throat irritation, or nosebleeds, but are usually mild.\nWhen using nasal sprays, and after placing the spray inside your nose, make sure to point the tip of the nasal spray outwards towards your eyes and not straight up the nose, to target the outer lining.\nIn case you have nasal congestion that is related to a cold or upper respiratory infection, you may use a topical decongestant sprays such as Afrin, but do not use it for more than 2–3 days. When used for a longer period of time, this type of nasal spray may cause rebound congestion and tends to worsen symptoms.",
+      "learning_objective": "Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-06.ts",
+      "source_hash": "6e1fef403e45a07a1ca1ebf50f6863c59d97783e3fe228e7329543ea7d2c3a5a",
+      "translation_status": "source",
+      "stable_link_id": "m6:m6-03"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Pregnancy Comorbidities and PAP",
+      "screen_id": "m6-04",
+      "language": "en",
+      "approved_text": "Gastroesophageal Reflux Disease (GERD)\nBackground Symptoms of GERD (such as heartburn) during pregnancy are very common, with studies reporting a prevalence of 30–80%. This condition also often worsens later in pregnancy. Causes and Complications Pregnancy can relax the muscle tone in the lower esophageal sphincter (the muscle that normally keeps stomach contents in the stomach). This lower tone can increase the likelihood of stomach contents, including the acid produced by the stomach, going back up the esophagus. This can cause common symptoms such as heartburn, regurgitation, a sour taste in the mouth, or nausea. OSA and GERD can both individually worsen sleep quality. In addition, OSA may worsen GERD, as when you try to inhale with a blocked airway, a suction-like negative pressure can pull stomach contents upward into the esophagus.\nBackground\nSymptoms of GERD (such as heartburn) during pregnancy are very common, with studies reporting a prevalence of 30–80%. This condition also often worsens later in pregnancy.\nCauses and Complications\nPregnancy can relax the muscle tone in the lower esophageal sphincter (the muscle that normally keeps stomach contents in the stomach). This lower tone can increase the likelihood of stomach contents, including the acid produced by the stomach, going back up the esophagus. This can cause common symptoms such as heartburn, regurgitation, a sour taste in the mouth, or nausea.\nOSA and GERD can both individually worsen sleep quality. In addition, OSA may worsen GERD, as when you try to inhale with a blocked airway, a suction-like negative pressure can pull stomach contents upward into the esophagus.",
+      "learning_objective": "Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-06.ts",
+      "source_hash": "6e1fef403e45a07a1ca1ebf50f6863c59d97783e3fe228e7329543ea7d2c3a5a",
+      "translation_status": "source",
+      "stable_link_id": "m6:m6-04"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Pregnancy Comorbidities and PAP",
+      "screen_id": "m6-q1",
+      "language": "en",
+      "approved_text": "Comprehension Check 1:\nComprehension Check 1: Select all that apply (Hint: there are 3 correct answers.) What are the recommended ways for treating nasal congestion during pregnancy? Using heat or humidifier elements on the PAP machine Simply saline spray before bed OTC intranasal steroid sprays such as fluticasone or budesonide Using nasal sprays and pointing them straight up the nostril Consider using Afrin on a nightly basis. Oral antibiotics\nWhat are the recommended ways for treating nasal congestion during pregnancy?\nUsing heat or humidifier elements on the PAP machine\nSimply saline spray before bed\nOTC intranasal steroid sprays such as fluticasone or budesonide\nUsing nasal sprays and pointing them straight up the nostril\nConsider using Afrin on a nightly basis.\nOral antibiotics",
+      "learning_objective": "Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-06.ts",
+      "source_hash": "6e1fef403e45a07a1ca1ebf50f6863c59d97783e3fe228e7329543ea7d2c3a5a",
+      "translation_status": "source",
+      "stable_link_id": "m6:m6-q1"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Pregnancy Comorbidities and PAP",
+      "screen_id": "m6-07",
+      "language": "en",
+      "approved_text": "Gastroesophageal Reflux Disease (GERD) Treatment\nThe best first-line treatments for GERD and heartburn are usually dietary changes and bed adjustments, such as: • smaller meals with reduced fat content of meals • less caffeine (for example coffee, tea, coke or pepsi, energy drinks.) • Finishing your last meal 3–4 hours before bedtime • Consider avoiding common trigger foods, such as fatty fried foods, spicy foods, tomato, citrus, or carbonated drinks. • Elevating the head of the bed 6–10 inches (this can be done by using a wedge pillow or even putting books under the head of the bed frame). Elevating just your head with pillows does not necessarily change stomach positioning. • Sleeping on your left side • Antacids If lifestyle modifications aren't enough, acid-reducing medicines such as H2 blockers (famotidine, nizatidine, cimetidine) or proton pump inhibitors (omeprazole) can be considered during pregnancy. These medications are generally safe and have been shown by the literature to not be the cause of birth defects, but consult with your doctor before starting one of these medications.\nThe best first-line treatments for GERD and heartburn are usually dietary changes and bed adjustments, such as:\n• smaller meals with reduced fat content of meals\n• less caffeine (for example coffee, tea, coke or pepsi, energy drinks.)\n• Finishing your last meal 3–4 hours before bedtime\n• Consider avoiding common trigger foods, such as fatty fried foods, spicy foods, tomato, citrus, or carbonated drinks.\n• Elevating the head of the bed 6–10 inches (this can be done by using a wedge pillow or even putting books under the head of the bed frame). Elevating just your head with pillows does not necessarily change stomach positioning.\n• Sleeping on your left side\n• Antacids\nIf lifestyle modifications aren't enough, acid-reducing medicines such as H2 blockers (famotidine, nizatidine, cimetidine) or proton pump inhibitors (omeprazole) can be considered during pregnancy. These medications are generally safe and have been shown by the literature to not be the cause of birth defects, but consult with your doctor before starting one of these medications.",
+      "learning_objective": "Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-06.ts",
+      "source_hash": "6e1fef403e45a07a1ca1ebf50f6863c59d97783e3fe228e7329543ea7d2c3a5a",
+      "translation_status": "source",
+      "stable_link_id": "m6:m6-07"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Pregnancy Comorbidities and PAP",
+      "screen_id": "m6-05",
+      "language": "en",
+      "approved_text": "Anxiety\nBackground Symptoms of anxiety during pregnancy are very common, with studies reporting a prevalence of ~20% of pregnant women meeting the criteria for an anxiety disorder and with higher rates based on symptoms. Causes and Complications Pregnancy brings about rapid physical, hormonal, and emotional changes, in addition to uncertainty of the future, which can exacerbate feelings of stress. These factors, along with worsened sleep quality from untreated OSA may lead to higher levels of anxiety. Regarding PAP, anxiety can exacerbate a claustrophobic feeling from the mask, which can cause people to take off overnight or use it less overall. Helpful strategies to getting accustomed to the mask can include trying different mask styles, practicing wearing the mask while awake, using relaxation breathing, or adjusting the humidity and ramp settings.\nBackground\nSymptoms of anxiety during pregnancy are very common, with studies reporting a prevalence of ~20% of pregnant women meeting the criteria for an anxiety disorder and with higher rates based on symptoms.\nCauses and Complications\nPregnancy brings about rapid physical, hormonal, and emotional changes, in addition to uncertainty of the future, which can exacerbate feelings of stress. These factors, along with worsened sleep quality from untreated OSA may lead to higher levels of anxiety.\nRegarding PAP, anxiety can exacerbate a claustrophobic feeling from the mask, which can cause people to take off overnight or use it less overall. Helpful strategies to getting accustomed to the mask can include trying different mask styles, practicing wearing the mask while awake, using relaxation breathing, or adjusting the humidity and ramp settings.",
+      "learning_objective": "Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-06.ts",
+      "source_hash": "6e1fef403e45a07a1ca1ebf50f6863c59d97783e3fe228e7329543ea7d2c3a5a",
+      "translation_status": "source",
+      "stable_link_id": "m6:m6-05"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Pregnancy Comorbidities and PAP",
+      "screen_id": "m6-q2",
+      "language": "en",
+      "approved_text": "Comprehension Check 2: GERD Treatments\nComprehension Check 2: GERD Treatments Select all that apply (Hint: there are 4 correct answers.) What are the recommended ways for treating GERD during pregnancy? Eating smaller meals with LOW fat content Reducing caffeine intake Elevating the head of the bed Sleeping primarily on your left side Take antacids medications before lifestyle modifications Sleeping on your stomach\nWhat are the recommended ways for treating GERD during pregnancy?\nEating smaller meals with LOW fat content\nReducing caffeine intake\nElevating the head of the bed\nSleeping primarily on your left side\nTake antacids medications before lifestyle modifications\nSleeping on your stomach",
+      "learning_objective": "Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-06.ts",
+      "source_hash": "6e1fef403e45a07a1ca1ebf50f6863c59d97783e3fe228e7329543ea7d2c3a5a",
+      "translation_status": "source",
+      "stable_link_id": "m6:m6-q2"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Pregnancy Comorbidities and PAP",
+      "screen_id": "m6-08",
+      "language": "en",
+      "approved_text": "Anxiety Treatment\nKey lifestyle modifications that can help relieve anxiety include introducing physical activity (such as going on a walk), eating a healthy diet, getting high quality sleep, and limiting caffeine and alcohol intake. More notable treatments can include education, counseling, or Cognitive Behavioral Therapy (CBT). Consult with your physician if these options are not working so that medication options can be considered if needed.\nKey lifestyle modifications that can help relieve anxiety include introducing physical activity (such as going on a walk), eating a healthy diet, getting high quality sleep, and limiting caffeine and alcohol intake.\nMore notable treatments can include education, counseling, or Cognitive Behavioral Therapy (CBT). Consult with your physician if these options are not working so that medication options can be considered if needed.",
+      "learning_objective": "Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-06.ts",
+      "source_hash": "6e1fef403e45a07a1ca1ebf50f6863c59d97783e3fe228e7329543ea7d2c3a5a",
+      "translation_status": "source",
+      "stable_link_id": "m6:m6-08"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Pregnancy Comorbidities and PAP",
+      "screen_id": "m6-q3",
+      "language": "en",
+      "approved_text": "Comprehension Check 3: Anxiety Treatments\nComprehension Check 3: Anxiety Treatments Select all that apply (Hint: there are 3 correct answers.) What are the recommended ways for treating anxiety during pregnancy? Improving sleep, diet, and exercise Reducing caffeine and alcohol intake Counseling and Cognitive Behavior Therapy Immediately asking your doctor for an SSRI prescription Ignoring it and hoping it will go away Smoking weed to calm yourself down\nWhat are the recommended ways for treating anxiety during pregnancy?\nImproving sleep, diet, and exercise\nReducing caffeine and alcohol intake\nCounseling and Cognitive Behavior Therapy\nImmediately asking your doctor for an SSRI prescription\nIgnoring it and hoping it will go away\nSmoking weed to calm yourself down",
+      "learning_objective": "Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-06.ts",
+      "source_hash": "6e1fef403e45a07a1ca1ebf50f6863c59d97783e3fe228e7329543ea7d2c3a5a",
+      "translation_status": "source",
+      "stable_link_id": "m6:m6-q3"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Pregnancy Comorbidities and PAP",
+      "screen_id": "m6-06",
+      "language": "en",
+      "approved_text": "Becoming Familiar With the Equipment\nSome treatment teams recommend becoming familiar with PAP equipment while awake before trying to sleep with it. A clinician-approved plan might involve briefly handling the mask, wearing it without pressure, or using the equipment while awake in a calm setting. This app does not present a fixed exposure schedule until the clinical team approves the exact steps.\nSome treatment teams recommend becoming familiar with PAP equipment while awake before trying to sleep with it.\nA clinician-approved plan might involve briefly handling the mask, wearing it without pressure, or using the equipment while awake in a calm setting.\nThis app does not present a fixed exposure schedule until the clinical team approves the exact steps.",
+      "learning_objective": "Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-06.ts",
+      "source_hash": "6e1fef403e45a07a1ca1ebf50f6863c59d97783e3fe228e7329543ea7d2c3a5a",
+      "translation_status": "source",
+      "stable_link_id": "m6:m6-06"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Pregnancy Comorbidities and PAP",
+      "screen_id": "m6-ai1",
+      "language": "en",
+      "approved_text": "Describe a PAP barrier\nDescribe what happens when PAP becomes difficult to use.",
+      "learning_objective": "Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-06.ts",
+      "source_hash": "6e1fef403e45a07a1ca1ebf50f6863c59d97783e3fe228e7329543ea7d2c3a5a",
+      "translation_status": "source",
+      "stable_link_id": "m6:m6-ai1"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Pregnancy Comorbidities and PAP",
+      "screen_id": "m6-ai2",
+      "language": "en",
+      "approved_text": "Build a discussion summary\nWhat would you like your PAP or healthcare team to understand about this problem?",
+      "learning_objective": "Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-06.ts",
+      "source_hash": "6e1fef403e45a07a1ca1ebf50f6863c59d97783e3fe228e7329543ea7d2c3a5a",
+      "translation_status": "source",
+      "stable_link_id": "m6:m6-ai2"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Pregnancy Comorbidities and PAP",
+      "screen_id": "m6-recap",
+      "language": "en",
+      "approved_text": "Module recap\nCongestion, reflux, anxiety, and equipment concerns may all interfere with PAP. Describing when the problem occurs and what it feels like can help identify the right discussion. Equipment questions may belong with the PAP team, while medication and pregnancy-safety decisions belong with an appropriate healthcare professional.",
+      "learning_objective": "Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "summary"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-06.ts",
+      "source_hash": "6e1fef403e45a07a1ca1ebf50f6863c59d97783e3fe228e7329543ea7d2c3a5a",
+      "translation_status": "source",
+      "stable_link_id": "m6:m6-recap"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimacy",
+      "screen_id": "m7-01",
+      "language": "en",
+      "approved_text": "Intimacy\nIn this module, we will learn about what intimacy is and how it intersects with OSA and PAP use.",
+      "learning_objective": "Explore intimacy broadly and respectfully without promises or required disclosure.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-07.ts",
+      "source_hash": "69ac8a86a2a79d723e56e6ce2d35f76e4822645d620f15db01653572a816211f",
+      "translation_status": "source",
+      "stable_link_id": "m7:m7-01"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimacy",
+      "screen_id": "m7-02",
+      "language": "en",
+      "approved_text": "What is Intimacy?\n\"Intimacy in a relationship is a feeling of being close, and emotionally connected and supported.\" Intimacy doesn't necessarily only refer to intercourse! It can also refer to having meaningful conversations with your partner, spending quality time, cuddling, touching, or expressing your emotions.\n\"Intimacy in a relationship is a feeling of being close, and emotionally connected and supported.\"\nIntimacy doesn't necessarily only refer to intercourse! It can also refer to having meaningful conversations with your partner, spending quality time, cuddling, touching, or expressing your emotions.",
+      "learning_objective": "Explore intimacy broadly and respectfully without promises or required disclosure.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-07.ts",
+      "source_hash": "69ac8a86a2a79d723e56e6ce2d35f76e4822645d620f15db01653572a816211f",
+      "translation_status": "source",
+      "stable_link_id": "m7:m7-02"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimacy",
+      "screen_id": "m7-03",
+      "language": "en",
+      "approved_text": "How does sleep apnea impact my partner?\nPAP therapy should not prevent you from becoming intimate or having sex. • It is important to wear every time you sleep, but is not necessary to wear when active or awake. That being said it is important for you to have a discussion with your bed partner regarding the importance of using PAP therapy. It is common to believe that CPAP may impact your partner negatively or that your partner may not like to see you that way, but studies show 90% of bed partners were happy with the treatment and 75% would recommend it to others\nPAP therapy should not prevent you from becoming intimate or having sex.\n• It is important to wear every time you sleep, but is not necessary to wear when active or awake.\nThat being said it is important for you to have a discussion with your bed partner regarding the importance of using PAP therapy.\nIt is common to believe that CPAP may impact your partner negatively or that your partner may not like to see you that way, but studies show 90% of bed partners were happy with the treatment and 75% would recommend it to others",
+      "learning_objective": "Explore intimacy broadly and respectfully without promises or required disclosure.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-07.ts",
+      "source_hash": "69ac8a86a2a79d723e56e6ce2d35f76e4822645d620f15db01653572a816211f",
+      "translation_status": "source",
+      "stable_link_id": "m7:m7-03"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimacy",
+      "screen_id": "m7-04",
+      "language": "en",
+      "approved_text": "Comprehension Check 1:\nComprehension Check 1: Select all that apply. (Hint: There are 3 correct answers.) When is it recommended to wear your PAP mask? When you are planning to fall asleep When you are being intimate with your partner During naps If you think you might fall asleep while relaxing in bed with your partner Only if your partner says your snoring is loud During sexual activity\nWhen is it recommended to wear your PAP mask?\nWhen you are planning to fall asleep\nWhen you are being intimate with your partner\nDuring naps\nIf you think you might fall asleep while relaxing in bed with your partner\nOnly if your partner says your snoring is loud\nDuring sexual activity",
+      "learning_objective": "Explore intimacy broadly and respectfully without promises or required disclosure.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-07.ts",
+      "source_hash": "69ac8a86a2a79d723e56e6ce2d35f76e4822645d620f15db01653572a816211f",
+      "translation_status": "source",
+      "stable_link_id": "m7:m7-04"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimacy",
+      "screen_id": "m7-05",
+      "language": "en",
+      "approved_text": "Tips for Intimacy with Sleep Apnea\nNavigating intimacy with sleep apnea can be tricky. Here are some helpful things to know: • You do not have to wear the mask if you're not sleeping! Feel free to take off the mask during times of intimacy. • If cuddling when sleeping, being the \"little spoon\" can prevent the mask from getting in your partner’s way. • Talking with a loved one or your partner can be very helpful in addressing your thoughts and concerns.\nNavigating intimacy with sleep apnea can be tricky. Here are some helpful things to know:\n• You do not have to wear the mask if you're not sleeping! Feel free to take off the mask during times of intimacy.\n• If cuddling when sleeping, being the \"little spoon\" can prevent the mask from getting in your partner’s way.\n• Talking with a loved one or your partner can be very helpful in addressing your thoughts and concerns.",
+      "learning_objective": "Explore intimacy broadly and respectfully without promises or required disclosure.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-07.ts",
+      "source_hash": "69ac8a86a2a79d723e56e6ce2d35f76e4822645d620f15db01653572a816211f",
+      "translation_status": "source",
+      "stable_link_id": "m7:m7-05"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimacy",
+      "screen_id": "m7-06",
+      "language": "en",
+      "approved_text": "How does sleep apnea impact my sex life?\nDuring pregnancy, it is very normal for sex drive to change due to body changes, discomfort, stress, or fatigue. Sleep apnea itself can reduce your sex drive. This is primarily because sleep quality is worsened, which can lead to: • Less energy and desire • Hormone disruption • Increased stress, anxiety, or depression • Reduced blood flow When wearing CPAP, it can be normal to have a negative body–image perception, which can sometimes decrease sex drive. However, CPAP plays a crucial role in improving sleep quality for individuals with OSA, which can help restore energy, desire, blood flow, and reduce feelings of stress/anxiety.\nDuring pregnancy, it is very normal for sex drive to change due to body changes, discomfort, stress, or fatigue.\nSleep apnea itself can reduce your sex drive. This is primarily because sleep quality is worsened, which can lead to:\n• Less energy and desire\n• Hormone disruption\n• Increased stress, anxiety, or depression\n• Reduced blood flow\nWhen wearing CPAP, it can be normal to have a negative body–image perception, which can sometimes decrease sex drive.\nHowever, CPAP plays a crucial role in improving sleep quality for individuals with OSA, which can help restore energy, desire, blood flow, and reduce feelings of stress/anxiety.",
+      "learning_objective": "Explore intimacy broadly and respectfully without promises or required disclosure.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-07.ts",
+      "source_hash": "69ac8a86a2a79d723e56e6ce2d35f76e4822645d620f15db01653572a816211f",
+      "translation_status": "source",
+      "stable_link_id": "m7:m7-06"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimacy",
+      "screen_id": "m7-q2",
+      "language": "en",
+      "approved_text": "Comprehension Check 1:\nComprehension Check 1: Select all that apply (Hint: There are 3 correct answers.) Which statements correctly describe how pregnancy, obstructive sleep apnea, and CPAP may affect sex drive? During pregnancy, sex drive can normally change because of body changes, discomfort, stress, or fatigue. Sleep apnea can reduce sex drive by worsening sleep quality, which may lower energy and desire. CPAP always immediately increases sex drive and never affects body image. A change in sex drive during pregnancy always means something is medically wrong. CPAP can improve sleep quality, which may help restore energy, desire, blood flow, and reduce stress or anxiety. Sleep apnea affects sex drive only because of body image concerns, not because of sleep quality, hormones, mood, or blood flow.\nWhich statements correctly describe how pregnancy, obstructive sleep apnea, and CPAP may affect sex drive?\nDuring pregnancy, sex drive can normally change because of body changes, discomfort, stress, or fatigue.\nSleep apnea can reduce sex drive by worsening sleep quality, which may lower energy and desire.\nCPAP always immediately increases sex drive and never affects body image.\nA change in sex drive during pregnancy always means something is medically wrong.\nCPAP can improve sleep quality, which may help restore energy, desire, blood flow, and reduce stress or anxiety.\nSleep apnea affects sex drive only because of body image concerns, not because of sleep quality, hormones, mood, or blood flow.",
+      "learning_objective": "Explore intimacy broadly and respectfully without promises or required disclosure.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-07.ts",
+      "source_hash": "69ac8a86a2a79d723e56e6ce2d35f76e4822645d620f15db01653572a816211f",
+      "translation_status": "source",
+      "stable_link_id": "m7:m7-q2"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimacy",
+      "screen_id": "m7-r1",
+      "language": "en",
+      "approved_text": "Optional reflection\nIs there a topic from this module you may want to discuss with a healthcare professional? PAP equipment and comfort. Fatigue or low energy. Sexual desire or function. Relationship or shared-sleep concerns. Body image or embarrassment. Another concern. No. Prefer not to answer.\nIs there a topic from this module you may want to discuss with a healthcare professional?\nPAP equipment and comfort.\nFatigue or low energy.\nSexual desire or function.\nRelationship or shared-sleep concerns.\nBody image or embarrassment.\nAnother concern.\nNo.\nPrefer not to answer.\nThere is no correct answer. This reflection stays on your device and is not sent to AI automatically.",
+      "learning_objective": "Explore intimacy broadly and respectfully without promises or required disclosure.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-07.ts",
+      "source_hash": "69ac8a86a2a79d723e56e6ce2d35f76e4822645d620f15db01653572a816211f",
+      "translation_status": "source",
+      "stable_link_id": "m7:m7-r1"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimacy",
+      "screen_id": "m7-ai1",
+      "language": "en",
+      "approved_text": "Organize an optional question\nWrite a question you may want to ask a healthcare professional.",
+      "learning_objective": "Explore intimacy broadly and respectfully without promises or required disclosure.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-07.ts",
+      "source_hash": "69ac8a86a2a79d723e56e6ce2d35f76e4822645d620f15db01653572a816211f",
+      "translation_status": "source",
+      "stable_link_id": "m7:m7-ai1"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimacy",
+      "screen_id": "m7-recap",
+      "language": "en",
+      "approved_text": "Module recap\nIntimacy includes many forms of closeness. OSA and PAP may affect energy, shared sleep, emotions, comfort, and sexual health, but experiences differ. These concerns are valid topics for healthcare discussion, and the learner is never required to disclose personal information in the app.",
+      "learning_objective": "Explore intimacy broadly and respectfully without promises or required disclosure.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "summary"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/en/modules/module-07.ts",
+      "source_hash": "69ac8a86a2a79d723e56e6ce2d35f76e4822645d620f15db01653572a816211f",
+      "translation_status": "source",
+      "stable_link_id": "m7:m7-recap"
+    }
+  ]
+}

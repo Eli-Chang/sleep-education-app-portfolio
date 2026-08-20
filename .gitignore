@@ -1,10 +1,113 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
 node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+app-example
+
+# generated native folders
+/ios
+/android
+
+# Internal source documents
+docs/*.pdf
+
+# Local environment variables
 .env
 .env.*
 !.env.example
+.dev.vars
+
+# Optional Impeccable local state (never committed by the shared setup)
+.impeccable/
+.claude/settings.local.json
+.claude/hooks.json
+
+# Local Codex scratch files and browser automation state
+.codex/tmp/
+.playwright-cli/
+playwright-report/
+test-results/
+artifacts/playwright-review/automated/
+artifacts/
+artifacts/playwright-review/
+artifacts/live-ai-diagnosis/
+artifacts/ui-visual-upgrade/
+artifacts/visual-polish/
+artifacts/transition-shadow-fix/
+artifacts/button-shadow-fix/
+artifacts/composer-reset-fix/
+artifacts/lessonchat-*/
+artifacts/physical-device-fixes/
+artifacts/design-redesign/
+qa-designqa-snapshot.yaml
+dist-ui-review*/
+
+# Test, coverage, and generated build output
 coverage/
-dist/
-.expo/
+__pycache__/
+*.pyc
+.pytest_cache/
+coverage-*.json
+*.lcov
+.nyc_output/
 *.log
-*.local
+
+# Local render caches and intermediate media exports
+.cache/
+.hyperframes/
+render-cache/
+artifacts/**/traces/
+artifacts/**/videos/
+*.webm
+*.trace
+docs/Pregnant Woman CPAP.mp4
+
+# Local Cloudflare state and credentials
+.wrangler/
+.dev.vars.*
+*.secret
+*.token
+*.crt
+
+# Operating-system and editor-local files
 Thumbs.db
+.vscode/
+.idea/
+
+
+.codex/coordination/*
+!.codex/coordination/project.yaml

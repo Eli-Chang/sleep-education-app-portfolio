@@ -1,0 +1,16 @@
+{
+  "knowledge_bank_version": "kb-2026-08-06.v1",
+  "generated_at": "2026-08-19",
+  "generation_command": "npx.cmd tsx evaluation/scripts/generate-knowledge-bank.ts",
+  "module_content": {
+    "en": "cloudflare-worker/knowledge/module-content.en.json",
+    "es": "cloudflare-worker/knowledge/module-content.es.json",
+    "source_policy": "Generated from src/content/en and src/content/es; do not edit generated module JSON manually."
+  },
+  "scientific_sources": "cloudflare-worker/knowledge/scientific-sources.json",
+  "claim_map": "cloudflare-worker/knowledge/claim-map.json",
+  "safety_policy": "cloudflare-worker/knowledge/safety-policy.json",
+  "emergency_policy": "cloudflare-worker/knowledge/emergency-policy.json",
+  "secret_policy": "No credentials, tokens, private learner text, or patient data are included.",
+  "knowledge_bank_hash": "956e3b8e644b952d67c16784932c58da1d28a918c70da6d34219a845d1ed125f"
+}

@@ -1,0 +1,12 @@
+{
+  "evidence_bank_version": "curriculum-v3-2026-08-05",
+  "enabled_by_default": false,
+  "activation_requires": "Research-team approval and an explicit EVIDENCE_BANK_ENABLED=true plus matching EVIDENCE_BANK_VERSION Worker configuration.",
+  "entries": [
+    { "file": "osa-basics.json", "topic": "osa-basics" },
+    { "file": "pap.json", "topic": "pap" },
+    { "file": "pregnancy.json", "topic": "pregnancy" },
+    { "file": "sleep-hygiene.json", "topic": "sleep-hygiene" },
+    { "file": "relationships.json", "topic": "relationships" }
+  ]
+}

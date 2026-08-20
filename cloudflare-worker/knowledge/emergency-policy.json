@@ -1,0 +1,12 @@
+{
+  "policy_id": "POLICY-URGENT",
+  "version": "emergency-v1",
+  "triggers": ["chest pain", "severe shortness of breath", "can't breathe", "cannot breathe", "dolor de pecho", "dificultad grave para respirar", "no puedo respirar"],
+  "responses": {
+    "en": "Call 911 or your local emergency number now. Chest pain with severe shortness of breath can be a medical emergency. This app cannot assess the cause or replace emergency care.",
+    "es": "Llame al 911 o al número local de emergencias ahora. El dolor de pecho junto con dificultad grave para respirar puede ser una emergencia médica. Esta aplicación no puede evaluar la causa ni reemplazar la atención de emergencia."
+  },
+  "source_ids": ["AHA-CALL-911", "AHA-HEART-ATTACK-SIGNS"],
+  "claim_ids": ["EMERGENCY_ESCALATION"],
+  "human_review_required": true
+}

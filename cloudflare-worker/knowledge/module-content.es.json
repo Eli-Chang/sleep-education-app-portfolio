@@ -1,0 +1,2765 @@
+{
+  "version": "module-content.v1",
+  "locale": "es",
+  "generated_from": "src/content",
+  "entries": [
+    {
+      "module_id": "m1",
+      "module_title": "Introducción a la apnea del sueño",
+      "screen_id": "m1-01",
+      "language": "es",
+      "approved_text": "Introducción a la apnea del sueño\nEn esta sección aprenderemos qué es la apnea del sueño y cómo se trata. Veremos por qué ocurre, qué significa, por qué es importante atenderla y cómo se puede tratar.",
+      "learning_objective": "Comprenda la obstrucción respiratoria, los síntomas, la evaluación y cómo PAP mantiene abierta la vía respiratoria.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-01.ts",
+      "source_hash": "e250caf67140f272aaf92ec29c880bb1210be56b51e24b246b67f7aa360dc142",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m1:m1-01"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Introducción a la apnea del sueño",
+      "screen_id": "m1-03",
+      "language": "es",
+      "approved_text": "Fisiología de la apnea del sueño\nEn este video profundizaremos en por qué ocurre la AOS, o apnea obstructiva del sueño. En la AOS, la garganta se relaja tanto que se estrecha o se bloquea durante el sueño, lo que dificulta la respiración. Imagine succionar aire por una pajita y luego apretarla. El cerebro detecta la falta de oxígeno y le despierta lo suficiente para respirar, aunque quizá no lo recuerde. En la AOS, estas interrupciones ocurren muchas veces por noche y producen un sueño de menor calidad. Con el tiempo, esta tensión repetida estresa el cuerpo y puede reducir la calidad de vida.\nEn este video profundizaremos en por qué ocurre la AOS, o apnea obstructiva del sueño.\nEn la AOS, la garganta se relaja tanto que se estrecha o se bloquea durante el sueño, lo que dificulta la respiración. Imagine succionar aire por una pajita y luego apretarla. El cerebro detecta la falta de oxígeno y le despierta lo suficiente para respirar, aunque quizá no lo recuerde. En la AOS, estas interrupciones ocurren muchas veces por noche y producen un sueño de menor calidad. Con el tiempo, esta tensión repetida estresa el cuerpo y puede reducir la calidad de vida.",
+      "learning_objective": "Comprenda la obstrucción respiratoria, los síntomas, la evaluación y cómo PAP mantiene abierta la vía respiratoria.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-01.ts",
+      "source_hash": "e250caf67140f272aaf92ec29c880bb1210be56b51e24b246b67f7aa360dc142",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m1:m1-03"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Introducción a la apnea del sueño",
+      "screen_id": "m1-q1",
+      "language": "es",
+      "approved_text": "¿Verdadero o falso? Puede tener apnea obstructiva del sueño aunque no ronque.\n¿Verdadero o falso? Puede tener apnea obstructiva del sueño aunque no ronque. ¿Verdadero o falso? Díganos qué piensa a continuación. Verdadero: puede tener apnea del sueño sin roncar Falso: tiene que roncar para tener apnea del sueño\nVerdadero: puede tener apnea del sueño sin roncar\nFalso: tiene que roncar para tener apnea del sueño",
+      "learning_objective": "Comprenda la obstrucción respiratoria, los síntomas, la evaluación y cómo PAP mantiene abierta la vía respiratoria.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-01.ts",
+      "source_hash": "e250caf67140f272aaf92ec29c880bb1210be56b51e24b246b67f7aa360dc142",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m1:m1-q1"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Introducción a la apnea del sueño",
+      "screen_id": "m1-04",
+      "language": "es",
+      "approved_text": "Apnea e hipopnea\nAl hablar de un estudio del sueño, puede escuchar dos términos: • Apnea significa que el flujo de aire se detiene o casi se detiene durante un período de tiempo.\n• Hipopnea significa que el flujo de aire se reduce parcialmente. La imagen compara la respiración típica con la apnea obstructiva del sueño. En la respiración típica, la vía respiratoria permanece abierta y el aire puede pasar junto a la lengua y el paladar blando. En la AOS, esos tejidos estrechan o bloquean la vía respiratoria, por lo que el flujo de aire disminuye o se detiene aunque la persona siga intentando respirar. Tanto la apnea como la hipopnea pueden alterar el sueño y afectar los niveles de oxígeno. Un estudio del sueño mide los eventos respiratorios y otra información para ayudar a un profesional clínico a comprender lo que ocurre durante el sueño.\nAl hablar de un estudio del sueño, puede escuchar dos términos:\n• Apnea significa que el flujo de aire se detiene o casi se detiene durante un período de tiempo.\n• Hipopnea significa que el flujo de aire se reduce parcialmente.\nLa imagen compara la respiración típica con la apnea obstructiva del sueño. En la respiración típica, la vía respiratoria permanece abierta y el aire puede pasar junto a la lengua y el paladar blando. En la AOS, esos tejidos estrechan o bloquean la vía respiratoria, por lo que el flujo de aire disminuye o se detiene aunque la persona siga intentando respirar.\nTanto la apnea como la hipopnea pueden alterar el sueño y afectar los niveles de oxígeno. Un estudio del sueño mide los eventos respiratorios y otra información para ayudar a un profesional clínico a comprender lo que ocurre durante el sueño.",
+      "learning_objective": "Comprenda la obstrucción respiratoria, los síntomas, la evaluación y cómo PAP mantiene abierta la vía respiratoria.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-01.ts",
+      "source_hash": "e250caf67140f272aaf92ec29c880bb1210be56b51e24b246b67f7aa360dc142",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m1:m1-04"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Introducción a la apnea del sueño",
+      "screen_id": "m1-05",
+      "language": "es",
+      "approved_text": "¿Cuáles son los síntomas de la apnea del sueño?\nLa AOS no se siente igual para todas las personas. Las posibles señales nocturnas incluyen ronquidos fuertes, pausas en la respiración que otra persona nota, jadeos, sensación de ahogo, despertares frecuentes o sueño inquieto. Las experiencias de la mañana o del día pueden incluir boca seca, dolor de cabeza, cansancio, dificultad para concentrarse, irritabilidad o sensación de no haber descansado después de dormir. Tener uno de estos síntomas por sí solo no demuestra que alguien tenga AOS.\nLa AOS no se siente igual para todas las personas.\nLas posibles señales nocturnas incluyen ronquidos fuertes, pausas en la respiración que otra persona nota, jadeos, sensación de ahogo, despertares frecuentes o sueño inquieto.\nLas experiencias de la mañana o del día pueden incluir boca seca, dolor de cabeza, cansancio, dificultad para concentrarse, irritabilidad o sensación de no haber descansado después de dormir.\nTener uno de estos síntomas por sí solo no demuestra que alguien tenga AOS.",
+      "learning_objective": "Comprenda la obstrucción respiratoria, los síntomas, la evaluación y cómo PAP mantiene abierta la vía respiratoria.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-01.ts",
+      "source_hash": "e250caf67140f272aaf92ec29c880bb1210be56b51e24b246b67f7aa360dc142",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m1:m1-05"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Introducción a la apnea del sueño",
+      "screen_id": "m1-r1",
+      "language": "es",
+      "approved_text": "Reflexión personal\n¿Qué experiencias ha notado? Ronquidos. Despertarse jadeando o con sensación de ahogo. Alguien ha notado pausas en mi respiración. Dolor de cabeza matutino. Boca seca al despertar. Cansancio durante el día. Dificultad para concentrarme. Ninguna de estas. No estoy seguro/a. Estas experiencias pueden tener varias causas. Sus respuestas no diagnostican AOS. Pueden ayudarle a decidir qué conversar con su profesional de salud.\n¿Qué experiencias ha notado?\nRonquidos.\nDespertarse jadeando o con sensación de ahogo.\nAlguien ha notado pausas en mi respiración.\nDolor de cabeza matutino.\nBoca seca al despertar.\nCansancio durante el día.\nDificultad para concentrarme.\nNinguna de estas.\nNo estoy seguro/a.\nEstas experiencias pueden tener varias causas. Sus respuestas no diagnostican AOS. Pueden ayudarle a decidir qué conversar con su profesional de salud.",
+      "learning_objective": "Comprenda la obstrucción respiratoria, los síntomas, la evaluación y cómo PAP mantiene abierta la vía respiratoria.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-01.ts",
+      "source_hash": "e250caf67140f272aaf92ec29c880bb1210be56b51e24b246b67f7aa360dc142",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m1:m1-r1"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Introducción a la apnea del sueño",
+      "screen_id": "m1-06",
+      "language": "es",
+      "approved_text": "¿Cómo se evalúa la AOS?\nLos síntomas pueden causar preocupación, pero por sí solos no confirman un diagnóstico. La evaluación puede incluir preguntas sobre el sueño, sus antecedentes de salud, información de una pareja y un estudio del sueño en casa o en un centro del sueño. El estudio registra la respiración y otras señales mientras duerme. Su equipo de salud puede explicarle qué tipo de evaluación es adecuado para usted.\nLos síntomas pueden causar preocupación, pero por sí solos no confirman un diagnóstico.\nLa evaluación puede incluir preguntas sobre el sueño, sus antecedentes de salud, información de una pareja y un estudio del sueño en casa o en un centro del sueño. El estudio registra la respiración y otras señales mientras duerme.\nSu equipo de salud puede explicarle qué tipo de evaluación es adecuado para usted.",
+      "learning_objective": "Comprenda la obstrucción respiratoria, los síntomas, la evaluación y cómo PAP mantiene abierta la vía respiratoria.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-01.ts",
+      "source_hash": "e250caf67140f272aaf92ec29c880bb1210be56b51e24b246b67f7aa360dc142",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m1:m1-06"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Introducción a la apnea del sueño",
+      "screen_id": "m1-07",
+      "language": "es",
+      "approved_text": "¿Cómo ayuda PAP?\nPAP significa presión positiva en las vías respiratorias. Una máquina PAP envía un flujo suave de aire presurizado a través de una mascarilla. La presión ayuda a mantener abierta la vía respiratoria superior durante el sueño. PAP no obliga a los pulmones a respirar y no es lo mismo que recibir oxígeno suplementario. La cantidad de presión y el tipo de equipo deben manejarse con el equipo de PAP o de atención del sueño. PAP ayuda a mantener abierta la vía respiratoria.\nPAP significa presión positiva en las vías respiratorias. Una máquina PAP envía un flujo suave de aire presurizado a través de una mascarilla.\nLa presión ayuda a mantener abierta la vía respiratoria superior durante el sueño. PAP no obliga a los pulmones a respirar y no es lo mismo que recibir oxígeno suplementario.\nLa cantidad de presión y el tipo de equipo deben manejarse con el equipo de PAP o de atención del sueño.\nPAP ayuda a mantener abierta la vía respiratoria.",
+      "learning_objective": "Comprenda la obstrucción respiratoria, los síntomas, la evaluación y cómo PAP mantiene abierta la vía respiratoria.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "content",
+        "PAP"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-01.ts",
+      "source_hash": "e250caf67140f272aaf92ec29c880bb1210be56b51e24b246b67f7aa360dc142",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m1:m1-07"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Introducción a la apnea del sueño",
+      "screen_id": "m1-q2",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos\n¿Qué afirmaciones sobre PAP son correctas? Seleccione todas las opciones correctas. PAP trata la respiración obstructiva al administrar oxígeno suplementario en lugar de aire. PAP usa aire presurizado para ayudar a mantener abierta la vía respiratoria durante el sueño. Una mascarilla puede administrar el aire presurizado de una máquina PAP. Una persona puede cambiar de forma segura la presión de PAP sin hablarlo con su equipo de atención. Las preguntas sobre el equipo o la comodidad pueden consultarse con el equipo de PAP o de medicina del sueño. PAP administra aire presurizado a través de una mascarilla para ayudar a mantener abierta la vía respiratoria. No es automáticamente lo mismo que la oxigenoterapia, y los ajustes del tratamiento no deben cambiarse sin la orientación adecuada.\n¿Qué afirmaciones sobre PAP son correctas? Seleccione todas las opciones correctas.\nPAP trata la respiración obstructiva al administrar oxígeno suplementario en lugar de aire.\nPAP usa aire presurizado para ayudar a mantener abierta la vía respiratoria durante el sueño.\nUna mascarilla puede administrar el aire presurizado de una máquina PAP.\nUna persona puede cambiar de forma segura la presión de PAP sin hablarlo con su equipo de atención.\nLas preguntas sobre el equipo o la comodidad pueden consultarse con el equipo de PAP o de medicina del sueño.\nCorrecto.\nAún no.\nPAP administra aire presurizado a través de una mascarilla para ayudar a mantener abierta la vía respiratoria. No es automáticamente lo mismo que la oxigenoterapia, y los ajustes del tratamiento no deben cambiarse sin la orientación adecuada.",
+      "learning_objective": "Comprenda la obstrucción respiratoria, los síntomas, la evaluación y cómo PAP mantiene abierta la vía respiratoria.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-01.ts",
+      "source_hash": "e250caf67140f272aaf92ec29c880bb1210be56b51e24b246b67f7aa360dc142",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m1:m1-q2"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Introducción a la apnea del sueño",
+      "screen_id": "m1-ai1",
+      "language": "es",
+      "approved_text": "Explíquelo con sus propias palabras\nCon sus propias palabras, ¿qué ocurre durante la apnea obstructiva del sueño?",
+      "learning_objective": "Comprenda la obstrucción respiratoria, los síntomas, la evaluación y cómo PAP mantiene abierta la vía respiratoria.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-01.ts",
+      "source_hash": "e250caf67140f272aaf92ec29c880bb1210be56b51e24b246b67f7aa360dc142",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m1:m1-ai1"
+    },
+    {
+      "module_id": "m1",
+      "module_title": "Introducción a la apnea del sueño",
+      "screen_id": "m1-recap",
+      "language": "es",
+      "approved_text": "Resumen del módulo\nLa AOS causa estrechamiento o cierre repetido de la vía respiratoria durante el sueño. Puede reducir el flujo de aire y alterar el sueño. Los síntomas orientan, pero la evaluación clínica y el estudio del sueño ayudan a comprender el problema. PAP mantiene abierta la vía respiratoria con aire presurizado.",
+      "learning_objective": "Comprenda la obstrucción respiratoria, los síntomas, la evaluación y cómo PAP mantiene abierta la vía respiratoria.",
+      "allowed_claims": [
+        "OSA_DEFINITION",
+        "AIRWAY_NARROWING",
+        "PAP_AIRWAY_SUPPORT",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m1",
+        "summary"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-01.ts",
+      "source_hash": "e250caf67140f272aaf92ec29c880bb1210be56b51e24b246b67f7aa360dc142",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m1:m1-recap"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "¿Cómo afecta la apnea del sueño a mi pareja?",
+      "screen_id": "m2-01",
+      "language": "es",
+      "approved_text": "¿Cómo afecta la apnea del sueño a mi pareja?\nEn esta sección aprenderemos cómo la apnea del sueño afecta a su pareja u otras personas en la habitación, como un recién nacido, y cómo tratamientos como CPAP pueden mejorar la intimidad y la calidad de vida de ambos.",
+      "learning_objective": "Comprenda el sueño compartido y el apoyo sin culpa.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-02.ts",
+      "source_hash": "2cf13f81f6573df2755457e9398460480c0073f78b09dcb1620b774b4b7af8de",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m2:m2-01"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "¿Cómo afecta la apnea del sueño a mi pareja?",
+      "screen_id": "m2-r1",
+      "language": "es",
+      "approved_text": "¿Qué aspecto de su apnea del sueño molesta más a su pareja?\n¿Qué aspecto de su apnea del sueño molesta más a su pareja? Ronquidos Despertares nocturnos (cualquier cosa que haga que se despierte durante la noche) Cambios en el ánimo o la energía Dormir en habitaciones separadas\nRonquidos\nDespertares nocturnos (cualquier cosa que haga que se despierte durante la noche)\nCambios en el ánimo o la energía\nDormir en habitaciones separadas",
+      "learning_objective": "Comprenda el sueño compartido y el apoyo sin culpa.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-02.ts",
+      "source_hash": "2cf13f81f6573df2755457e9398460480c0073f78b09dcb1620b774b4b7af8de",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m2:m2-r1"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "¿Cómo afecta la apnea del sueño a mi pareja?",
+      "screen_id": "m2-03",
+      "language": "es",
+      "approved_text": "¿Cómo puede CPAP mejorar la experiencia de sueño de su pareja?\nLa presión positiva continua en las vías respiratorias (CPAP) proporciona un flujo constante de aire a través de una mascarilla que mantiene abierta y estable la vía respiratoria superior, evitando las vibraciones de los tejidos que causan los ronquidos. Esto reduce los sonidos durante el sueño y puede ofrecer una mejor experiencia para su pareja.\nLa presión positiva continua en las vías respiratorias (CPAP) proporciona un flujo constante de aire a través de una mascarilla que mantiene abierta y estable la vía respiratoria superior, evitando las vibraciones de los tejidos que causan los ronquidos.\nEsto reduce los sonidos durante el sueño y puede ofrecer una mejor experiencia para su pareja.",
+      "learning_objective": "Comprenda el sueño compartido y el apoyo sin culpa.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-02.ts",
+      "source_hash": "2cf13f81f6573df2755457e9398460480c0073f78b09dcb1620b774b4b7af8de",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m2:m2-03"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "¿Cómo afecta la apnea del sueño a mi pareja?",
+      "screen_id": "m2-05",
+      "language": "es",
+      "approved_text": "¿Cómo puede CPAP mejorar la intimidad? (continuación)\nSe ha observado que CPAP puede aumentar la intimidad entre las parejas. Un estudio mostró que el 41 % de las parejas de cama informó mayor satisfacción en la relación, el 47 % no informó cambios y el 71 % dijo que su calidad del sueño mejoró.",
+      "learning_objective": "Comprenda el sueño compartido y el apoyo sin culpa.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-02.ts",
+      "source_hash": "2cf13f81f6573df2755457e9398460480c0073f78b09dcb1620b774b4b7af8de",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m2:m2-05"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "¿Cómo afecta la apnea del sueño a mi pareja?",
+      "screen_id": "m2-04",
+      "language": "es",
+      "approved_text": "Usar CPAP mientras duerme con su pareja\nAl principio de su experiencia con CPAP, es normal tener que adaptarse al aspecto de la máquina y a la intimidad. Algunas parejas pueden notar dificultades porque al principio CPAP parece una barrera para acercarse. Sin embargo, con el tiempo las parejas se acostumbran a la máquina y han informado que recuperan o mejoran la intimidad, la calidad del sueño, el ánimo y la energía de ambos. Los estudios muestran que las personas con pareja pueden tener mejor adherencia a CPAP; contar con su pareja puede ayudar a mantenerla. Para algunas parejas, CPAP puede parecer una barrera para la intimidad, pero es fundamental que una persona con apnea del sueño utilice la máquina, especialmente durante el embarazo. La apnea del sueño no tratada puede tener efectos graves para la madre y el bebé, como aprendimos en los módulos anteriores.\nAl principio de su experiencia con CPAP, es normal tener que adaptarse al aspecto de la máquina y a la intimidad. Algunas parejas pueden notar dificultades porque al principio CPAP parece una barrera para acercarse.\nSin embargo, con el tiempo las parejas se acostumbran a la máquina y han informado que recuperan o mejoran la intimidad, la calidad del sueño, el ánimo y la energía de ambos. Los estudios muestran que las personas con pareja pueden tener mejor adherencia a CPAP; contar con su pareja puede ayudar a mantenerla.\nPara algunas parejas, CPAP puede parecer una barrera para la intimidad, pero es fundamental que una persona con apnea del sueño utilice la máquina, especialmente durante el embarazo. La apnea del sueño no tratada puede tener efectos graves para la madre y el bebé, como aprendimos en los módulos anteriores.",
+      "learning_objective": "Comprenda el sueño compartido y el apoyo sin culpa.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-02.ts",
+      "source_hash": "2cf13f81f6573df2755457e9398460480c0073f78b09dcb1620b774b4b7af8de",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m2:m2-04"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "¿Cómo afecta la apnea del sueño a mi pareja?",
+      "screen_id": "m2-q2",
+      "language": "es",
+      "approved_text": "¡Es hora de una pregunta! ¿Cuál de las siguientes afirmaciones es correcta? (seleccione todas las que correspondan).\n¡Es hora de una pregunta! ¿Cuál de las siguientes afirmaciones es correcta? (seleccione todas las que correspondan). ¿Cuál de las siguientes afirmaciones es correcta? (seleccione todas las que correspondan). Usar CPAP al dormir con su pareja garantiza que ambos se duerman y despierten exactamente a la misma hora. Usar CPAP al dormir con su pareja puede ayudar a mejorar los niveles de energía de ambos. Usar CPAP una noche sí y otra no al dormir con su pareja ofrece los mismos beneficios para la pareja que usarlo todas las noches. Usar CPAP al dormir con su pareja puede ayudar a que su pareja se duerma más rápido\nUsar CPAP al dormir con su pareja garantiza que ambos se duerman y despierten exactamente a la misma hora.\nUsar CPAP al dormir con su pareja puede ayudar a mejorar los niveles de energía de ambos.\nUsar CPAP una noche sí y otra no al dormir con su pareja ofrece los mismos beneficios para la pareja que usarlo todas las noches.\nUsar CPAP al dormir con su pareja puede ayudar a que su pareja se duerma más rápido",
+      "learning_objective": "Comprenda el sueño compartido y el apoyo sin culpa.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-02.ts",
+      "source_hash": "2cf13f81f6573df2755457e9398460480c0073f78b09dcb1620b774b4b7af8de",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m2:m2-q2"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "¿Cómo afecta la apnea del sueño a mi pareja?",
+      "screen_id": "m2-q1",
+      "language": "es",
+      "approved_text": "¿Verdadero o falso?\n¿Verdadero o falso? Los estudios han mostrado que, aunque usar CPAP al dormir con una pareja mejora la calidad del sueño de esta, la satisfacción en la relación no cambió para ninguna de las parejas. Verdadero Falso\nVerdadero\nFalso",
+      "learning_objective": "Comprenda el sueño compartido y el apoyo sin culpa.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-02.ts",
+      "source_hash": "2cf13f81f6573df2755457e9398460480c0073f78b09dcb1620b774b4b7af8de",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m2:m2-q1"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "¿Cómo afecta la apnea del sueño a mi pareja?",
+      "screen_id": "m2-02",
+      "language": "es",
+      "approved_text": "¿Qué podría experimentar una pareja?\nUna pareja puede experimentar sueño interrumpido, preocupación por las pausas respiratorias, dificultad para volver a dormir, cansancio al día siguiente, frustración por los ronquidos o las rutinas alteradas, o preocupación por si el tratamiento está funcionando. No todas las parejas tienen la misma experiencia y no todas las personas comparten cama.\nUna pareja puede experimentar sueño interrumpido, preocupación por las pausas respiratorias, dificultad para volver a dormir, cansancio al día siguiente, frustración por los ronquidos o las rutinas alteradas, o preocupación por si el tratamiento está funcionando.\nNo todas las parejas tienen la misma experiencia y no todas las personas comparten cama.",
+      "learning_objective": "Comprenda el sueño compartido y el apoyo sin culpa.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-02.ts",
+      "source_hash": "2cf13f81f6573df2755457e9398460480c0073f78b09dcb1620b774b4b7af8de",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m2:m2-02"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "¿Cómo afecta la apnea del sueño a mi pareja?",
+      "screen_id": "m2-ai1",
+      "language": "es",
+      "approved_text": "Explique el sueño compartido\nDescriba una manera en que la AOS podría afectar a una pareja y una manera en que PAP podría ayudar.",
+      "learning_objective": "Comprenda el sueño compartido y el apoyo sin culpa.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-02.ts",
+      "source_hash": "2cf13f81f6573df2755457e9398460480c0073f78b09dcb1620b774b4b7af8de",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m2:m2-ai1"
+    },
+    {
+      "module_id": "m2",
+      "module_title": "¿Cómo afecta la apnea del sueño a mi pareja?",
+      "screen_id": "m2-recap",
+      "language": "es",
+      "approved_text": "Resumen del módulo\nLa AOS puede interrumpir el sueño de una pareja y causar preocupación, pero las experiencias varían. PAP puede mejorar el sueño compartido cuando el tratamiento es eficaz. Los problemas prácticos deben abordarse sin culpas, y los problemas del equipo o del tratamiento pueden conversarse con el equipo de PAP.",
+      "learning_objective": "Comprenda el sueño compartido y el apoyo sin culpa.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m2",
+        "summary"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-02.ts",
+      "source_hash": "2cf13f81f6573df2755457e9398460480c0073f78b09dcb1620b774b4b7af8de",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m2:m2-recap"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "Resultados de la AOS y motivación",
+      "screen_id": "m3-01",
+      "language": "es",
+      "approved_text": "Resultados y motivación relacionados con la AOS\nEn esta sección aprenderemos sobre algunos resultados que la AOS no tratada o tratada puede tener para usted y su bebé. Después veremos cómo mantener la motivación y el compromiso con el tratamiento de la apnea del sueño para que ambos estén lo más saludables posible.",
+      "learning_objective": "Comprenda asociaciones, barreras de PAP y próximos pasos realistas.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-03.ts",
+      "source_hash": "0fb2be2ff184f7bf952fba5f43c1aa22f6b16c0316a7d8707d2ea169a4eef2c1",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m3:m3-01"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "Resultados de la AOS y motivación",
+      "screen_id": "m3-q1",
+      "language": "es",
+      "approved_text": "¿Verdadero o falso? (Esta pregunta es para aprender, no es una comprobación de conocimientos)\n¿Verdadero o falso? (Esta pregunta es para aprender, no es una comprobación de conocimientos) Las embarazadas con AOS no tratada tienen más probabilidades de presentar enfermedades coexistentes que aumentan el riesgo de parto por cesárea. Verdadero Falso\nVerdadero\nFalso",
+      "learning_objective": "Comprenda asociaciones, barreras de PAP y próximos pasos realistas.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-03.ts",
+      "source_hash": "0fb2be2ff184f7bf952fba5f43c1aa22f6b16c0316a7d8707d2ea169a4eef2c1",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m3:m3-q1"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "Resultados de la AOS y motivación",
+      "screen_id": "m3-q3",
+      "language": "es",
+      "approved_text": "Seleccione la respuesta correcta: (Esta pregunta es para aprender, no es una comprobación de conocimientos)\nLas embarazadas con AOS no tratada durante su ingreso hospitalario para el parto tienen un riesgo significativamente mayor de: Seleccione la respuesta correcta: (Esta pregunta es para aprender, no es una comprobación de conocimientos) resfriarse tener problemas cardíacos intoxicarse con alimentos tener sangrado nasal\nLas embarazadas con AOS no tratada durante su ingreso hospitalario para el parto tienen un riesgo significativamente mayor de:\nresfriarse\ntener problemas cardíacos\nintoxicarse con alimentos\ntener sangrado nasal",
+      "learning_objective": "Comprenda asociaciones, barreras de PAP y próximos pasos realistas.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-03.ts",
+      "source_hash": "0fb2be2ff184f7bf952fba5f43c1aa22f6b16c0316a7d8707d2ea169a4eef2c1",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m3:m3-q3"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "Resultados de la AOS y motivación",
+      "screen_id": "m3-q4",
+      "language": "es",
+      "approved_text": "Seleccione la respuesta correcta: (Esta pregunta es para aprender, no es una comprobación de conocimientos)\nSe han observado asociaciones clínicas entre las embarazadas con trastornos respiratorios del sueño (TRS) y pesos ______ de los recién nacidos. Seleccione la respuesta correcta: (Esta pregunta es para aprender, no es una comprobación de conocimientos) anormalmente altos normales anormalmente bajos\nSe han observado asociaciones clínicas entre las embarazadas con trastornos respiratorios del sueño (TRS) y pesos ______ de los recién nacidos.\nanormalmente altos\nnormales\nanormalmente bajos",
+      "learning_objective": "Comprenda asociaciones, barreras de PAP y próximos pasos realistas.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-03.ts",
+      "source_hash": "0fb2be2ff184f7bf952fba5f43c1aa22f6b16c0316a7d8707d2ea169a4eef2c1",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m3:m3-q4"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "Resultados de la AOS y motivación",
+      "screen_id": "m3-recap",
+      "language": "es",
+      "approved_text": "Resumen\nEspero que estas preguntas le hayan dado la oportunidad de aprender cómo la AOS puede afectar los resultados maternos y fetales o neonatales. En general, aprendimos: • La AOS no tratada aumenta las probabilidades de parto por cesárea • La AOS no tratada aumenta significativamente las probabilidades de problemas cardíacos • La AOS no tratada aumenta el riesgo de bajo peso al nacer\nEspero que estas preguntas le hayan dado la oportunidad de aprender cómo la AOS puede afectar los resultados maternos y fetales o neonatales. En general, aprendimos:\n• La AOS no tratada aumenta las probabilidades de parto por cesárea\n• La AOS no tratada aumenta significativamente las probabilidades de problemas cardíacos\n• La AOS no tratada aumenta el riesgo de bajo peso al nacer",
+      "learning_objective": "Comprenda asociaciones, barreras de PAP y próximos pasos realistas.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "summary"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-03.ts",
+      "source_hash": "0fb2be2ff184f7bf952fba5f43c1aa22f6b16c0316a7d8707d2ea169a4eef2c1",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m3:m3-recap"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "Resultados de la AOS y motivación",
+      "screen_id": "m3-04",
+      "language": "es",
+      "approved_text": "Motivaciones: ¿por qué es tan importante usar una máquina PAP durante el embarazo?\nUna máquina de presión positiva en las vías respiratorias (PAP) proporciona un flujo continuo de aire a una presión establecida que mantiene abierta la vía respiratoria y evita el colapso y los episodios de hipoxia, es decir, de bajo nivel de oxígeno, durante el sueño. Esto ayuda a proteger la salud de usted y de su bebé durante y después del embarazo.\nUna máquina de presión positiva en las vías respiratorias (PAP) proporciona un flujo continuo de aire a una presión establecida que mantiene abierta la vía respiratoria y evita el colapso y los episodios de hipoxia, es decir, de bajo nivel de oxígeno, durante el sueño.\nEsto ayuda a proteger la salud de usted y de su bebé durante y después del embarazo.",
+      "learning_objective": "Comprenda asociaciones, barreras de PAP y próximos pasos realistas.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-03.ts",
+      "source_hash": "0fb2be2ff184f7bf952fba5f43c1aa22f6b16c0316a7d8707d2ea169a4eef2c1",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m3:m3-04"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "Resultados de la AOS y motivación",
+      "screen_id": "m3-02",
+      "language": "es",
+      "approved_text": "Comprender el riesgo de salud\nCuando una investigación dice que la AOS está asociada con un resultado, significa que ese resultado ocurre con más frecuencia en grupos con AOS. No significa que cada persona con AOS vaya a experimentarlo. Tampoco significa que PAP pueda garantizar que se prevenga ese resultado. Su riesgo y su plan de tratamiento dependen de su salud individual; hable sobre ellos con su equipo de atención médica.\nCuando una investigación dice que la AOS está asociada con un resultado, significa que ese resultado ocurre con más frecuencia en grupos con AOS. No significa que cada persona con AOS vaya a experimentarlo.\nTampoco significa que PAP pueda garantizar que se prevenga ese resultado.\nSu riesgo y su plan de tratamiento dependen de su salud individual; hable sobre ellos con su equipo de atención médica.",
+      "learning_objective": "Comprenda asociaciones, barreras de PAP y próximos pasos realistas.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-03.ts",
+      "source_hash": "0fb2be2ff184f7bf952fba5f43c1aa22f6b16c0316a7d8707d2ea169a4eef2c1",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m3:m3-02"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "Resultados de la AOS y motivación",
+      "screen_id": "m3-03",
+      "language": "es",
+      "approved_text": "Tener dificultades con PAP es común\nPAP puede ser difícil por muchas razones, como molestias de la mascarilla, fugas de aire, congestión nasal, sequedad, reflujo, ansiedad, problemas con los tubos, ruido de la máquina o dudas sobre si el tratamiento está ayudando. Una dificultad no es lo mismo que un fracaso. Empiece por describir el problema específico con la mayor claridad posible.\nPAP puede ser difícil por muchas razones, como molestias de la mascarilla, fugas de aire, congestión nasal, sequedad, reflujo, ansiedad, problemas con los tubos, ruido de la máquina o dudas sobre si el tratamiento está ayudando.\nUna dificultad no es lo mismo que un fracaso.\nEmpiece por describir el problema específico con la mayor claridad posible.",
+      "learning_objective": "Comprenda asociaciones, barreras de PAP y próximos pasos realistas.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-03.ts",
+      "source_hash": "0fb2be2ff184f7bf952fba5f43c1aa22f6b16c0316a7d8707d2ea169a4eef2c1",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m3:m3-03"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "Resultados de la AOS y motivación",
+      "screen_id": "m3-ai1",
+      "language": "es",
+      "approved_text": "Describa una barrera de PAP\n¿Qué hace que PAP sea más difícil para usted ahora?",
+      "learning_objective": "Comprenda asociaciones, barreras de PAP y próximos pasos realistas.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-03.ts",
+      "source_hash": "0fb2be2ff184f7bf952fba5f43c1aa22f6b16c0316a7d8707d2ea169a4eef2c1",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m3:m3-ai1"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "Resultados de la AOS y motivación",
+      "screen_id": "m3-ai2",
+      "language": "es",
+      "approved_text": "Cree un próximo paso realista\n¿Qué cambio relacionado con PAP o el sueño le gustaría hacer?",
+      "learning_objective": "Comprenda asociaciones, barreras de PAP y próximos pasos realistas.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-03.ts",
+      "source_hash": "0fb2be2ff184f7bf952fba5f43c1aa22f6b16c0316a7d8707d2ea169a4eef2c1",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m3:m3-ai2"
+    },
+    {
+      "module_id": "m3",
+      "module_title": "Resultados de la AOS y motivación",
+      "screen_id": "m3-q2",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos\n¿Qué plan es más específico y útil? “Seré perfecto/a con PAP.” “Me esforzaré más algún día.” “Usaré PAP al acostarme esta noche y anotaré cualquier problema que haga que me lo quite.” “Cambiaré la presión si PAP es incómodo.” Un plan útil especifica una acción y una forma de aprender de las barreras sin cambiar el tratamiento por cuenta propia.\n¿Qué plan es más específico y útil?\n“Seré perfecto/a con PAP.”\n“Me esforzaré más algún día.”\n“Usaré PAP al acostarme esta noche y anotaré cualquier problema que haga que me lo quite.”\n“Cambiaré la presión si PAP es incómodo.”\nCorrecto.\nAún no.\nUn plan útil especifica una acción y una forma de aprender de las barreras sin cambiar el tratamiento por cuenta propia.",
+      "learning_objective": "Comprenda asociaciones, barreras de PAP y próximos pasos realistas.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m3",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-03.ts",
+      "source_hash": "0fb2be2ff184f7bf952fba5f43c1aa22f6b16c0316a7d8707d2ea169a4eef2c1",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m3:m3-q2"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Apnea del sueño y salud de su embarazo y bebé",
+      "screen_id": "m4-01",
+      "language": "es",
+      "approved_text": "La apnea del sueño y la salud de su embarazo y su bebé\nEn este módulo aprenderemos sobre algunas complicaciones que la apnea del sueño no tratada o tratada puede causar en usted y su bebé durante el embarazo. Para hacer este módulo interactivo, se le harán preguntas que le ayudarán a comprender el contenido. No se preocupe por equivocarse: estas preguntas son únicamente para aprender.\nEn este módulo aprenderemos sobre algunas complicaciones que la apnea del sueño no tratada o tratada puede causar en usted y su bebé durante el embarazo.\nPara hacer este módulo interactivo, se le harán preguntas que le ayudarán a comprender el contenido. No se preocupe por equivocarse: estas preguntas son únicamente para aprender.",
+      "learning_objective": "Comprenda asociaciones del embarazo sin conclusiones deterministas.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-04.ts",
+      "source_hash": "b97b7734ed1d7be4936472f5104ce0b2b56fe9ce8a6c90f1bc78d1f206cef2d5",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m4:m4-01"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Apnea del sueño y salud de su embarazo y bebé",
+      "screen_id": "m4-q1",
+      "language": "es",
+      "approved_text": "¿Cuál de las siguientes afecciones puede estar asociada con la apnea del sueño durante el embarazo? ¡Dé su mejor respuesta!\n¿Cuál de las siguientes afecciones puede estar asociada con la apnea del sueño durante el embarazo? ¡Dé su mejor respuesta! Pista: hay 3 respuestas correctas. Preeclampsia Alergias alimentarias Intolerancia a la lactosa Presión arterial alta Glucosa alta en sangre\nPreeclampsia\nAlergias alimentarias\nIntolerancia a la lactosa\nPresión arterial alta\nGlucosa alta en sangre",
+      "learning_objective": "Comprenda asociaciones del embarazo sin conclusiones deterministas.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-04.ts",
+      "source_hash": "b97b7734ed1d7be4936472f5104ce0b2b56fe9ce8a6c90f1bc78d1f206cef2d5",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m4:m4-q1"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Apnea del sueño y salud de su embarazo y bebé",
+      "screen_id": "m4-03",
+      "language": "es",
+      "approved_text": "¿Qué es la diabetes gestacional (glucosa alta en sangre durante el embarazo)?\nVea este video corto de YouTube de Blue Cross Blue Shield of Michigan para aprender más sobre la diabetes gestacional.",
+      "learning_objective": "Comprenda asociaciones del embarazo sin conclusiones deterministas.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-04.ts",
+      "source_hash": "b97b7734ed1d7be4936472f5104ce0b2b56fe9ce8a6c90f1bc78d1f206cef2d5",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m4:m4-03"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Apnea del sueño y salud de su embarazo y bebé",
+      "screen_id": "m4-04",
+      "language": "es",
+      "approved_text": "¿Cuáles son las complicaciones para la madre si tiene diabetes gestacional?\n¿Cuáles son las complicaciones para la madre si tiene diabetes gestacional? Pista: hay 3 respuestas correctas. Asma Necesitar una cesárea Obesidad y diabetes tipo 2 Presión arterial alta y preeclampsia Fracturas óseas\nAsma\nNecesitar una cesárea\nObesidad y diabetes tipo 2\nPresión arterial alta y preeclampsia\nFracturas óseas",
+      "learning_objective": "Comprenda asociaciones del embarazo sin conclusiones deterministas.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-04.ts",
+      "source_hash": "b97b7734ed1d7be4936472f5104ce0b2b56fe9ce8a6c90f1bc78d1f206cef2d5",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m4:m4-04"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Apnea del sueño y salud de su embarazo y bebé",
+      "screen_id": "m4-q4",
+      "language": "es",
+      "approved_text": "¿Cuáles son las complicaciones para el bebé si la madre tiene diabetes gestacional?\n¿Cuáles son las complicaciones para el bebé si la madre tiene diabetes gestacional? Pista: hay 3 respuestas correctas. Autismo Síndrome de dificultad respiratoria (dificultad para respirar) Peso excesivo al nacer TDAH Nacimiento prematuro o muerte fetal\nAutismo\nSíndrome de dificultad respiratoria (dificultad para respirar)\nPeso excesivo al nacer\nTDAH\nNacimiento prematuro o muerte fetal",
+      "learning_objective": "Comprenda asociaciones del embarazo sin conclusiones deterministas.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-04.ts",
+      "source_hash": "b97b7734ed1d7be4936472f5104ce0b2b56fe9ce8a6c90f1bc78d1f206cef2d5",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m4:m4-q4"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Apnea del sueño y salud de su embarazo y bebé",
+      "screen_id": "m4-05",
+      "language": "es",
+      "approved_text": "¿Qué es la preeclampsia?\nVea este video corto de YouTube de Blue Cross Blue Shield of Michigan para aprender más sobre la preeclampsia.",
+      "learning_objective": "Comprenda asociaciones del embarazo sin conclusiones deterministas.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-04.ts",
+      "source_hash": "b97b7734ed1d7be4936472f5104ce0b2b56fe9ce8a6c90f1bc78d1f206cef2d5",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m4:m4-05"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Apnea del sueño y salud de su embarazo y bebé",
+      "screen_id": "m4-06",
+      "language": "es",
+      "approved_text": "¿Qué es la preeclampsia? (continuación)\nAdemás de la información mencionada en el video, es importante señalar que la preeclampsia puede causar daño a órganos, no solo problemas cardíacos. • La preeclampsia puede causar presión arterial muy alta y daño renal, por lo que algunas mujeres tienen exceso de proteína en la orina, una señal de que los riñones no funcionan correctamente. • La preeclampsia también puede dañar el hígado, el cerebro y las plaquetas, que son células sanguíneas que permiten la coagulación. Por último, la preeclampsia puede alterar el flujo de sangre hacia la placenta y causar una afección llamada restricción del crecimiento fetal. Esto ocurre cuando el bebé no recibe suficientes nutrientes a través de la placenta para crecer adecuadamente y termina siendo más pequeño de lo esperado para su edad gestacional.\nAdemás de la información mencionada en el video, es importante señalar que la preeclampsia puede causar daño a órganos, no solo problemas cardíacos.\n• La preeclampsia puede causar presión arterial muy alta y daño renal, por lo que algunas mujeres tienen exceso de proteína en la orina, una señal de que los riñones no funcionan correctamente.\n• La preeclampsia también puede dañar el hígado, el cerebro y las plaquetas, que son células sanguíneas que permiten la coagulación.\nPor último, la preeclampsia puede alterar el flujo de sangre hacia la placenta y causar una afección llamada restricción del crecimiento fetal. Esto ocurre cuando el bebé no recibe suficientes nutrientes a través de la placenta para crecer adecuadamente y termina siendo más pequeño de lo esperado para su edad gestacional.",
+      "learning_objective": "Comprenda asociaciones del embarazo sin conclusiones deterministas.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-04.ts",
+      "source_hash": "b97b7734ed1d7be4936472f5104ce0b2b56fe9ce8a6c90f1bc78d1f206cef2d5",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m4:m4-06"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Apnea del sueño y salud de su embarazo y bebé",
+      "screen_id": "m4-q6",
+      "language": "es",
+      "approved_text": "¿Cuáles son las complicaciones para la madre o el bebé si la madre tiene preeclampsia?\n¿Cuáles son las complicaciones para la madre o el bebé si la madre tiene preeclampsia? Pista: hay 2 respuestas correctas. Codo de tenista Problemas cardíacos graves Pie de atleta Restricción del crecimiento fetal Caries\nCodo de tenista\nProblemas cardíacos graves\nPie de atleta\nRestricción del crecimiento fetal\nCaries",
+      "learning_objective": "Comprenda asociaciones del embarazo sin conclusiones deterministas.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-04.ts",
+      "source_hash": "b97b7734ed1d7be4936472f5104ce0b2b56fe9ce8a6c90f1bc78d1f206cef2d5",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m4:m4-q6"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Apnea del sueño y salud de su embarazo y bebé",
+      "screen_id": "m4-recap",
+      "language": "es",
+      "approved_text": "¡Hagamos un resumen!\n¡Hagamos un resumen de lo que aprendimos! Este diagrama resume las distintas afecciones con las que la apnea del sueño puede estar asociada.",
+      "learning_objective": "Comprenda asociaciones del embarazo sin conclusiones deterministas.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "summary"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-04.ts",
+      "source_hash": "b97b7734ed1d7be4936472f5104ce0b2b56fe9ce8a6c90f1bc78d1f206cef2d5",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m4:m4-recap"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Apnea del sueño y salud de su embarazo y bebé",
+      "screen_id": "m4-02",
+      "language": "es",
+      "approved_text": "El riesgo no es destino\nLa investigación ha encontrado asociaciones entre la AOS durante el embarazo y condiciones como la diabetes gestacional y los trastornos hipertensivos del embarazo. Una asociación no significa que la AOS sea la única causa. Tampoco significa que cada persona embarazada con AOS vaya a tener una complicación. Aprender sobre estas condiciones debe apoyar una atención informada, no crear miedo.\nLa investigación ha encontrado asociaciones entre la AOS durante el embarazo y condiciones como la diabetes gestacional y los trastornos hipertensivos del embarazo.\nUna asociación no significa que la AOS sea la única causa. Tampoco significa que cada persona embarazada con AOS vaya a tener una complicación.\nAprender sobre estas condiciones debe apoyar una atención informada, no crear miedo.",
+      "learning_objective": "Comprenda asociaciones del embarazo sin conclusiones deterministas.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-04.ts",
+      "source_hash": "b97b7734ed1d7be4936472f5104ce0b2b56fe9ce8a6c90f1bc78d1f206cef2d5",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m4:m4-02"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Apnea del sueño y salud de su embarazo y bebé",
+      "screen_id": "m4-q3",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos\n¿Qué trata directamente PAP? La respiración obstructiva durante el sueño. Garantiza que se prevengan todas las complicaciones del embarazo. Trata directamente la diabetes gestacional. Reemplaza la atención prenatal. PAP trata directamente la respiración obstructiva durante el sueño. No debe presentarse como una garantía contra las complicaciones del embarazo ni como un reemplazo de la atención prenatal.\n¿Qué trata directamente PAP?\nLa respiración obstructiva durante el sueño.\nGarantiza que se prevengan todas las complicaciones del embarazo.\nTrata directamente la diabetes gestacional.\nReemplaza la atención prenatal.\nCorrecto.\nAún no.\nPAP trata directamente la respiración obstructiva durante el sueño. No debe presentarse como una garantía contra las complicaciones del embarazo ni como un reemplazo de la atención prenatal.",
+      "learning_objective": "Comprenda asociaciones del embarazo sin conclusiones deterministas.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-04.ts",
+      "source_hash": "b97b7734ed1d7be4936472f5104ce0b2b56fe9ce8a6c90f1bc78d1f206cef2d5",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m4:m4-q3"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Apnea del sueño y salud de su embarazo y bebé",
+      "screen_id": "m4-ai1",
+      "language": "es",
+      "approved_text": "Explique asociación y garantía\nExplique la diferencia entre una asociación y una garantía.",
+      "learning_objective": "Comprenda asociaciones del embarazo sin conclusiones deterministas.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-04.ts",
+      "source_hash": "b97b7734ed1d7be4936472f5104ce0b2b56fe9ce8a6c90f1bc78d1f206cef2d5",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m4:m4-ai1"
+    },
+    {
+      "module_id": "m4",
+      "module_title": "Apnea del sueño y salud de su embarazo y bebé",
+      "screen_id": "m4-ai2",
+      "language": "es",
+      "approved_text": "Prepare una pregunta para su equipo\n¿Qué le gustaría comprender mejor sobre apnea del sueño y embarazo?",
+      "learning_objective": "Comprenda asociaciones del embarazo sin conclusiones deterministas.",
+      "allowed_claims": [
+        "OSA_PREGNANCY_PAP_GENERAL",
+        "PREGNANCY_CLINICIAN_MONITORING",
+        "HEALTHCARE_TEAM_QUESTIONS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m4",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-04.ts",
+      "source_hash": "b97b7734ed1d7be4936472f5104ce0b2b56fe9ce8a6c90f1bc78d1f206cef2d5",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m4:m4-ai2"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-01",
+      "language": "es",
+      "approved_text": "Higiene saludable del sueño\nEn este módulo aprenderemos sobre intervenciones de estilo de vida y cambios de conducta que puede incorporar a su vida diaria para mejorar su sueño en general. Para hacer este módulo interactivo, se le harán preguntas que le ayudarán a comprender el contenido. No se preocupe por equivocarse: estas preguntas son únicamente para aprender.\nEn este módulo aprenderemos sobre intervenciones de estilo de vida y cambios de conducta que puede incorporar a su vida diaria para mejorar su sueño en general.\nPara hacer este módulo interactivo, se le harán preguntas que le ayudarán a comprender el contenido. No se preocupe por equivocarse: estas preguntas son únicamente para aprender.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-01"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-02",
+      "language": "es",
+      "approved_text": "¿Por qué es tan importante dormir bien durante el embarazo?\nDormir bien durante el embarazo ofrece importantes beneficios de salud para usted y para su bebé en crecimiento. Algunos de los beneficios más importantes para usted incluyen: • Menor riesgo de enfermedades crónicas (diabetes, presión arterial alta y colesterol alto) • Mejor estado de ánimo y salud mental • Menos cansancio durante el día y más energía Dormir bien también es importante durante el embarazo porque dormir mal se relaciona con resultados desfavorables del embarazo. A continuación hablaremos sobre qué es la higiene del sueño y cómo podemos usarla para mejorar nuestro sueño.\nDormir bien durante el embarazo ofrece importantes beneficios de salud para usted y para su bebé en crecimiento.\nAlgunos de los beneficios más importantes para usted incluyen:\n• Menor riesgo de enfermedades crónicas (diabetes, presión arterial alta y colesterol alto)\n• Mejor estado de ánimo y salud mental\n• Menos cansancio durante el día y más energía\nDormir bien también es importante durante el embarazo porque dormir mal se relaciona con resultados desfavorables del embarazo.\nA continuación hablaremos sobre qué es la higiene del sueño y cómo podemos usarla para mejorar nuestro sueño.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-02"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-03",
+      "language": "es",
+      "approved_text": "¿Qué es la higiene del sueño?\nLa higiene del sueño es un conjunto de hábitos saludables, conductas y factores ambientales que favorecen un sueño constante y de calidad, ayudan a dormirse más rápido y permiten permanecer dormido por más tiempo. En este módulo revisaremos estos elementos de la higiene del sueño: • Establecer una buena rutina de sueño • Abordar la dificultad para conciliar el sueño • La importancia de la luz, el sol y la oscuridad • Crear un buen ambiente para dormir • La cafeína • La importancia de la alimentación y la nutrición • La importancia de hacer ejercicio con regularidad • Abordar las siestas • Manejar el estrés para dormir • La postura al dormir\nLa higiene del sueño es un conjunto de hábitos saludables, conductas y factores ambientales que favorecen un sueño constante y de calidad, ayudan a dormirse más rápido y permiten permanecer dormido por más tiempo.\nEn este módulo revisaremos estos elementos de la higiene del sueño:\n• Establecer una buena rutina de sueño\n• Abordar la dificultad para conciliar el sueño\n• La importancia de la luz, el sol y la oscuridad\n• Crear un buen ambiente para dormir\n• La cafeína\n• La importancia de la alimentación y la nutrición\n• La importancia de hacer ejercicio con regularidad\n• Abordar las siestas\n• Manejar el estrés para dormir\n• La postura al dormir",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-03"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-q5",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos 1: los problemas de dormir mal\n¿Cuáles son algunas consecuencias de dormir mal? Comprobemos rápidamente sus conocimientos. Seleccione todas las opciones que correspondan. (Pista: hay 3 respuestas correctas.) Dormir mal fortalecerá su sistema inmunitario Mayor riesgo de depresión y síntomas de ánimo más intensos Será más bajo de estatura Dormir mal no es tan grave: tiene muy pocas consecuencias Mayor riesgo de enfermedades crónicas (diabetes, presión arterial alta y colesterol alto) Mayor probabilidad de cansancio y falta de energía durante el día\n¿Cuáles son algunas consecuencias de dormir mal?\nDormir mal fortalecerá su sistema inmunitario\nMayor riesgo de depresión y síntomas de ánimo más intensos\nSerá más bajo de estatura\nDormir mal no es tan grave: tiene muy pocas consecuencias\nMayor riesgo de enfermedades crónicas (diabetes, presión arterial alta y colesterol alto)\nMayor probabilidad de cansancio y falta de energía durante el día",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-q5"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-q6",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos 2: los problemas de dormir mal durante el embarazo\n¿Cuáles son algunas consecuencias de dormir mal durante el embarazo? Comprobemos rápidamente sus conocimientos. Seleccione todas las opciones que correspondan. (Pista: hay 3 respuestas correctas.) Mayor probabilidad de necesitar una cesárea El trabajo de parto se detendrá por completo El color de ojos de su bebé podría cambiar Es más probable que el bebé sea nocturno Mayor probabilidad de trabajos de parto más largos Mayor riesgo de nacimiento prematuro\n¿Cuáles son algunas consecuencias de dormir mal durante el embarazo?\nMayor probabilidad de necesitar una cesárea\nEl trabajo de parto se detendrá por completo\nEl color de ojos de su bebé podría cambiar\nEs más probable que el bebé sea nocturno\nMayor probabilidad de trabajos de parto más largos\nMayor riesgo de nacimiento prematuro",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-q6"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-04",
+      "language": "es",
+      "approved_text": "Establecer una buena rutina de sueño, parte 1: rutina para acostarse\nEstablecer una buena rutina de sueño es una de las modificaciones de estilo de vida más importantes para mejorar el sueño, el estado de ánimo y la energía diaria. Revisaremos tres componentes de una buena rutina. El primer componente es establecer una rutina relajante aproximadamente una hora antes de acostarse. Puede incluir leer algo ligero y relativamente aburrido, estirarse o tomar un baño tibio. Escuchar música tranquila y bajar las luces también son buenas prácticas. Tener una rutina de sueño indica al cerebro y al cuerpo que es hora de relajarse, lo que reduce el estrés y la ansiedad y puede mejorar la calidad del sueño e incluso la función cognitiva.\nEstablecer una buena rutina de sueño es una de las modificaciones de estilo de vida más importantes para mejorar el sueño, el estado de ánimo y la energía diaria. Revisaremos tres componentes de una buena rutina.\nEl primer componente es establecer una rutina relajante aproximadamente una hora antes de acostarse.\nPuede incluir leer algo ligero y relativamente aburrido, estirarse o tomar un baño tibio. Escuchar música tranquila y bajar las luces también son buenas prácticas. Tener una rutina de sueño indica al cerebro y al cuerpo que es hora de relajarse, lo que reduce el estrés y la ansiedad y puede mejorar la calidad del sueño e incluso la función cognitiva.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-04"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-13",
+      "language": "es",
+      "approved_text": "Establecer una buena rutina de sueño, parte 2: horarios de sueño y vigilia\nEl segundo componente de una buena rutina de sueño es mantener horarios similares para acostarse y levantarse. Levántese aproximadamente a la misma hora cada mañana y acuéstese aproximadamente a la misma hora cada noche, incluso si la noche anterior no durmió bien. Esto ancla el reloj interno del cuerpo, o ritmo circadiano, y puede ayudarle a tener más sueño por la noche. Esto es especialmente importante los fines de semana. Puede ser tentador dormir hasta tarde, pero cambiar el horario de sueño de un lado a otro, lo que se conoce como desfase horario social, se parece a cruzar zonas horarias cada semana. Si se siente cansado durante la semana, puede ser una señal de que necesita mejorar su sueño en general.\nEl segundo componente de una buena rutina de sueño es mantener horarios similares para acostarse y levantarse.\nLevántese aproximadamente a la misma hora cada mañana y acuéstese aproximadamente a la misma hora cada noche, incluso si la noche anterior no durmió bien. Esto ancla el reloj interno del cuerpo, o ritmo circadiano, y puede ayudarle a tener más sueño por la noche.\nEsto es especialmente importante los fines de semana. Puede ser tentador dormir hasta tarde, pero cambiar el horario de sueño de un lado a otro, lo que se conoce como desfase horario social, se parece a cruzar zonas horarias cada semana. Si se siente cansado durante la semana, puede ser una señal de que necesita mejorar su sueño en general.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-13"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-05",
+      "language": "es",
+      "approved_text": "Establecer una buena rutina de sueño, parte 3: evitar la luz azul cerca de la hora de acostarse\nEl tercer componente de una buena rutina de sueño es evitar la luz azul antes de acostarse. La luz azul, y la luz brillante en general, inhibe la producción de melatonina, la sustancia que produce sueño. Esto es útil por la mañana, cuando quiere despertarse, pero perjudicial por la noche, cuando quiere sentir sueño. Muchos dispositivos electrónicos emiten mucha luz azul, por lo que usar el teléfono antes de acostarse puede perjudicar el sueño. Estos cambios en su rutina pueden ayudarle a sentir más sueño por la noche y mejorar la calidad del sueño: • Mantenga la iluminación del hogar al mínimo antes de acostarse. Baje las luces y, cuando necesite luz, utilice tonos más cálidos, como naranja o rojo. • Utilice el modo nocturno o filtros de color del teléfono y reduzca el brillo. Lo mejor sería no usar dispositivos cerca de la hora de acostarse. El modo nocturno reduce la luz azul y un filtro rojo puede eliminarla por completo.\nEl tercer componente de una buena rutina de sueño es evitar la luz azul antes de acostarse.\nLa luz azul, y la luz brillante en general, inhibe la producción de melatonina, la sustancia que produce sueño. Esto es útil por la mañana, cuando quiere despertarse, pero perjudicial por la noche, cuando quiere sentir sueño. Muchos dispositivos electrónicos emiten mucha luz azul, por lo que usar el teléfono antes de acostarse puede perjudicar el sueño.\nEstos cambios en su rutina pueden ayudarle a sentir más sueño por la noche y mejorar la calidad del sueño:\n• Mantenga la iluminación del hogar al mínimo antes de acostarse. Baje las luces y, cuando necesite luz, utilice tonos más cálidos, como naranja o rojo.\n• Utilice el modo nocturno o filtros de color del teléfono y reduzca el brillo. Lo mejor sería no usar dispositivos cerca de la hora de acostarse. El modo nocturno reduce la luz azul y un filtro rojo puede eliminarla por completo.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-05"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-q7",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos 3: componentes de la higiene del sueño\n¿Qué 3 actividades puede incorporar a su vida para ayudar a mejorar el sueño? Comprobemos rápidamente sus conocimientos. Seleccione todas las opciones que correspondan. (Pista: hay 3 respuestas correctas.) Hacer ejercicio con regularidad cada semana Comer una comida abundante antes de acostarse Tomar una siesta larga durante el día Comer alimentos nutritivos cada semana Tomar el sol por la mañana y durante el día Tomar cafeína antes de acostarse para despertarse descansado\n¿Qué 3 actividades puede incorporar a su vida para ayudar a mejorar el sueño?\nHacer ejercicio con regularidad cada semana\nComer una comida abundante antes de acostarse\nTomar una siesta larga durante el día\nComer alimentos nutritivos cada semana\nTomar el sol por la mañana y durante el día\nTomar cafeína antes de acostarse para despertarse descansado",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-q7"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-11",
+      "language": "es",
+      "approved_text": "Abordar la dificultad para conciliar el sueño\n¿Qué debe hacer si le cuesta conciliar el sueño? La dificultad para conciliar el sueño puede aparecer durante el embarazo. Si dura más de 20 minutos, lo mejor es levantarse, ir a otra habitación y hacer una actividad tranquila y relajante con poca luz, como leer, escuchar música tranquila o meditar. Conviene asociar la cama con dormir; salir del dormitorio cuando no tiene sueño ayuda a mantener esa asociación. Regrese a la cama solo cuando tenga sueño. Lo que NO debe hacer si le cuesta conciliar el sueño es usar dispositivos electrónicos. Estos pueden indicarle al cerebro que permanezca despierto por más tiempo. NO haga actividades estimulantes, como leer un libro de suspenso o escuchar música alta. NO encienda luces brillantes en mitad de la noche, ya que pueden dificultar volver a dormir. NO revise la hora, porque esto puede aumentar la ansiedad y la frustración relacionadas con el sueño.\n¿Qué debe hacer si le cuesta conciliar el sueño?\nLa dificultad para conciliar el sueño puede aparecer durante el embarazo. Si dura más de 20 minutos, lo mejor es levantarse, ir a otra habitación y hacer una actividad tranquila y relajante con poca luz, como leer, escuchar música tranquila o meditar. Conviene asociar la cama con dormir; salir del dormitorio cuando no tiene sueño ayuda a mantener esa asociación. Regrese a la cama solo cuando tenga sueño.\nLo que NO debe hacer si le cuesta conciliar el sueño es usar dispositivos electrónicos. Estos pueden indicarle al cerebro que permanezca despierto por más tiempo.\nNO haga actividades estimulantes, como leer un libro de suspenso o escuchar música alta.\nNO encienda luces brillantes en mitad de la noche, ya que pueden dificultar volver a dormir.\nNO revise la hora, porque esto puede aumentar la ansiedad y la frustración relacionadas con el sueño.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-11"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-q1",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos 4: rutina de sueño\n¿Cuáles son los 3 componentes importantes que puede aplicar para mejorar su rutina de sueño? Comprobemos rápidamente sus conocimientos. Seleccione todas las opciones que correspondan. (Pista: hay 3 respuestas correctas.) Evitar la luz azul por la noche y usar tonos más cálidos Establecer una rutina constante para acostarse Dormirse y despertarse a las mismas horas del día Desplazarse por el teléfono antes de acostarse para ayudarse a dormir Ver su programa favorito cerca de la hora de acostarse Dormir un par de horas más los fines de semana para “recuperar” el sueño\n¿Cuáles son los 3 componentes importantes que puede aplicar para mejorar su rutina de sueño?\nEvitar la luz azul por la noche y usar tonos más cálidos\nEstablecer una rutina constante para acostarse\nDormirse y despertarse a las mismas horas del día\nDesplazarse por el teléfono antes de acostarse para ayudarse a dormir\nVer su programa favorito cerca de la hora de acostarse\nDormir un par de horas más los fines de semana para “recuperar” el sueño",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-q1"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-14",
+      "language": "es",
+      "approved_text": "La importancia de la luz solar\n¡Salga a la luz del sol! La luz natural, especialmente por la mañana, favorece un sueño de calidad por la noche porque ayuda a ajustar el reloj interno del cuerpo, o ritmo circadiano. Esto le hace estar más despierto y alerta durante el día y sentir sueño de forma natural cuando llega la hora de acostarse. Puede dar un paseo corto por la mañana o simplemente abrir las ventanas para que entre la luz del sol en casa.\n¡Salga a la luz del sol!\nLa luz natural, especialmente por la mañana, favorece un sueño de calidad por la noche porque ayuda a ajustar el reloj interno del cuerpo, o ritmo circadiano. Esto le hace estar más despierto y alerta durante el día y sentir sueño de forma natural cuando llega la hora de acostarse.\nPuede dar un paseo corto por la mañana o simplemente abrir las ventanas para que entre la luz del sol en casa.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-14"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-q4",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos 5: dificultad para conciliar el sueño\n¿Qué debe hacer si le cuesta conciliar el sueño por la noche? Comprobemos rápidamente sus conocimientos. Seleccione todas las opciones que correspondan. (Pista: hay 3 respuestas correctas.) Hacer una actividad tranquila y relajante con poca luz Levantarse de la cama e ir a otra habitación Revisar la hora y calcular cuánto sueño está perdiendo Leer las noticias en el teléfono hasta tener sueño Quedarse en la cama completamente quieto hasta dormirse Volver a la cama cuando tenga sueño\n¿Qué debe hacer si le cuesta conciliar el sueño por la noche?\nHacer una actividad tranquila y relajante con poca luz\nLevantarse de la cama e ir a otra habitación\nRevisar la hora y calcular cuánto sueño está perdiendo\nLeer las noticias en el teléfono hasta tener sueño\nQuedarse en la cama completamente quieto hasta dormirse\nVolver a la cama cuando tenga sueño",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-q4"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-06",
+      "language": "es",
+      "approved_text": "Establecer un buen ambiente para dormir\n¿Cómo creo un ambiente óptimo para dormir? En este módulo revisaremos 4 componentes importantes de un ambiente óptimo para dormir. El primer componente es reservar el dormitorio únicamente para dormir o tener relaciones sexuales. • Esto se llama control de estímulos: se vuelve a entrenar al cerebro para asociar el dormitorio con el sueño y no con el trabajo, el estrés, desplazarse por el teléfono o estar despierto. Es una estrategia bien respaldada, especialmente para las personas con insomnio.\n¿Cómo creo un ambiente óptimo para dormir?\nEn este módulo revisaremos 4 componentes importantes de un ambiente óptimo para dormir.\nEl primer componente es reservar el dormitorio únicamente para dormir o tener relaciones sexuales.\n• Esto se llama control de estímulos: se vuelve a entrenar al cerebro para asociar el dormitorio con el sueño y no con el trabajo, el estrés, desplazarse por el teléfono o estar despierto. Es una estrategia bien respaldada, especialmente para las personas con insomnio.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-06"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-15",
+      "language": "es",
+      "approved_text": "Establecer un buen ambiente para dormir\nEl segundo componente de un ambiente óptimo para dormir es eliminar las molestias por ruido. • Los ruidos irregulares y no constantes pueden dificultar conciliar el sueño y reducir su calidad, incluso mientras está inconsciente. Busque formas de eliminar ruidos de autos, aviones o pasillos, y considere usar tapones para los oídos o una máquina de ruido blanco para cubrirlos.\nEl segundo componente de un ambiente óptimo para dormir es eliminar las molestias por ruido.\n• Los ruidos irregulares y no constantes pueden dificultar conciliar el sueño y reducir su calidad, incluso mientras está inconsciente. Busque formas de eliminar ruidos de autos, aviones o pasillos, y considere usar tapones para los oídos o una máquina de ruido blanco para cubrirlos.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-15"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-16",
+      "language": "es",
+      "approved_text": "Establecer un buen ambiente para dormir\nEl tercer componente de un ambiente óptimo para dormir es mantener el dormitorio lo más oscuro posible. • Incluso pequeñas fuentes de luz pueden alterar el sueño. Considere cortinas opacas o un antifaz para eliminar la estimulación visual. • También intente mantener bastante tenue la iluminación del hogar por la noche. La luz brillante antes de acostarse puede reducir la calidad del sueño porque indica al cuerpo que debe estar despierto. • En algunas zonas, dejar una luz encendida puede hacer que la casa parezca ocupada y ayudar a disuadir robos. En ese caso, puede ser mejor dejar encendidas luces fuera del dormitorio, como la del porche o el pasillo. • Es común necesitar luz para ir al baño. Una luz tenue y cálida cerca del suelo, como una tira de luces LED, puede mantener oscuro el dormitorio y permitir desplazarse con seguridad.\nEl tercer componente de un ambiente óptimo para dormir es mantener el dormitorio lo más oscuro posible.\n• Incluso pequeñas fuentes de luz pueden alterar el sueño. Considere cortinas opacas o un antifaz para eliminar la estimulación visual.\n• También intente mantener bastante tenue la iluminación del hogar por la noche. La luz brillante antes de acostarse puede reducir la calidad del sueño porque indica al cuerpo que debe estar despierto.\n• En algunas zonas, dejar una luz encendida puede hacer que la casa parezca ocupada y ayudar a disuadir robos. En ese caso, puede ser mejor dejar encendidas luces fuera del dormitorio, como la del porche o el pasillo.\n• Es común necesitar luz para ir al baño. Una luz tenue y cálida cerca del suelo, como una tira de luces LED, puede mantener oscuro el dormitorio y permitir desplazarse con seguridad.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-16"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-17",
+      "language": "es",
+      "approved_text": "Establecer un buen ambiente para dormir\nEl cuarto componente de un ambiente óptimo para dormir es mantener el dormitorio fresco, alrededor de 65 °F. • La temperatura corporal baja de forma natural durante el sueño y un ambiente fresco favorece ese cambio. • Esto es especialmente útil durante el embarazo, porque el aumento de hormonas, volumen sanguíneo y metabolismo puede elevar mucho la temperatura corporal y causar sofocos o sudores nocturnos. Un cuarto fresco permite que el cuerpo se enfríe de forma eficaz.\nEl cuarto componente de un ambiente óptimo para dormir es mantener el dormitorio fresco, alrededor de 65 °F.\n• La temperatura corporal baja de forma natural durante el sueño y un ambiente fresco favorece ese cambio.\n• Esto es especialmente útil durante el embarazo, porque el aumento de hormonas, volumen sanguíneo y metabolismo puede elevar mucho la temperatura corporal y causar sofocos o sudores nocturnos. Un cuarto fresco permite que el cuerpo se enfríe de forma eficaz.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-17"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-07",
+      "language": "es",
+      "approved_text": "Cafeína\nPara las mujeres en las primeras etapas del embarazo, consumir hasta 200 mg de cafeína, aproximadamente una taza de café de 12 onzas, al menos 8 a 10 horas antes de acostarse suele considerarse seguro. Consumir cafeína al menos 90 minutos después de despertarse también puede prevenir el bajón de cafeína de la tarde. En las últimas etapas del embarazo, el cuerpo puede tardar más en procesar la cafeína; si la consume, hágalo lo más temprano posible. En general, como el metabolismo de la cafeína varía mucho entre las embarazadas, muchos investigadores sugieren que lo más seguro es reducir su consumo tanto como sea posible.\nPara las mujeres en las primeras etapas del embarazo, consumir hasta 200 mg de cafeína, aproximadamente una taza de café de 12 onzas, al menos 8 a 10 horas antes de acostarse suele considerarse seguro. Consumir cafeína al menos 90 minutos después de despertarse también puede prevenir el bajón de cafeína de la tarde.\nEn las últimas etapas del embarazo, el cuerpo puede tardar más en procesar la cafeína; si la consume, hágalo lo más temprano posible.\nEn general, como el metabolismo de la cafeína varía mucho entre las embarazadas, muchos investigadores sugieren que lo más seguro es reducir su consumo tanto como sea posible.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-07"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-q2",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos 7: ambiente para dormir\n¿Cuáles son 3 componentes importantes que puede aplicar para mejorar su ambiente para dormir? Comprobemos rápidamente sus conocimientos. Seleccione todas las opciones que correspondan. (Pista: hay 3 respuestas correctas.) Mantener un reloj digital brillante frente a la cama para poder mirar la hora Eliminar toda estimulación visual Dormir con música aleatoria toda la noche Mantener el dormitorio a una temperatura fresca (60–68 °F) Eliminar todas las molestias por ruido Mantener el dormitorio a una temperatura cálida (75–82 °F)\n¿Cuáles son 3 componentes importantes que puede aplicar para mejorar su ambiente para dormir?\nMantener un reloj digital brillante frente a la cama para poder mirar la hora\nEliminar toda estimulación visual\nDormir con música aleatoria toda la noche\nMantener el dormitorio a una temperatura fresca (60–68 °F)\nEliminar todas las molestias por ruido\nMantener el dormitorio a una temperatura cálida (75–82 °F)",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-q2"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-08",
+      "language": "es",
+      "approved_text": "Crononutrición (horario de las comidas para dormir)\nLa crononutrición se refiere a cómo el horario de las comidas puede afectar el sueño y el ritmo circadiano. Veamos algunos de los mejores consejos de crononutrición. Concentre las calorías y la hidratación más temprano en el día: “Desayune como rey, almuerce como príncipe y cene como mendigo”. • El cuerpo procesa mejor los alimentos más temprano en el día, cuando es más probable que se usen como combustible en lugar de almacenarse como grasa. • El cuerpo también se siente más lleno después de la misma comida si se consume más temprano, debido a una mejor señalización hormonal y al metabolismo. Un desayuno abundante y adelantar el almuerzo y la cena puede ayudarle a sentirse más lleno y tener menos antojos por la noche. • Considere almorzar y cenar más temprano y terminar la última comida 4 a 5 horas antes de acostarse para favorecer el sueño y la salud general. • Hidratarse temprano ayuda a evitar tener que orinar por la noche. Esto es más común durante el embarazo porque el bebé puede comprimir la vejiga y el volumen sanguíneo general es mayor. Intente evitar las comidas abundantes al menos 3 a 4 horas antes de acostarse. • Esto evita que el cuerpo tenga que digerir activamente los alimentos mientras intenta dormir, lo que puede reducir la calidad del sueño. • Posiblemente sea aún mejor terminar la última comida más lejos de la hora de acostarse, 5 horas o más, porque la frecuencia cardíaca en reposo bajará, un indicador importante de la calidad del sueño.\nLa crononutrición se refiere a cómo el horario de las comidas puede afectar el sueño y el ritmo circadiano. Veamos algunos de los mejores consejos de crononutrición.\nConcentre las calorías y la hidratación más temprano en el día: “Desayune como rey, almuerce como príncipe y cene como mendigo”.\n• El cuerpo procesa mejor los alimentos más temprano en el día, cuando es más probable que se usen como combustible en lugar de almacenarse como grasa.\n• El cuerpo también se siente más lleno después de la misma comida si se consume más temprano, debido a una mejor señalización hormonal y al metabolismo. Un desayuno abundante y adelantar el almuerzo y la cena puede ayudarle a sentirse más lleno y tener menos antojos por la noche.\n• Considere almorzar y cenar más temprano y terminar la última comida 4 a 5 horas antes de acostarse para favorecer el sueño y la salud general.\n• Hidratarse temprano ayuda a evitar tener que orinar por la noche. Esto es más común durante el embarazo porque el bebé puede comprimir la vejiga y el volumen sanguíneo general es mayor.\nIntente evitar las comidas abundantes al menos 3 a 4 horas antes de acostarse.\n• Esto evita que el cuerpo tenga que digerir activamente los alimentos mientras intenta dormir, lo que puede reducir la calidad del sueño.\n• Posiblemente sea aún mejor terminar la última comida más lejos de la hora de acostarse, 5 horas o más, porque la frecuencia cardíaca en reposo bajará, un indicador importante de la calidad del sueño.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-08"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-18",
+      "language": "es",
+      "approved_text": "La importancia de la nutrición\nUna alimentación nutritiva, especialmente rica en frutas, verduras, proteínas magras y cereales integrales, se relaciona de forma constante con un sueño más profundo y continuo. Esto se debe a que las vitaminas, los minerales y la fibra de estos alimentos reducen las variaciones de glucosa durante la noche y favorecen procesos relacionados con la relajación y la regulación del sueño.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-18"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-q8",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos 9: crononutrición\n¿Qué 3 consejos nutricionales puede seguir que cuentan con respaldo de la evidencia actual sobre crononutrición? Comprobemos rápidamente sus conocimientos. Seleccione todas las opciones que correspondan. (Pista: hay 3 respuestas correctas.) Desayune como mendigo, almuerce como príncipe y cene como rey. Hidratarse más temprano durante el día puede ayudar a reducir la nicturia (orinar en mitad de la noche). Terminar la última comida más cerca de la hora de acostarse puede mejorar el sueño al reducir la frecuencia cardíaca en reposo. Comer más temprano puede empeorar los antojos nocturnos al reducir las hormonas de saciedad. Desayune como rey, almuerce como príncipe y cene como mendigo. El cuerpo procesa mejor los alimentos más temprano, desde el punto de vista metabólico, hormonal y de la sensación de saciedad.\n¿Qué 3 consejos nutricionales puede seguir que cuentan con respaldo de la evidencia actual sobre crononutrición?\nDesayune como mendigo, almuerce como príncipe y cene como rey.\nHidratarse más temprano durante el día puede ayudar a reducir la nicturia (orinar en mitad de la noche).\nTerminar la última comida más cerca de la hora de acostarse puede mejorar el sueño al reducir la frecuencia cardíaca en reposo.\nComer más temprano puede empeorar los antojos nocturnos al reducir las hormonas de saciedad.\nDesayune como rey, almuerce como príncipe y cene como mendigo.\nEl cuerpo procesa mejor los alimentos más temprano, desde el punto de vista metabólico, hormonal y de la sensación de saciedad.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-q8"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-21",
+      "language": "es",
+      "approved_text": "La importancia del ejercicio regular\nEl ejercicio regular es una forma eficaz de mejorar el sueño. Libera energía, puede hacerle sentir más cansado por la noche y ayuda a aliviar la tensión mental. Idealmente, intente hacer al menos 150 minutos por semana de actividad aeróbica de intensidad moderada, como caminar o nadar, y 2 sesiones semanales de entrenamiento de resistencia. Evite el ejercicio intenso justo antes de acostarse. Si es nuevo en el ejercicio, comience despacio y aumente la actividad gradualmente. Puede añadir unos minutos cada día hasta mantenerse activo durante 20 a 30 minutos. Aquí hay un enlace a la página del American College of Obstetricians and Gynecologists sobre el ejercicio durante el embarazo.\nEl ejercicio regular es una forma eficaz de mejorar el sueño. Libera energía, puede hacerle sentir más cansado por la noche y ayuda a aliviar la tensión mental.\nIdealmente, intente hacer al menos 150 minutos por semana de actividad aeróbica de intensidad moderada, como caminar o nadar, y 2 sesiones semanales de entrenamiento de resistencia. Evite el ejercicio intenso justo antes de acostarse.\nSi es nuevo en el ejercicio, comience despacio y aumente la actividad gradualmente. Puede añadir unos minutos cada día hasta mantenerse activo durante 20 a 30 minutos.\nAquí hay un enlace a la página del American College of Obstetricians and Gynecologists sobre el ejercicio durante el embarazo.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-21"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-10",
+      "language": "es",
+      "approved_text": "Abordar las siestas\nSi le cuesta conciliar el sueño por la noche, evite las siestas durante las 6 horas anteriores a la hora de acostarse. Las siestas de la tarde o la noche pueden hacer que tenga menos sueño al llegar la hora de dormir. Durante el embarazo es completamente normal sentirse más cansada durante el día y necesitar siestas. Si necesita dormir la siesta, intente limitarla a 20 minutos antes de la tarde. Las siestas largas pueden alterar el sueño nocturno.\nSi le cuesta conciliar el sueño por la noche, evite las siestas durante las 6 horas anteriores a la hora de acostarse. Las siestas de la tarde o la noche pueden hacer que tenga menos sueño al llegar la hora de dormir.\nDurante el embarazo es completamente normal sentirse más cansada durante el día y necesitar siestas. Si necesita dormir la siesta, intente limitarla a 20 minutos antes de la tarde. Las siestas largas pueden alterar el sueño nocturno.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-10"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-19",
+      "language": "es",
+      "approved_text": "Manejo del estrés para dormir\nEl estrés puede reducir la calidad del sueño porque mantiene crónicamente al cuerpo en un estado de alerta de “lucha o huida”, lo que dificulta dormir y hace que el sueño sea menos reparador. Si tiene problemas constantes de estrés o ansiedad, o si el sueño o la ansiedad le impiden realizar sus actividades normales, hable con su profesional de salud sobre opciones para abordarlos. Las opciones pueden incluir: • Terapia • Medicamentos • Ejercicios de meditación o atención plena\nEl estrés puede reducir la calidad del sueño porque mantiene crónicamente al cuerpo en un estado de alerta de “lucha o huida”, lo que dificulta dormir y hace que el sueño sea menos reparador.\nSi tiene problemas constantes de estrés o ansiedad, o si el sueño o la ansiedad le impiden realizar sus actividades normales, hable con su profesional de salud sobre opciones para abordarlos.\nLas opciones pueden incluir:\n• Terapia\n• Medicamentos\n• Ejercicios de meditación o atención plena",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-19"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-20",
+      "language": "es",
+      "approved_text": "Postura al dormir\nDespués de las 28 semanas, intente dormir de lado tanto como sea posible. Después de las 28 semanas, dormir boca arriba puede hacer que el útero presione vasos sanguíneos importantes y reduzca el flujo de sangre, lo que podría ser perjudicial para usted y su bebé. Al dormir, considere mantener una o ambas rodillas flexionadas, colocar una almohada entre las rodillas o debajo del abdomen, o usar una almohada corporal de cuerpo entero. Esto puede mejorar la comodidad al dormir de lado y apoyar las caderas, la espalda y la pelvis.\nDespués de las 28 semanas, intente dormir de lado tanto como sea posible.\nDespués de las 28 semanas, dormir boca arriba puede hacer que el útero presione vasos sanguíneos importantes y reduzca el flujo de sangre, lo que podría ser perjudicial para usted y su bebé.\nAl dormir, considere mantener una o ambas rodillas flexionadas, colocar una almohada entre las rodillas o debajo del abdomen, o usar una almohada corporal de cuerpo entero.\nEsto puede mejorar la comodidad al dormir de lado y apoyar las caderas, la espalda y la pelvis.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-20"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-q10",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos 12: siestas y postura al dormir\n¿Qué 3 consejos puede aplicar sobre las siestas y la postura al dormir? Comprobemos rápidamente sus conocimientos. Seleccione todas las opciones que correspondan. (Pista: hay 3 respuestas correctas.) Intente usar almohadas entre las rodillas flexionadas o una almohada corporal de cuerpo entero para mayor comodidad y apoyo. Dormir boca arriba después de las 28 semanas puede mejorar los resultados de salud al mantener al bebé relativamente elevado. Si necesita una siesta, considere dormirla más tarde y durante al menos 30 minutos. Si necesita una siesta, tómela más temprano y limítela a unos 20 minutos. Evite usar almohadas porque pueden llenar demasiado el dormitorio. Intente dormir de lado si ya pasó las 28 semanas de embarazo.\n¿Qué 3 consejos puede aplicar sobre las siestas y la postura al dormir?\nIntente usar almohadas entre las rodillas flexionadas o una almohada corporal de cuerpo entero para mayor comodidad y apoyo.\nDormir boca arriba después de las 28 semanas puede mejorar los resultados de salud al mantener al bebé relativamente elevado.\nSi necesita una siesta, considere dormirla más tarde y durante al menos 30 minutos.\nSi necesita una siesta, tómela más temprano y limítela a unos 20 minutos.\nEvite usar almohadas porque pueden llenar demasiado el dormitorio.\nIntente dormir de lado si ya pasó las 28 semanas de embarazo.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-q10"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-recap",
+      "language": "es",
+      "approved_text": "Resumen final\n¿Qué prácticas de higiene del sueño aprendió y se siente capaz de incorporar a su rutina? Esta pregunta es muy abierta y busca que piense en pasos que puede tomar para mejorar su sueño. ¡Felicidades por completar este módulo de higiene saludable del sueño! Ha aprendido algunos de los mejores hábitos e intervenciones para mejorar el sueño y obtener beneficios para usted y su bebé. Esta es la lista de prácticas de higiene del sueño que revisamos: • Tener una rutina de sueño     • Actividades relajantes antes de acostarse     • Horarios constantes para dormir y despertarse     • Limitar la luz azul • Hacer una actividad relajante si le cuesta dormir • Recibir luz solar por la mañana y oscuridad por la noche • Crear un buen ambiente para dormir     • Usar el dormitorio solo para dormir o tener relaciones sexuales     • Eliminar las molestias por ruido     • Eliminar las molestias visuales     • Mantener fresco el dormitorio (aproximadamente 65 °F) • No consumir cafeína cerca de la hora de acostarse o no consumirla en absoluto • Comer de forma equilibrada, comer más temprano y evitar comer tarde por la noche • Hacer ejercicio con regularidad • Evitar siestas largas y dormir la siesta temprano si es necesario • Buscar tratamiento médico para el estrés crónico • Dormir de lado y usar almohadas para mayor comodidad y apoyo\n¿Qué prácticas de higiene del sueño aprendió y se siente capaz de incorporar a su rutina?",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "reflection"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-recap"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-ai1",
+      "language": "es",
+      "approved_text": "Cree una cronología de la noche\n¿Qué suele ocurrir durante la hora antes de intentar dormir?",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-ai1"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-q3",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos\n¿Qué afirmación sobre cafeína es más precisa? Afecta a todos exactamente el mismo tiempo. Puede afectar el sueño varias horas y la sensibilidad varía. Las bebidas energéticas no contienen cafeína. La app calcula una dosis segura individual. La duración y sensibilidad varían; la orientación del embarazo pertenece al equipo prenatal.\n¿Qué afirmación sobre cafeína es más precisa?\nAfecta a todos exactamente el mismo tiempo.\nPuede afectar el sueño varias horas y la sensibilidad varía.\nLas bebidas energéticas no contienen cafeína.\nLa app calcula una dosis segura individual.\nCorrecto.\nAún no.\nLa duración y sensibilidad varían; la orientación del embarazo pertenece al equipo prenatal.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "singleChoice"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-q3"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-09",
+      "language": "es",
+      "approved_text": "La actividad diurna puede apoyar el sueño\nLa actividad física regular puede apoyar la salud y el sueño de muchas personas. Las recomendaciones durante el embarazo dependen del estado de salud, la actividad previa, los síntomas y la orientación del equipo de atención prenatal. La app debe fomentar una conversación apropiada en lugar de prescribir un programa de ejercicio nuevo. Alguien que tenga síntomas de advertencia o una restricción médica debe seguir la orientación de su profesional de salud.\nLa actividad física regular puede apoyar la salud y el sueño de muchas personas. Las recomendaciones durante el embarazo dependen del estado de salud, la actividad previa, los síntomas y la orientación del equipo de atención prenatal.\nLa app debe fomentar una conversación apropiada en lugar de prescribir un programa de ejercicio nuevo.\nAlguien que tenga síntomas de advertencia o una restricción médica debe seguir la orientación de su profesional de salud.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-09"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-ai2",
+      "language": "es",
+      "approved_text": "Cree un plan de hábito\nElija un hábito de sueño que le gustaría trabajar.",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-ai2"
+    },
+    {
+      "module_id": "m5",
+      "module_title": "Higiene saludable del sueño",
+      "screen_id": "m5-ai3",
+      "language": "es",
+      "approved_text": "Explique la higiene del sueño\n¿Por qué la higiene del sueño ayuda, pero no trata todos los problemas de sueño?",
+      "learning_objective": "Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.",
+      "allowed_claims": [
+        "PAP_SIDE_EFFECTS_AND_BARRIERS",
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m5",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-05.ts",
+      "source_hash": "e0ebaedbd8f6916f5ee229d3152ee33fdd8d7a29070909df593c525666b29465",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m5:m5-ai3"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Comorbilidades del embarazo y PAP",
+      "screen_id": "m6-01",
+      "language": "es",
+      "approved_text": "Comorbilidades del embarazo y PAP\nEn este módulo aprenderemos sobre los síntomas y afecciones más comunes durante el embarazo que pueden complicar la apnea del sueño y el uso de PAP, y sobre cómo tratarlos. Revisaremos: • Congestión nasal • ERGE • Ansiedad Para hacer este módulo interactivo, se le harán preguntas que le ayudarán a comprender el contenido. No se preocupe por equivocarse: estas preguntas son únicamente para aprender. La imagen muestra a una mujer sonándose la nariz, a otra que se sostiene el pecho y parece incómoda, y a una tercera que se sostiene la cabeza y parece preocupada y ansiosa.\nEn este módulo aprenderemos sobre los síntomas y afecciones más comunes durante el embarazo que pueden complicar la apnea del sueño y el uso de PAP, y sobre cómo tratarlos. Revisaremos:\n• Congestión nasal\n• ERGE\n• Ansiedad\nPara hacer este módulo interactivo, se le harán preguntas que le ayudarán a comprender el contenido. No se preocupe por equivocarse: estas preguntas son únicamente para aprender.\nLa imagen muestra a una mujer sonándose la nariz, a otra que se sostiene el pecho y parece incómoda, y a una tercera que se sostiene la cabeza y parece preocupada y ansiosa.",
+      "learning_objective": "Describa congestión, reflujo, ansiedad y problemas de equipo y busque el apoyo apropiado.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-06.ts",
+      "source_hash": "c1786cb9e62ea813e36d2117aef94144adb52793d1e2c3a5597d602389ee8281",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m6:m6-01"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Comorbilidades del embarazo y PAP",
+      "screen_id": "m6-02",
+      "language": "es",
+      "approved_text": "Congestión nasal\nAntecedentes La congestión nasal por rinitis del embarazo, es decir, inflamación nasal, es muy común; algunas revisiones la encuentran hasta en el 42 % de los embarazos. También es común que empeore más adelante en el embarazo. Causas y complicaciones Los cambios en los líquidos corporales y las hormonas del embarazo, como el estrógeno y la progesterona, pueden hinchar el revestimiento de la nariz. Esto dificulta respirar por la nariz y puede causar congestión. La congestión nasal puede alterar el sueño y, como la nariz forma parte de la vía respiratoria, aumentar los ronquidos y empeorar la apnea del sueño. Abordarla puede ayudar a respirar durante el sueño. La congestión nasal también puede afectar la tolerancia a la mascarilla de CPAP. Como el dispositivo proporciona aire por la mascarilla, ya sea nasal, facial completa o con almohadillas nasales, la congestión suele hacer que CPAP sea más incómodo y puede aumentar las fugas por la boca. Sin embargo, esto puede abordarse para mejorar la comodidad.\nAntecedentes\nLa congestión nasal por rinitis del embarazo, es decir, inflamación nasal, es muy común; algunas revisiones la encuentran hasta en el 42 % de los embarazos. También es común que empeore más adelante en el embarazo.\nCausas y complicaciones\nLos cambios en los líquidos corporales y las hormonas del embarazo, como el estrógeno y la progesterona, pueden hinchar el revestimiento de la nariz. Esto dificulta respirar por la nariz y puede causar congestión. La congestión nasal puede alterar el sueño y, como la nariz forma parte de la vía respiratoria, aumentar los ronquidos y empeorar la apnea del sueño. Abordarla puede ayudar a respirar durante el sueño.\nLa congestión nasal también puede afectar la tolerancia a la mascarilla de CPAP. Como el dispositivo proporciona aire por la mascarilla, ya sea nasal, facial completa o con almohadillas nasales, la congestión suele hacer que CPAP sea más incómodo y puede aumentar las fugas por la boca. Sin embargo, esto puede abordarse para mejorar la comodidad.",
+      "learning_objective": "Describa congestión, reflujo, ansiedad y problemas de equipo y busque el apoyo apropiado.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-06.ts",
+      "source_hash": "c1786cb9e62ea813e36d2117aef94144adb52793d1e2c3a5597d602389ee8281",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m6:m6-02"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Comorbilidades del embarazo y PAP",
+      "screen_id": "m6-03",
+      "language": "es",
+      "approved_text": "Tratamiento de la congestión nasal\nAl usar PAP, considere activar el calor o los elementos humidificadores para ayudar a prevenir la sequedad y la irritación nasal durante el sueño. Además, los aerosoles nasales son una solución de bajo riesgo para la congestión. Considere comenzar con un aerosol de solución salina simple antes de acostarse. La solución salina en aerosol o espuma se puede comprar sin receta, ayuda a reducir la congestión y es segura durante el embarazo. Si los síntomas persisten, pueden considerarse aerosoles nasales de esteroides, como fluticasona o budesonida, que pueden comprarse sin receta. También se consideran seguros durante el embarazo. Los posibles efectos secundarios, como sequedad nasal, escozor o ardor, irritación de garganta o sangrado nasal, suelen ser leves. Al usar un aerosol nasal, después de colocarlo dentro de la nariz, dirija la punta hacia afuera, en dirección a los ojos, y no directamente hacia arriba, para llegar al revestimiento externo. Si la congestión se relaciona con un resfriado o una infección respiratoria, puede usar un descongestionante tópico como Afrin, pero evite utilizarlo durante más de 2 o 3 días. Utilizarlo por más tiempo puede causar congestión de rebote y empeorar los síntomas.\nAl usar PAP, considere activar el calor o los elementos humidificadores para ayudar a prevenir la sequedad y la irritación nasal durante el sueño.\nAdemás, los aerosoles nasales son una solución de bajo riesgo para la congestión. Considere comenzar con un aerosol de solución salina simple antes de acostarse. La solución salina en aerosol o espuma se puede comprar sin receta, ayuda a reducir la congestión y es segura durante el embarazo.\nSi los síntomas persisten, pueden considerarse aerosoles nasales de esteroides, como fluticasona o budesonida, que pueden comprarse sin receta. También se consideran seguros durante el embarazo. Los posibles efectos secundarios, como sequedad nasal, escozor o ardor, irritación de garganta o sangrado nasal, suelen ser leves.\nAl usar un aerosol nasal, después de colocarlo dentro de la nariz, dirija la punta hacia afuera, en dirección a los ojos, y no directamente hacia arriba, para llegar al revestimiento externo.\nSi la congestión se relaciona con un resfriado o una infección respiratoria, puede usar un descongestionante tópico como Afrin, pero evite utilizarlo durante más de 2 o 3 días. Utilizarlo por más tiempo puede causar congestión de rebote y empeorar los síntomas.",
+      "learning_objective": "Describa congestión, reflujo, ansiedad y problemas de equipo y busque el apoyo apropiado.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-06.ts",
+      "source_hash": "c1786cb9e62ea813e36d2117aef94144adb52793d1e2c3a5597d602389ee8281",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m6:m6-03"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Comorbilidades del embarazo y PAP",
+      "screen_id": "m6-04",
+      "language": "es",
+      "approved_text": "Enfermedad por reflujo gastroesofágico (ERGE)\nAntecedentes Los síntomas de ERGE, como la acidez, son muy comunes durante el embarazo; los estudios informan una frecuencia del 30 al 80 %. Esta afección también suele empeorar más adelante en el embarazo. Causas y complicaciones El embarazo puede relajar el tono del esfínter esofágico inferior, el músculo que normalmente mantiene el contenido del estómago dentro del estómago. Esto aumenta la probabilidad de que el contenido y el ácido del estómago regresen al esófago. Puede causar acidez, regurgitación, sabor agrio en la boca o náuseas. La AOS y la ERGE pueden empeorar por separado la calidad del sueño. Además, la AOS puede empeorar la ERGE: al intentar inhalar con la vía respiratoria bloqueada, una presión negativa parecida a la succión puede llevar el contenido del estómago hacia el esófago.\nAntecedentes\nLos síntomas de ERGE, como la acidez, son muy comunes durante el embarazo; los estudios informan una frecuencia del 30 al 80 %. Esta afección también suele empeorar más adelante en el embarazo.\nCausas y complicaciones\nEl embarazo puede relajar el tono del esfínter esofágico inferior, el músculo que normalmente mantiene el contenido del estómago dentro del estómago. Esto aumenta la probabilidad de que el contenido y el ácido del estómago regresen al esófago. Puede causar acidez, regurgitación, sabor agrio en la boca o náuseas.\nLa AOS y la ERGE pueden empeorar por separado la calidad del sueño. Además, la AOS puede empeorar la ERGE: al intentar inhalar con la vía respiratoria bloqueada, una presión negativa parecida a la succión puede llevar el contenido del estómago hacia el esófago.",
+      "learning_objective": "Describa congestión, reflujo, ansiedad y problemas de equipo y busque el apoyo apropiado.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-06.ts",
+      "source_hash": "c1786cb9e62ea813e36d2117aef94144adb52793d1e2c3a5597d602389ee8281",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m6:m6-04"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Comorbilidades del embarazo y PAP",
+      "screen_id": "m6-q1",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos 1:\n¿Cuáles son las formas recomendadas de tratar la congestión nasal durante el embarazo? Seleccione todas las opciones que correspondan. (Pista: hay 3 respuestas correctas.) Usar los elementos de calor o humidificación de la máquina PAP Usar un aerosol de solución salina simple antes de acostarse Usar aerosoles nasales de esteroides sin receta, como fluticasona o budesonida Usar aerosoles nasales y dirigirlos directamente hacia arriba de la fosa nasal Considerar usar Afrin todas las noches Tomar antibióticos orales\n¿Cuáles son las formas recomendadas de tratar la congestión nasal durante el embarazo?\nUsar los elementos de calor o humidificación de la máquina PAP\nUsar un aerosol de solución salina simple antes de acostarse\nUsar aerosoles nasales de esteroides sin receta, como fluticasona o budesonida\nUsar aerosoles nasales y dirigirlos directamente hacia arriba de la fosa nasal\nConsiderar usar Afrin todas las noches\nTomar antibióticos orales",
+      "learning_objective": "Describa congestión, reflujo, ansiedad y problemas de equipo y busque el apoyo apropiado.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-06.ts",
+      "source_hash": "c1786cb9e62ea813e36d2117aef94144adb52793d1e2c3a5597d602389ee8281",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m6:m6-q1"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Comorbilidades del embarazo y PAP",
+      "screen_id": "m6-07",
+      "language": "es",
+      "approved_text": "Tratamiento de la enfermedad por reflujo gastroesofágico (ERGE)\nLos tratamientos iniciales para la ERGE y la acidez suelen ser cambios en la alimentación y ajustes de la cama, como: • comidas más pequeñas y con menos grasa • menos cafeína, por ejemplo en café, té, refrescos y bebidas energéticas • terminar la última comida 3 o 4 horas antes de acostarse • evitar alimentos desencadenantes comunes, como frituras grasas, comidas picantes, tomate, cítricos o bebidas carbonatadas • elevar la cabecera de la cama 6 a 10 pulgadas; puede usar una almohada en cuña o colocar libros bajo las patas de la cabecera. Elevar solo la cabeza con almohadas no necesariamente cambia la posición del estómago. • dormir sobre el lado izquierdo • antiácidos Si las modificaciones del estilo de vida no son suficientes, durante el embarazo pueden considerarse medicamentos para reducir el ácido, como bloqueadores H2, entre ellos famotidina, nizatidina o cimetidina, o inhibidores de la bomba de protones, como omeprazol. En general, estos medicamentos se consideran seguros y la literatura indica que no causan defectos de nacimiento, pero consulte a su médico antes de comenzar a usarlos.\nLos tratamientos iniciales para la ERGE y la acidez suelen ser cambios en la alimentación y ajustes de la cama, como:\n• comidas más pequeñas y con menos grasa\n• menos cafeína, por ejemplo en café, té, refrescos y bebidas energéticas\n• terminar la última comida 3 o 4 horas antes de acostarse\n• evitar alimentos desencadenantes comunes, como frituras grasas, comidas picantes, tomate, cítricos o bebidas carbonatadas\n• elevar la cabecera de la cama 6 a 10 pulgadas; puede usar una almohada en cuña o colocar libros bajo las patas de la cabecera. Elevar solo la cabeza con almohadas no necesariamente cambia la posición del estómago.\n• dormir sobre el lado izquierdo\n• antiácidos\nSi las modificaciones del estilo de vida no son suficientes, durante el embarazo pueden considerarse medicamentos para reducir el ácido, como bloqueadores H2, entre ellos famotidina, nizatidina o cimetidina, o inhibidores de la bomba de protones, como omeprazol. En general, estos medicamentos se consideran seguros y la literatura indica que no causan defectos de nacimiento, pero consulte a su médico antes de comenzar a usarlos.",
+      "learning_objective": "Describa congestión, reflujo, ansiedad y problemas de equipo y busque el apoyo apropiado.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-06.ts",
+      "source_hash": "c1786cb9e62ea813e36d2117aef94144adb52793d1e2c3a5597d602389ee8281",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m6:m6-07"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Comorbilidades del embarazo y PAP",
+      "screen_id": "m6-05",
+      "language": "es",
+      "approved_text": "Ansiedad\nAntecedentes Los síntomas de ansiedad durante el embarazo son muy comunes; los estudios informan que aproximadamente el 20 % de las embarazadas cumple los criterios de un trastorno de ansiedad y que las tasas son mayores cuando se consideran los síntomas. Causas y complicaciones El embarazo produce cambios físicos, hormonales y emocionales rápidos, además de incertidumbre sobre el futuro, lo que puede aumentar el estrés. Estos factores, junto con el empeoramiento del sueño por la AOS no tratada, pueden elevar los niveles de ansiedad. En relación con PAP, la ansiedad puede aumentar la sensación de claustrofobia causada por la mascarilla y hacer que algunas personas se la quiten durante la noche o la usen menos. Algunas estrategias para acostumbrarse incluyen probar distintos estilos de mascarilla, practicar su uso estando despierto, usar respiración de relajación o ajustar la humidificación y la función de aumento gradual de la presión.\nAntecedentes\nLos síntomas de ansiedad durante el embarazo son muy comunes; los estudios informan que aproximadamente el 20 % de las embarazadas cumple los criterios de un trastorno de ansiedad y que las tasas son mayores cuando se consideran los síntomas.\nCausas y complicaciones\nEl embarazo produce cambios físicos, hormonales y emocionales rápidos, además de incertidumbre sobre el futuro, lo que puede aumentar el estrés. Estos factores, junto con el empeoramiento del sueño por la AOS no tratada, pueden elevar los niveles de ansiedad.\nEn relación con PAP, la ansiedad puede aumentar la sensación de claustrofobia causada por la mascarilla y hacer que algunas personas se la quiten durante la noche o la usen menos. Algunas estrategias para acostumbrarse incluyen probar distintos estilos de mascarilla, practicar su uso estando despierto, usar respiración de relajación o ajustar la humidificación y la función de aumento gradual de la presión.",
+      "learning_objective": "Describa congestión, reflujo, ansiedad y problemas de equipo y busque el apoyo apropiado.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-06.ts",
+      "source_hash": "c1786cb9e62ea813e36d2117aef94144adb52793d1e2c3a5597d602389ee8281",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m6:m6-05"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Comorbilidades del embarazo y PAP",
+      "screen_id": "m6-q2",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos 2: tratamientos para la ERGE\n¿Cuáles son las formas recomendadas de tratar la ERGE durante el embarazo? Seleccione todas las opciones que correspondan. (Pista: hay 4 respuestas correctas.) Comer comidas más pequeñas con poca grasa Reducir el consumo de cafeína Elevar la cabecera de la cama Dormir principalmente sobre el lado izquierdo Tomar antiácidos antes de probar cambios en el estilo de vida Dormir boca abajo\n¿Cuáles son las formas recomendadas de tratar la ERGE durante el embarazo?\nComer comidas más pequeñas con poca grasa\nReducir el consumo de cafeína\nElevar la cabecera de la cama\nDormir principalmente sobre el lado izquierdo\nTomar antiácidos antes de probar cambios en el estilo de vida\nDormir boca abajo",
+      "learning_objective": "Describa congestión, reflujo, ansiedad y problemas de equipo y busque el apoyo apropiado.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-06.ts",
+      "source_hash": "c1786cb9e62ea813e36d2117aef94144adb52793d1e2c3a5597d602389ee8281",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m6:m6-q2"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Comorbilidades del embarazo y PAP",
+      "screen_id": "m6-08",
+      "language": "es",
+      "approved_text": "Tratamiento de la ansiedad\nAlgunas modificaciones del estilo de vida que pueden aliviar la ansiedad incluyen incorporar actividad física, como caminar, llevar una alimentación saludable, dormir bien y limitar la cafeína y el alcohol. Otros tratamientos pueden incluir educación, asesoramiento o terapia cognitivo-conductual (TCC). Consulte a su médico si estas opciones no funcionan para que pueda considerar medicamentos si fueran necesarios.\nAlgunas modificaciones del estilo de vida que pueden aliviar la ansiedad incluyen incorporar actividad física, como caminar, llevar una alimentación saludable, dormir bien y limitar la cafeína y el alcohol.\nOtros tratamientos pueden incluir educación, asesoramiento o terapia cognitivo-conductual (TCC). Consulte a su médico si estas opciones no funcionan para que pueda considerar medicamentos si fueran necesarios.",
+      "learning_objective": "Describa congestión, reflujo, ansiedad y problemas de equipo y busque el apoyo apropiado.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-06.ts",
+      "source_hash": "c1786cb9e62ea813e36d2117aef94144adb52793d1e2c3a5597d602389ee8281",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m6:m6-08"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Comorbilidades del embarazo y PAP",
+      "screen_id": "m6-q3",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos 3: tratamientos para la ansiedad\n¿Cuáles son las formas recomendadas de tratar la ansiedad durante el embarazo? Seleccione todas las opciones que correspondan. (Pista: hay 3 respuestas correctas.) Mejorar el sueño, la alimentación y el ejercicio Reducir el consumo de cafeína y alcohol Asesoramiento y terapia cognitivo-conductual Pedir inmediatamente al médico una receta de un ISRS Ignorarla y esperar que desaparezca Fumar marihuana para calmarse\n¿Cuáles son las formas recomendadas de tratar la ansiedad durante el embarazo?\nMejorar el sueño, la alimentación y el ejercicio\nReducir el consumo de cafeína y alcohol\nAsesoramiento y terapia cognitivo-conductual\nPedir inmediatamente al médico una receta de un ISRS\nIgnorarla y esperar que desaparezca\nFumar marihuana para calmarse",
+      "learning_objective": "Describa congestión, reflujo, ansiedad y problemas de equipo y busque el apoyo apropiado.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-06.ts",
+      "source_hash": "c1786cb9e62ea813e36d2117aef94144adb52793d1e2c3a5597d602389ee8281",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m6:m6-q3"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Comorbilidades del embarazo y PAP",
+      "screen_id": "m6-06",
+      "language": "es",
+      "approved_text": "Familiarizarse con el equipo\nAlgunos equipos de tratamiento recomiendan familiarizarse con el equipo PAP mientras está despierto/a antes de intentar dormir con él. Un plan aprobado por un profesional clínico podría incluir tocar brevemente la mascarilla, usarla sin presión o usar el equipo mientras está despierto/a en un entorno tranquilo. Esta app no presenta un horario fijo de exposición hasta que el equipo clínico apruebe los pasos exactos.\nAlgunos equipos de tratamiento recomiendan familiarizarse con el equipo PAP mientras está despierto/a antes de intentar dormir con él.\nUn plan aprobado por un profesional clínico podría incluir tocar brevemente la mascarilla, usarla sin presión o usar el equipo mientras está despierto/a en un entorno tranquilo.\nEsta app no presenta un horario fijo de exposición hasta que el equipo clínico apruebe los pasos exactos.",
+      "learning_objective": "Describa congestión, reflujo, ansiedad y problemas de equipo y busque el apoyo apropiado.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-06.ts",
+      "source_hash": "c1786cb9e62ea813e36d2117aef94144adb52793d1e2c3a5597d602389ee8281",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m6:m6-06"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Comorbilidades del embarazo y PAP",
+      "screen_id": "m6-ai1",
+      "language": "es",
+      "approved_text": "Describa una barrera de PAP\nDescriba qué ocurre cuando PAP se vuelve difícil de usar.",
+      "learning_objective": "Describa congestión, reflujo, ansiedad y problemas de equipo y busque el apoyo apropiado.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-06.ts",
+      "source_hash": "c1786cb9e62ea813e36d2117aef94144adb52793d1e2c3a5597d602389ee8281",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m6:m6-ai1"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Comorbilidades del embarazo y PAP",
+      "screen_id": "m6-ai2",
+      "language": "es",
+      "approved_text": "Cree un resumen para conversar\n¿Qué quiere que su equipo de PAP o salud comprenda sobre este problema?",
+      "learning_objective": "Describa congestión, reflujo, ansiedad y problemas de equipo y busque el apoyo apropiado.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-06.ts",
+      "source_hash": "c1786cb9e62ea813e36d2117aef94144adb52793d1e2c3a5597d602389ee8281",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m6:m6-ai2"
+    },
+    {
+      "module_id": "m6",
+      "module_title": "Comorbilidades del embarazo y PAP",
+      "screen_id": "m6-recap",
+      "language": "es",
+      "approved_text": "Resumen del módulo\nLa congestión, el reflujo, la ansiedad y los problemas del equipo pueden interferir con PAP. Describir cuándo ocurre el problema y cómo se siente ayuda a elegir la conversación correcta. El equipo de PAP puede ayudar con el equipo; los medicamentos y la seguridad durante el embarazo corresponden al profesional apropiado.",
+      "learning_objective": "Describa congestión, reflujo, ansiedad y problemas de equipo y busque el apoyo apropiado.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m6",
+        "summary"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-06.ts",
+      "source_hash": "c1786cb9e62ea813e36d2117aef94144adb52793d1e2c3a5597d602389ee8281",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m6:m6-recap"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimidad",
+      "screen_id": "m7-01",
+      "language": "es",
+      "approved_text": "Intimidad\nEn este módulo aprenderemos qué es la intimidad y cómo se relaciona con la AOS y el uso de PAP.",
+      "learning_objective": "Explore la intimidad con respeto, sin promesas ni divulgación obligatoria.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-07.ts",
+      "source_hash": "bb53297b3895d753974158455da586ba3647cb4727f297bb2e24af4a44c4089b",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m7:m7-01"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimidad",
+      "screen_id": "m7-02",
+      "language": "es",
+      "approved_text": "¿Qué es la intimidad?\n“La intimidad en una relación es un sentimiento de cercanía y de conexión y apoyo emocional.” La intimidad no se refiere únicamente a las relaciones sexuales. También puede incluir conversaciones significativas con su pareja, pasar tiempo de calidad, acurrucarse, tocarse o expresar sus emociones.\n“La intimidad en una relación es un sentimiento de cercanía y de conexión y apoyo emocional.”\nLa intimidad no se refiere únicamente a las relaciones sexuales. También puede incluir conversaciones significativas con su pareja, pasar tiempo de calidad, acurrucarse, tocarse o expresar sus emociones.",
+      "learning_objective": "Explore la intimidad con respeto, sin promesas ni divulgación obligatoria.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-07.ts",
+      "source_hash": "bb53297b3895d753974158455da586ba3647cb4727f297bb2e24af4a44c4089b",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m7:m7-02"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimidad",
+      "screen_id": "m7-03",
+      "language": "es",
+      "approved_text": "¿Cómo afecta la apnea del sueño a mi pareja?\nEl tratamiento con PAP no debería impedirle tener intimidad o relaciones sexuales. • Es importante mantener la adherencia al tratamiento: úselo cada vez que duerma, pero no es necesario llevarlo cuando está activo o despierto. Dicho esto, es importante hablar con su pareja de cama sobre por qué es importante mantener la adherencia al tratamiento con PAP. Es común pensar que CPAP puede afectar negativamente a la pareja o que a esta no le gustará verle con la máquina, pero los estudios muestran que el 90 % de las parejas de cama estaba satisfecha con el tratamiento y que el 75 % lo recomendaría a otras personas.\nEl tratamiento con PAP no debería impedirle tener intimidad o relaciones sexuales.\n• Es importante mantener la adherencia al tratamiento: úselo cada vez que duerma, pero no es necesario llevarlo cuando está activo o despierto.\nDicho esto, es importante hablar con su pareja de cama sobre por qué es importante mantener la adherencia al tratamiento con PAP.\nEs común pensar que CPAP puede afectar negativamente a la pareja o que a esta no le gustará verle con la máquina, pero los estudios muestran que el 90 % de las parejas de cama estaba satisfecha con el tratamiento y que el 75 % lo recomendaría a otras personas.",
+      "learning_objective": "Explore la intimidad con respeto, sin promesas ni divulgación obligatoria.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-07.ts",
+      "source_hash": "bb53297b3895d753974158455da586ba3647cb4727f297bb2e24af4a44c4089b",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m7:m7-03"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimidad",
+      "screen_id": "m7-04",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos 1:\n¿Cuándo se recomienda usar la mascarilla de PAP? Seleccione todas las opciones que correspondan. (Pista: hay 3 respuestas correctas.) Cuando planea quedarse dormido Cuando tiene intimidad con su pareja Durante las siestas Si cree que podría quedarse dormido mientras descansa en la cama con su pareja Solo si su pareja dice que ronca fuerte Durante la actividad sexual\n¿Cuándo se recomienda usar la mascarilla de PAP?\nCuando planea quedarse dormido\nCuando tiene intimidad con su pareja\nDurante las siestas\nSi cree que podría quedarse dormido mientras descansa en la cama con su pareja\nSolo si su pareja dice que ronca fuerte\nDurante la actividad sexual",
+      "learning_objective": "Explore la intimidad con respeto, sin promesas ni divulgación obligatoria.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-07.ts",
+      "source_hash": "bb53297b3895d753974158455da586ba3647cb4727f297bb2e24af4a44c4089b",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m7:m7-04"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimidad",
+      "screen_id": "m7-05",
+      "language": "es",
+      "approved_text": "Consejos para la intimidad con apnea del sueño\nVivir la intimidad con apnea del sueño puede ser complicado. Estas son algunas cosas útiles que debe saber: • No tiene que usar la mascarilla si no está durmiendo. Puede quitársela durante los momentos de intimidad. • Si se acurruca mientras duerme, ser “la cucharita pequeña” puede evitar que la mascarilla estorbe a su pareja. • Hablar con un ser querido o con su pareja puede ayudar mucho a abordar sus pensamientos y preocupaciones.\nVivir la intimidad con apnea del sueño puede ser complicado. Estas son algunas cosas útiles que debe saber:\n• No tiene que usar la mascarilla si no está durmiendo. Puede quitársela durante los momentos de intimidad.\n• Si se acurruca mientras duerme, ser “la cucharita pequeña” puede evitar que la mascarilla estorbe a su pareja.\n• Hablar con un ser querido o con su pareja puede ayudar mucho a abordar sus pensamientos y preocupaciones.",
+      "learning_objective": "Explore la intimidad con respeto, sin promesas ni divulgación obligatoria.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-07.ts",
+      "source_hash": "bb53297b3895d753974158455da586ba3647cb4727f297bb2e24af4a44c4089b",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m7:m7-05"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimidad",
+      "screen_id": "m7-06",
+      "language": "es",
+      "approved_text": "¿Cómo afecta la apnea del sueño a mi vida sexual?\nDurante el embarazo es completamente normal que el deseo sexual cambie debido a cambios corporales, molestias, estrés o cansancio. La apnea del sueño puede reducir el deseo sexual. Esto ocurre principalmente porque empeora la calidad del sueño, lo que puede producir: • Menos energía y deseo • Alteraciones hormonales • Más estrés, ansiedad o depresión • Menor flujo sanguíneo Al usar CPAP, es normal que algunas personas tengan una percepción negativa de su imagen corporal, lo que a veces puede reducir el deseo sexual. Sin embargo, CPAP desempeña un papel importante en la mejora de la calidad del sueño en personas con AOS, lo que puede ayudar a recuperar la energía, el deseo y el flujo sanguíneo y reducir el estrés o la ansiedad.\nDurante el embarazo es completamente normal que el deseo sexual cambie debido a cambios corporales, molestias, estrés o cansancio.\nLa apnea del sueño puede reducir el deseo sexual. Esto ocurre principalmente porque empeora la calidad del sueño, lo que puede producir:\n• Menos energía y deseo\n• Alteraciones hormonales\n• Más estrés, ansiedad o depresión\n• Menor flujo sanguíneo\nAl usar CPAP, es normal que algunas personas tengan una percepción negativa de su imagen corporal, lo que a veces puede reducir el deseo sexual.\nSin embargo, CPAP desempeña un papel importante en la mejora de la calidad del sueño en personas con AOS, lo que puede ayudar a recuperar la energía, el deseo y el flujo sanguíneo y reducir el estrés o la ansiedad.",
+      "learning_objective": "Explore la intimidad con respeto, sin promesas ni divulgación obligatoria.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "content"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-07.ts",
+      "source_hash": "bb53297b3895d753974158455da586ba3647cb4727f297bb2e24af4a44c4089b",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m7:m7-06"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimidad",
+      "screen_id": "m7-q2",
+      "language": "es",
+      "approved_text": "Comprobación de conocimientos 1:\n¿Qué afirmaciones describen correctamente cómo el embarazo, la apnea obstructiva del sueño y CPAP pueden afectar el deseo sexual? Seleccione todas las opciones que correspondan. (Pista: hay 3 respuestas correctas.) Durante el embarazo, el deseo sexual puede cambiar normalmente debido a cambios corporales, molestias, estrés o cansancio. La apnea del sueño puede reducir el deseo sexual al empeorar la calidad del sueño, lo que puede disminuir la energía y el deseo. CPAP siempre aumenta inmediatamente el deseo sexual y nunca afecta la imagen corporal. Un cambio en el deseo sexual durante el embarazo siempre significa que algo está médicamente mal. CPAP puede mejorar la calidad del sueño, lo que puede ayudar a recuperar la energía, el deseo y el flujo sanguíneo y reducir el estrés o la ansiedad. La apnea del sueño afecta el deseo sexual únicamente por la imagen corporal, no por la calidad del sueño, las hormonas, el ánimo o el flujo sanguíneo.\n¿Qué afirmaciones describen correctamente cómo el embarazo, la apnea obstructiva del sueño y CPAP pueden afectar el deseo sexual?\nDurante el embarazo, el deseo sexual puede cambiar normalmente debido a cambios corporales, molestias, estrés o cansancio.\nLa apnea del sueño puede reducir el deseo sexual al empeorar la calidad del sueño, lo que puede disminuir la energía y el deseo.\nCPAP siempre aumenta inmediatamente el deseo sexual y nunca afecta la imagen corporal.\nUn cambio en el deseo sexual durante el embarazo siempre significa que algo está médicamente mal.\nCPAP puede mejorar la calidad del sueño, lo que puede ayudar a recuperar la energía, el deseo y el flujo sanguíneo y reducir el estrés o la ansiedad.\nLa apnea del sueño afecta el deseo sexual únicamente por la imagen corporal, no por la calidad del sueño, las hormonas, el ánimo o el flujo sanguíneo.",
+      "learning_objective": "Explore la intimidad con respeto, sin promesas ni divulgación obligatoria.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-07.ts",
+      "source_hash": "bb53297b3895d753974158455da586ba3647cb4727f297bb2e24af4a44c4089b",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m7:m7-q2"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimidad",
+      "screen_id": "m7-r1",
+      "language": "es",
+      "approved_text": "Reflexión opcional\n¿Hay un tema que quizá quiera tratar con un profesional? Equipo y comodidad de PAP. Fatiga o poca energía. Deseo o función sexual. Relación o sueño compartido. Imagen corporal o vergüenza. Otra preocupación. No. Prefiero no responder. No hay respuesta correcta. Esta reflexión permanece local y no se envía automáticamente a IA.\n¿Hay un tema que quizá quiera tratar con un profesional?\nEquipo y comodidad de PAP.\nFatiga o poca energía.\nDeseo o función sexual.\nRelación o sueño compartido.\nImagen corporal o vergüenza.\nOtra preocupación.\nNo.\nPrefiero no responder.\nNo hay respuesta correcta. Esta reflexión permanece local y no se envía automáticamente a IA.",
+      "learning_objective": "Explore la intimidad con respeto, sin promesas ni divulgación obligatoria.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "multiSelect"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-07.ts",
+      "source_hash": "bb53297b3895d753974158455da586ba3647cb4727f297bb2e24af4a44c4089b",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m7:m7-r1"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimidad",
+      "screen_id": "m7-ai1",
+      "language": "es",
+      "approved_text": "Organice una pregunta opcional\nEscriba una pregunta que quizá quiera hacerle a un profesional de salud.",
+      "learning_objective": "Explore la intimidad con respeto, sin promesas ni divulgación obligatoria.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "aiActivity"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-07.ts",
+      "source_hash": "bb53297b3895d753974158455da586ba3647cb4727f297bb2e24af4a44c4089b",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m7:m7-ai1"
+    },
+    {
+      "module_id": "m7",
+      "module_title": "Intimidad",
+      "screen_id": "m7-recap",
+      "language": "es",
+      "approved_text": "Resumen del módulo\nLa intimidad incluye muchas formas de cercanía. La AOS y PAP pueden afectar la energía, el sueño compartido, las emociones, la comodidad y la salud sexual, pero las experiencias varían. Estas preocupaciones son temas válidos para hablar con profesionales de la salud, y nunca se le exige divulgar información personal en la app.",
+      "learning_objective": "Explore la intimidad con respeto, sin promesas ni divulgación obligatoria.",
+      "allowed_claims": [
+        "OSA_EDUCATIONAL_ROLE"
+      ],
+      "prohibited_overclaims": [
+        "diagnosis",
+        "individual_pressure_change",
+        "medication_selection",
+        "guaranteed_outcome"
+      ],
+      "relevant_topics": [
+        "m7",
+        "summary"
+      ],
+      "source_version": "4",
+      "source_file": "src/content/es/modules/module-07.ts",
+      "source_hash": "bb53297b3895d753974158455da586ba3647cb4727f297bb2e24af4a44c4089b",
+      "translation_status": "machine_drafted",
+      "stable_link_id": "m7:m7-recap"
+    }
+  ]
+}
