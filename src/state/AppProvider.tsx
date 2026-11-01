@@ -3,6 +3,7 @@ import React, { createContext, useCallback, useContext, useEffect, useMemo, useS
 import i18n from '@/src/i18n';
 import type { SupportedLocale } from '@/src/types/content';
 import { CURRICULUM_VERSION, migrateLearningState } from './curriculum-migration';
+import { sanitizeLearningState, serializeLearningState } from './learning-persistence';
 
 const STORAGE_KEY = 'sleep_education_state_v3';
 const LEGACY_STORAGE_KEY = 'sleep_education_state_v2';
@@ -81,6 +82,7 @@ interface AppContextValue {
 
 const AppContext = createContext<AppContextValue | undefined>(undefined);
 
+const persistLearningState = (state: LearningState) => AsyncStorage.setItem(STORAGE_KEY, serializeLearningState(state));
 export function AppProvider({ children }: React.PropsWithChildren) {
   const [state, setState] = useState(defaults);
   const [loaded, setLoaded] = useState(false);
@@ -91,29 +93,9 @@ export function AppProvider({ children }: React.PropsWithChildren) {
       .then(([current, legacy]) => current ?? legacy)
       .then((value) => {
         if (value) {
-          const parsed = migrateLearningState(JSON.parse(value) as Partial<LearningState>);
-          setState({
-            ...defaults,
-            curriculumVersion: parsed.curriculumVersion ?? defaults.curriculumVersion,
-            completedScreenIds: parsed.completedScreenIds ?? [],
-            completedModuleIds: parsed.completedModuleIds ?? [],
-            currentModuleId: parsed.currentModuleId,
-            lastScreenByModule: parsed.lastScreenByModule ?? {},
-            answers: parsed.answers ?? {},
-            answerAttempts: parsed.answerAttempts ?? {},
-            reflectionDrafts: parsed.reflectionDrafts ?? {},
-            savedReflections: parsed.savedReflections ?? {},
-            language: parsed.language ?? defaults.language,
-            narrationEnabled: parsed.narrationEnabled ?? defaults.narrationEnabled,
-            narrationRate: parsed.narrationRate ?? defaults.narrationRate,
-            narrationPitch: parsed.narrationPitch ?? defaults.narrationPitch,
-            voiceByLocale: parsed.voiceByLocale ?? {},
-            reduceMotion: parsed.reduceMotion ?? defaults.reduceMotion,
-            aiConsent: parsed.aiConsent ?? false,
-            aiEnabled: parsed.aiEnabled ?? true,
-            velaConversationRevision: parsed.velaConversationRevision ?? 0,
-            actionPlans: parsed.actionPlans ?? [],
-          });
+          const migrated = migrateLearningState(JSON.parse(value) as Partial<LearningState>);
+          const hydrated = sanitizeLearningState(migrated) as Partial<LearningState>;
+          setState({ ...defaults, ...hydrated });
           void AsyncStorage.removeItem(LEGACY_STORAGE_KEY);
         }
       })
@@ -124,7 +106,7 @@ export function AppProvider({ children }: React.PropsWithChildren) {
   useEffect(() => {
     if (!loaded) return;
     void i18n.changeLanguage(state.language);
-    void AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(state)).catch(() => undefined);
+    void persistLearningState(state).catch(() => undefined);
   }, [loaded, state]);
 
   const completeScreen = useCallback((screenId: string, moduleId: string, nextScreenId?: string, isLast?: boolean) => {
@@ -153,7 +135,7 @@ export function AppProvider({ children }: React.PropsWithChildren) {
         };
         return next;
       });
-      await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+      await persistLearningState(next);
     },
     submitAnswer: (screenId, answers, correct) => setState((current) => ({
       ...current,
@@ -167,7 +149,7 @@ export function AppProvider({ children }: React.PropsWithChildren) {
       const next = { ...current, language };
       // Persist the mode at the point of selection so immediate navigation or
       // reload cannot recreate the prior locale before the effect flushes.
-      void AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+      void persistLearningState(next);
       void i18n.changeLanguage(language);
       return next;
     }),
@@ -183,7 +165,7 @@ export function AppProvider({ children }: React.PropsWithChildren) {
     deleteActionPlan: (id) => setState((current) => ({ ...current, actionPlans: current.actionPlans.filter((plan) => plan.id !== id) })),
     pendingVelaActivity,
     setPendingVelaActivity,
-    saveNow: () => AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(state)),
+    saveNow: () => persistLearningState(state),
     resetProgress: () => setState((current) => ({
       ...defaults,
       language: current.language,

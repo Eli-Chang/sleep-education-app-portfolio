@@ -46,4 +46,4 @@ const currentScreens = [
 ];
 const preservedCurrentScreenIds = new Set(['m4-02', 'm4-q3', 'm4-ai1', 'm4-ai2']);
 const screens = [...ciasScreensByModule.m4, ...currentScreens.filter((screen) => preservedCurrentScreenIds.has(screen.id))];
-export const module04: EducationModule = {id:'m4',order:4,title:'Sleep Apnea and Health of Your Pregnancy and Baby',shortTitle:'Pregnancy & Baby',description:'Understand pregnancy-related associations without deterministic or frightening conclusions.',screens,sourceScreenshotIds:[],curriculumVersion:4,translationStatus:'source',clinicalReviewStatus:'not_reviewed'};
+export const module04: EducationModule = {id:'m4',order:4,title:'Sleep Apnea and Health of Your Pregnancy and Baby',shortTitle:'Pregnancy & Baby',description:'Understand pregnancy-related associations without deterministic or frightening conclusions.',screens,sourceScreenshotIds:[],curriculumVersion:5,translationStatus:'source',clinicalReviewStatus:'not_reviewed'};

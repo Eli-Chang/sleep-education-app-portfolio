@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Platform } from 'react-native';
 
-const STORAGE_KEY = 'lifespan_sleep_quiz_answers_v1';
+const STORAGE_KEY = 'sleep_quiz_answers_v1';
 
 export function useProgressStorage() {
   const [selectedAnswers, setSelectedAnswers] = useState<Record<string, string>>({});

@@ -1,8 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 
-// Keep the canonical AI-OS checkout isolated from the legacy mirror's 19008 server.
 const port = Number(process.env.PLAYWRIGHT_PORT ?? 19009);
-const aiBaseUrl = process.env.EXPO_PUBLIC_AI_API_BASE_URL ?? 'https://lifespan-sleep-education-ai.eli-apps.workers.dev';
 
 export default defineConfig({
   testDir: './tests/e2e',
@@ -19,7 +17,6 @@ export default defineConfig({
   },
   webServer: {
     command: `npm.cmd run web -- --port ${port}`,
-    env: { EXPO_PUBLIC_AI_API_BASE_URL: aiBaseUrl },
     url: `http://127.0.0.1:${port}`,
     reuseExistingServer: true,
     timeout: 120_000,

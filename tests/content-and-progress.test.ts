@@ -11,8 +11,8 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const screens=englishModules.flatMap(module=>module.screens);
-test('curriculum has seven modules and 102 unique screens',()=>{
-  assert.equal(englishModules.length,7);assert.equal(screens.length,102);assert.equal(new Set(screens.map(s=>s.id)).size,102);
+test('curriculum has eight modules and 102 unique screens',()=>{
+  assert.equal(englishModules.length,8);assert.equal(screens.length,102);assert.equal(new Set(screens.map(s=>s.id)).size,102);
   assert.deepEqual(validateContent(englishModules,spanishModules),[]);assert.equal(sourceManifest.length,77);
 });
 test('English and Spanish have exact structural parity with translated CIAS metadata',()=>{
@@ -100,4 +100,60 @@ test('all curriculum AI activities have stable unique IDs',()=>{
 test('held source records have no fabricated interaction group',()=>{
   assert.equal(sourceManifest.find((entry)=>entry.id==='src-172001')?.interactionGroupId,undefined);
   assert.equal(sourceManifest.find((entry)=>entry.id==='src-172047')?.interactionGroupId,undefined);
+});
+
+const moduleScreenIds = (id: string) => englishModules.find((module) => module.id === id)!.screens.map((screen) => screen.id);
+const PART_ONE = moduleScreenIds('m5');
+const PART_TWO = moduleScreenIds('m5b');
+
+test('sleep hygiene is split into two modules without moving, adding, or dropping a screen', () => {
+  assert.deepEqual(englishModules.map((module) => module.id), ['m1', 'm2', 'm3', 'm4', 'm5', 'm5b', 'm6', 'm7']);
+  assert.deepEqual(englishModules.map((module) => module.order), [1, 2, 3, 4, 5, 6, 7, 8]);
+  assert.equal(PART_ONE.length + PART_TWO.length, 33);
+  assert.equal(PART_TWO[0], 'm5-06');
+  assert.equal(PART_ONE.at(-1), 'm5-q4');
+  assert.deepEqual(spanishModules.map((module) => module.screens.map((screen) => screen.id)), englishModules.map((module) => module.screens.map((screen) => screen.id)));
+  for (const id of [...PART_ONE, ...PART_TWO]) {
+    assert.equal(englishModules.filter((module) => module.screens.some((screen) => screen.id === id)).length, 1, `${id} must belong to exactly one module`);
+  }
+});
+
+test('a finished single sleep hygiene module (version 4) migrates to both parts complete with answers kept', () => {
+  const answers = { 'm5-q5': ['c2', 'c5', 'c6'], 'm5-q2': ['c1'] };
+  const input = {
+    curriculumVersion: 4,
+    completedScreenIds: ['m1-01', ...PART_ONE, ...PART_TWO],
+    completedModuleIds: ['m1', 'm5'],
+    currentModuleId: 'm5',
+    lastScreenByModule: { m1: 'm1-01', m5: 'm5-recap' },
+    answers,
+  };
+  const migrated = migrateLearningState(input);
+  assert.equal(migrated.curriculumVersion, CURRICULUM_VERSION);
+  assert.deepEqual(migrated.completedModuleIds, ['m1', 'm5', 'm5b']);
+  assert.equal(migrated.currentModuleId, 'm5b');
+  assert.deepEqual(migrated.lastScreenByModule, { m1: 'm1-01', m5: 'm5-q4', m5b: 'm5-recap' });
+  assert.deepEqual(migrated.answers, answers);
+  assert.deepEqual(migrated.completedScreenIds, input.completedScreenIds);
+  assert.deepEqual(migrateLearningState(migrated), migrated);
+});
+
+test('partial sleep hygiene progress completes Part 1 only when every Part 1 screen was done', () => {
+  const migrated = migrateLearningState({ curriculumVersion: 4, completedScreenIds: [...PART_ONE, 'm5-06', 'm5-15'], completedModuleIds: ['m1'], currentModuleId: 'm5', lastScreenByModule: { m5: 'm5-16' } });
+  assert.deepEqual(migrated.completedModuleIds, ['m1', 'm5']);
+  assert.equal(migrated.currentModuleId, 'm5b');
+  assert.deepEqual(migrated.lastScreenByModule, { m5: 'm5-q4', m5b: 'm5-16' });
+  const gap = migrateLearningState({ curriculumVersion: 4, completedScreenIds: PART_ONE.filter((id) => id !== 'm5-13').concat(['m5-06']), completedModuleIds: [], currentModuleId: 'm5', lastScreenByModule: { m5: 'm5-15' } });
+  assert.deepEqual(gap.completedModuleIds, []);
+  assert.deepEqual(gap.lastScreenByModule, { m5b: 'm5-15' });
+  assert.equal(gap.currentModuleId, 'm5b');
+});
+
+test('progress inside Part 1 is left in place, and version 5 state is not re-split', () => {
+  const inPartOne = migrateLearningState({ curriculumVersion: 4, completedScreenIds: ['m5-01', 'm5-02'], completedModuleIds: [], currentModuleId: 'm5', lastScreenByModule: { m5: 'm5-03' } });
+  assert.deepEqual(inPartOne.completedModuleIds, []);
+  assert.deepEqual(inPartOne.lastScreenByModule, { m5: 'm5-03' });
+  assert.equal(inPartOne.currentModuleId, 'm5');
+  const current = { curriculumVersion: 5, completedScreenIds: PART_ONE, completedModuleIds: ['m5'], currentModuleId: 'm5', lastScreenByModule: { m5: 'm5-q4' } };
+  assert.deepEqual(migrateLearningState(current).completedModuleIds, ['m5']);
 });

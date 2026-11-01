@@ -13,6 +13,7 @@ import { useApp, type LessonChatMessage } from '@/src/state/AppProvider';
 import { fontFamily, palette, radius, spacing } from '@/src/theme/tokens';
 import type { AiActivityKind } from '@/src/types/content';
 import { buildRollingConversation, trimTranscriptForDisplay } from '@/shared/conversation-policy';
+import { isVelaReturnRoute } from './vela-layout';
 
 type ChatStatus = 'empty' | 'thinking' | 'error' | 'offline' | 'safety';
 
@@ -118,13 +119,7 @@ export default function LessonChat({ inlineActivityId, inlineKind, inline, sheet
     setInput(lastAttempt.current);
   };
 
-  const returnTo = typeof params.returnTo === 'string' && (
-    params.returnTo === '/' ||
-    params.returnTo === '/settings' ||
-    /^\/module\/[^/]+$/.test(params.returnTo) ||
-    /^\/module\/[^/]+\/complete$/.test(params.returnTo) ||
-    /^\/lesson\/[^/]+\/[^/]+$/.test(params.returnTo)
-  ) ? params.returnTo : undefined;
+  const returnTo = typeof params.returnTo === 'string' && isVelaReturnRoute(params.returnTo) ? params.returnTo : undefined;
   const close = () => {
     if (onClose) onClose();
     else if (returnTo) router.replace(returnTo as Href);

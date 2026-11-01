@@ -24,6 +24,7 @@ export interface QuestionFeedback {
   correctSummary?: string;
   incorrectSummary?: string;
   generalExplanation?: string;
+  incorrectExplanation?: string;
   optionExplanations?: Record<string, string>;
 }
 
@@ -48,6 +49,23 @@ export interface LessonBase {
   answerBehaviorProvenance?: AnswerBehaviorProvenance;
 }
 
+export interface RichTextSegment {
+  text: string;
+  bold?: boolean;
+}
+
+export interface RichParagraphBlock {
+  type: 'paragraph';
+  segments: RichTextSegment[];
+}
+
+export interface RichUnorderedListBlock {
+  type: 'unorderedList';
+  items: RichTextSegment[][];
+}
+
+export type RichContentBlock = RichParagraphBlock | RichUnorderedListBlock;
+
 export interface ContentLesson extends LessonBase {
   type: 'content';
   paragraphs: string[];
@@ -55,6 +73,7 @@ export interface ContentLesson extends LessonBase {
   keyPoints?: string[];
   sourceVisibleLabels?: string[];
   video?: LessonVideo;
+  presentation?: RichContentBlock[];
 }
 
 export interface SingleChoiceLesson extends LessonBase {
@@ -143,7 +162,7 @@ export interface EducationModule {
   description: string;
   screens: LessonScreen[];
   sourceScreenshotIds: string[];
-  curriculumVersion: 4;
+  curriculumVersion: 4 | 5;
   translationStatus?: TranslationStatus;
   translationProvenance?: TranslationProvenance;
   bilingualReviewStatus?: 'not_reviewed';

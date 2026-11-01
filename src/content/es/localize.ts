@@ -85,12 +85,15 @@ export function draftSpanishModule(
     if (screen.type === 'content') return { ...screen, ...review, title:draft.title, narrationText:[...draft.body, ...(draft.keyPoints ?? [])].join(' '), paragraphs: draft.body, orderedList: screen.id === 'm1-03' ? ['Los músculos alrededor de la garganta se relajan.', 'La vía respiratoria superior se bloquea parcial o completamente.', 'El flujo de aire disminuye o se detiene brevemente.', 'El cerebro y el cuerpo responden para que la respiración pueda reiniciarse.', 'El sueño puede interrumpirse, aunque no recuerde haberse despertado.'] : undefined, keyPoints: draft.keyPoints };
     if (screen.type === 'summary') return { ...screen, ...review, title:draft.title, narrationText:draft.body.join(' '), keyPoints: draft.body };
     if (screen.type === 'aiActivity') return { ...screen, ...review, title:draft.title, narrationText:draft.body.join(' '), prompt: draft.body[0], placeholder: draft.placeholder ?? screen.placeholder };
-    if (screen.type === 'reflection') return { ...screen, ...review, title:draft.title, narrationText:draft.body.join(' '), prompt: draft.body[0] };
+    // Narrate only what is on screen (title and prompt), matching the English reflection narration.
+    if (screen.type === 'reflection') return { ...screen, ...review, title:draft.title, narrationText:[draft.title, draft.body[0]].join(' '), prompt: draft.body[0] };
     if (screen.type === 'scenario') return { ...screen, ...review, title:draft.title, narrationText:draft.body.join(' '), scenario: draft.body[0], prompt: draft.body[1] ?? screen.prompt };
     const generalExplanation = draft.body[screen.choices.length + 1] ?? 'Revise la explicación y vuelva a intentarlo cuando quiera.';
     const isReflection = screen.questionKind === 'reflection';
     return {
-      ...screen, ...review, title:draft.title, narrationText:draft.body.join(' '),
+      // Narrate the prompt and choices only, as in English. The explanation follows the body's choices
+      // and is shown (and spoken) only after the learner answers, so reading it first would give the answer away.
+      ...screen, ...review, title:draft.title, narrationText:draft.body.slice(0, screen.choices.length + 1).join(' '),
       prompt: draft.body[0],
       instructions: screen.instructions,
       choices: screen.choices.map((choice, index) => ({ ...choice, label: draft.body[index + 1] ?? choice.label })),

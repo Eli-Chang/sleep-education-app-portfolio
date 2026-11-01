@@ -2,7 +2,14 @@ import type { LearningState } from './AppProvider';
 import { englishModules } from '../content/en';
 import { sourceManifest } from '../content/source-manifest';
 
-export const CURRICULUM_VERSION = 4;
+/**
+ * Curriculum versions:
+ * - < 4: legacy curricula with old screen IDs (remapped below).
+ * - 4: seven modules, with Healthy Sleep Hygiene as one module (m5).
+ * - 5: eight modules. The same screens are split into m5 (Part 1) and m5b (Part 2); every screen ID is unchanged.
+ */
+export const CURRICULUM_VERSION = 5;
+const LEGACY_ID_VERSION = 4;
 
 const oldToNew: Record<string,string> = {
   'm1-s01':'m1-01','m1-s02':'m1-02','m1-s03':'m1-03','m1-s04':'m1-q1','m1-s05':'m1-05','m1-s06':'m1-r1',
@@ -17,8 +24,10 @@ const blockedLegacyIds = new Set(['m1-s02', 'm5-s18', 'm5-s26']);
 const runtimeScreenIds = new Set(englishModules.flatMap((module) => module.screens.map((screen) => screen.id)));
 const sourceBackedScreenIds = new Set(sourceManifest.flatMap((entry) => entry.relatedLessonScreenIds));
 
-export const migrateLearningState = (input: Partial<LearningState> & { curriculumVersion?: number }): Partial<LearningState> & { curriculumVersion: number } => {
-  if((input.curriculumVersion??2)>=CURRICULUM_VERSION) return {...input,curriculumVersion:CURRICULUM_VERSION};
+type MigratedState = Partial<LearningState> & { curriculumVersion: number };
+
+const migrateLegacyIds = (input: Partial<LearningState> & { curriculumVersion?: number }): MigratedState => {
+  if((input.curriculumVersion??2)>=LEGACY_ID_VERSION) return {...input,curriculumVersion:input.curriculumVersion ?? LEGACY_ID_VERSION};
   const mapId=(id:string): string | undefined => {
     if (blockedLegacyIds.has(id)) return undefined;
     const mapped = oldToNew[id] ?? id;
@@ -33,7 +42,7 @@ export const migrateLearningState = (input: Partial<LearningState> & { curriculu
   const mappedLastScreenByModule=Object.fromEntries(Object.entries(input.lastScreenByModule??{}).flatMap(([moduleId,id])=>{const mapped=mapId(id);return mapped ? [[moduleId,mapped]] : [];}));
   return {
     ...input,
-    curriculumVersion:CURRICULUM_VERSION,
+    curriculumVersion:LEGACY_ID_VERSION,
     completedScreenIds:[...new Set(mapIds(input.completedScreenIds))],
     completedModuleIds:[],
     lastScreenByModule:mappedLastScreenByModule,
@@ -42,6 +51,52 @@ export const migrateLearningState = (input: Partial<LearningState> & { curriculu
     reflectionDrafts:mapRecord(input.reflectionDrafts, true),
     savedReflections:mapRecord(input.savedReflections, true),
   };
+};
+
+const screenIdsOf = (moduleId: string) => englishModules.find((module) => module.id === moduleId)?.screens.map((screen) => screen.id) ?? [];
+const SLEEP_HYGIENE_PART_ONE = 'm5';
+const SLEEP_HYGIENE_PART_TWO = 'm5b';
+
+/**
+ * v5 step: split the old single Healthy Sleep Hygiene module (m5) into m5 and m5b.
+ * Screen IDs did not change, so answers, attempts, reflections, and completed screens carry over as-is.
+ * Only module-level bookkeeping moves:
+ * - A previously completed m5 means every screen was finished, so both parts are complete.
+ * - Otherwise a part is complete only when every one of its screens is already completed.
+ * - A saved m5 position on a Part 2 screen moves to m5b; m5 then keeps no position unless Part 1 is complete.
+ */
+const splitSleepHygiene = (state: MigratedState): MigratedState => {
+  const partOne = screenIdsOf(SLEEP_HYGIENE_PART_ONE);
+  const partTwo = screenIdsOf(SLEEP_HYGIENE_PART_TWO);
+  const done = new Set(state.completedScreenIds ?? []);
+  const completedModules = (state.completedModuleIds ?? []).filter((id) => id !== SLEEP_HYGIENE_PART_TWO);
+  const oldModuleComplete = completedModules.includes(SLEEP_HYGIENE_PART_ONE);
+  const partOneComplete = oldModuleComplete || (partOne.length > 0 && partOne.every((id) => done.has(id)));
+  const partTwoComplete = oldModuleComplete || (partTwo.length > 0 && partTwo.every((id) => done.has(id)));
+  const completedModuleIds = completedModules.filter((id) => id !== SLEEP_HYGIENE_PART_ONE);
+  const ordered = englishModules.map((module) => module.id);
+  const withParts = [...completedModuleIds, ...(partOneComplete ? [SLEEP_HYGIENE_PART_ONE] : []), ...(partTwoComplete ? [SLEEP_HYGIENE_PART_TWO] : [])];
+  const known = withParts.filter((id) => ordered.includes(id)).sort((a, b) => ordered.indexOf(a) - ordered.indexOf(b));
+  const unknown = withParts.filter((id) => !ordered.includes(id));
+
+  const lastScreenByModule = { ...(state.lastScreenByModule ?? {}) };
+  delete lastScreenByModule[SLEEP_HYGIENE_PART_TWO];
+  const savedPosition = lastScreenByModule[SLEEP_HYGIENE_PART_ONE];
+  if (savedPosition && partTwo.includes(savedPosition)) {
+    lastScreenByModule[SLEEP_HYGIENE_PART_TWO] = savedPosition;
+    if (partOneComplete) lastScreenByModule[SLEEP_HYGIENE_PART_ONE] = partOne[partOne.length - 1];
+    else delete lastScreenByModule[SLEEP_HYGIENE_PART_ONE];
+  }
+  const currentModuleId = state.currentModuleId === SLEEP_HYGIENE_PART_ONE && savedPosition && partTwo.includes(savedPosition)
+    ? SLEEP_HYGIENE_PART_TWO : state.currentModuleId;
+  return { ...state, completedModuleIds: [...known, ...unknown], lastScreenByModule, currentModuleId };
+};
+
+export const migrateLearningState = (input: Partial<LearningState> & { curriculumVersion?: number }): MigratedState => {
+  const startingVersion = typeof input.curriculumVersion === 'number' ? input.curriculumVersion : 0;
+  let state = migrateLegacyIds(input);
+  if (startingVersion < CURRICULUM_VERSION) state = splitSleepHygiene(state);
+  return { ...state, curriculumVersion: Math.max(startingVersion, CURRICULUM_VERSION) };
 };
 
 export const curriculumMigrationMap = oldToNew;

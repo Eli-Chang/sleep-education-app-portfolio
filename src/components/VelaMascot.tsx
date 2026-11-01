@@ -1,12 +1,12 @@
 import { Image } from 'expo-image';
-import { router, usePathname, useSegments, type Href } from 'expo-router';
+import { router, useGlobalSearchParams, usePathname, useSegments, type Href } from 'expo-router';
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import { Animated, Easing, Keyboard, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { palette } from '@/src/theme/tokens';
 import { useReducedMotion } from '@/src/hooks/useReducedMotion';
 import { useTranslation } from 'react-i18next';
-import { getVelaBottomOffset } from './vela-layout';
+import { getVelaBottomOffset, isVelaReturnRoute } from './vela-layout';
 
 export type VelaVisualState = 'idle' | 'conversation' | 'thinking' | 'error' | 'offline' | 'safety';
 
@@ -179,6 +179,7 @@ export function VelaLauncher({ onPress, accessibilityLabel = 'Open Vela', bottom
 export function VelaChrome() {
   const pathname = usePathname();
   const segments = useSegments();
+  const { screenId } = useGlobalSearchParams<{ screenId?: string }>();
   const insets = useSafeAreaInsets();
   const { t } = useTranslation();
   const context = useContext(NudgeContext);
@@ -197,8 +198,10 @@ export function VelaChrome() {
   const suppressed = Boolean(context && context.suppressedKeys.size > 0);
   const nudgeEligible = !chatOpen && !keyboardVisible && !suppressed && !nudgeRef.current.opened;
   const isTabRoute = segments[0] === '(tabs)';
-  const bottomOffset = getVelaBottomOffset({ isTabRoute, bottomInset: insets.bottom });
-  const returnTo = pathname === '/' || pathname === '/settings' || /^\/module\/[^/]+$/.test(pathname) || /^\/module\/[^/]+\/complete$/.test(pathname) || /^\/lesson\/[^/]+\/[^/]+$/.test(pathname) ? pathname : undefined;
+  const hasLessonFooter = pathname.startsWith('/lesson/');
+  const bottomOffset = getVelaBottomOffset({ isTabRoute, bottomInset: insets.bottom, hasLessonFooter });
+  const currentRoute = pathname.startsWith('/lesson/') && typeof screenId === 'string' ? `${pathname}?screenId=${encodeURIComponent(screenId)}` : pathname;
+  const returnTo = isVelaReturnRoute(currentRoute) ? currentRoute : undefined;
   const handleNudgeDismissed = useCallback(() => setShowNudge(false), []);
 
   useEffect(() => {

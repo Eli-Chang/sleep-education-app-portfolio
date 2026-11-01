@@ -49,4 +49,4 @@ const currentScreens = [
 ];
 const preservedCurrentScreenIds = new Set(['m6-06', 'm6-ai1', 'm6-ai2', 'm6-recap']);
 const screens = [...ciasScreensByModule.m6, ...currentScreens.filter((screen) => preservedCurrentScreenIds.has(screen.id))];
-export const module06: EducationModule = {id:'m6',order:6,title:'Pregnancy Comorbidities and PAP',shortTitle:'PAP Barriers',description:'Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.',screens,sourceScreenshotIds:[],curriculumVersion:4,translationStatus:'source',clinicalReviewStatus:'needs_revision'};
+export const module06: EducationModule = {id:'m6',order:7,title:'Pregnancy Comorbidities and PAP',shortTitle:'PAP Barriers',description:'Describe congestion, reflux, anxiety, and equipment barriers and connect them to appropriate support.',screens,sourceScreenshotIds:[],curriculumVersion:5,translationStatus:'source',clinicalReviewStatus:'needs_revision'};

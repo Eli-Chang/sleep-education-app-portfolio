@@ -1,6 +1,6 @@
-import { module05 as en } from '@/src/content/en/modules/module-05';
+import { module05 as en, module05b as enPartTwo } from '@/src/content/en/modules/module-05';
 import { draftSpanishModule as d } from '../localize';
-export const module05=d(en,{title:'Higiene saludable del sueño',shortTitle:'Higiene del sueño',description:'Cree hábitos realistas que apoyan el sueño sin reemplazar la atención de AOS o insomnio.'},{
+const drafts: Parameters<typeof d>[2] = {
   'm5-01':{title:'¿Qué es la higiene del sueño?',body:['Son hábitos y condiciones ambientales que apoyan el sueño saludable.','Puede ayudar, pero no cura AOS y quizá no baste para insomnio persistente u otro problema. La meta es una rutina realista, no perfecta.']},
   'm5-02':{title:'El sueño puede cambiar durante el embarazo',body:['Molestias, micción nocturna, reflujo, congestión, movimiento fetal, ansiedad o cambios respiratorios pueden alterar el sueño.','Si la dificultad persiste, causa angustia o afecta el día, merece atención. Las estrategias de higiene del sueño no reemplazan una evaluación.']},
   'm5-03':{title:'Use la hora de levantarse como ancla',body:['Una hora de levantarse razonablemente constante puede ayudar a mantener el ritmo sueño-vigilia.','La hora de acostarse no tiene que ser exacta. El embarazo y las responsabilidades requieren flexibilidad.']},
@@ -20,4 +20,7 @@ export const module05=d(en,{title:'Higiene saludable del sueño',shortTitle:'Hig
   'm5-ai2':{title:'Cree un plan de hábito',body:['Elija un hábito de sueño que le gustaría trabajar.']},
   'm5-ai3':{title:'Explique la higiene del sueño',body:['¿Por qué la higiene del sueño ayuda, pero no trata todos los problemas de sueño?']},
   'm5-recap':{title:'Resumen del módulo',body:['La higiene del sueño crea hábitos y condiciones que apoyan dormir. Incluye horarios, rutinas, luz, ambiente, cafeína, comidas, actividad y siestas. No cura AOS ni siempre basta para insomnio u otros problemas.']},
-});
+};
+
+export const module05=d(en,{title:'Higiene saludable del sueño, parte 1: rutina y luz',shortTitle:'Higiene del sueño, parte 1',description:'Cree una rutina de sueño realista y use el horario, la luz y los hábitos para relajarse como apoyo para dormir, sin reemplazar la atención de AOS o insomnio.'},drafts);
+export const module05b=d(enPartTwo,{title:'Higiene saludable del sueño, parte 2: ambiente y hábitos diarios',shortTitle:'Higiene del sueño, parte 2',description:'Adapte el dormitorio y hábitos diarios como la cafeína, las comidas, la actividad, las siestas y el estrés para apoyar el sueño, sin reemplazar la atención de AOS o insomnio.'},drafts);

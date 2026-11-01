@@ -9,7 +9,9 @@
     "typecheck": "tsc --noEmit",
     "validate:content": "tsx scripts/validate-content.ts",
     "test": "tsx --test tests/*.test.ts",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "audit:a11y": "node scripts/audit-ui-a11y.mjs",
+    "capture:screenshots": "node scripts/capture-screenshots.mjs"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",

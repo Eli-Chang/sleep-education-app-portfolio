@@ -7,4 +7,4 @@ if (errors.length) {
   console.error(errors.join('\n'));
   process.exit(1);
 }
-console.log(`Content validation passed: 7 modules, ${englishModules.flatMap((module) => module.screens).length} curriculum screens, matching English/Spanish IDs, and 77 preserved historical source entries.`);
+console.log(`Content validation passed: ${englishModules.length} modules, ${englishModules.flatMap((module) => module.screens).length} curriculum screens, matching English/Spanish IDs, and 77 preserved historical source entries.`);

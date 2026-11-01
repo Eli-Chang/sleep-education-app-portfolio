@@ -38,4 +38,4 @@ const currentScreens = [
 ];
 const preservedCurrentScreenIds = new Set(['m7-r1', 'm7-ai1', 'm7-recap']);
 const screens = [...ciasScreensByModule.m7, ...currentScreens.filter((screen) => preservedCurrentScreenIds.has(screen.id))];
-export const module07: EducationModule = {id:'m7',order:7,title:'Intimacy',shortTitle:'Intimacy',description:'Explore intimacy broadly and respectfully without promises or required disclosure.',screens,sourceScreenshotIds:[],curriculumVersion:4,translationStatus:'source',clinicalReviewStatus:'not_reviewed'};
+export const module07: EducationModule = {id:'m7',order:8,title:'Intimacy',shortTitle:'Intimacy',description:'Explore intimacy broadly and respectfully without promises or required disclosure.',screens,sourceScreenshotIds:[],curriculumVersion:5,translationStatus:'source',clinicalReviewStatus:'not_reviewed'};

@@ -2,6 +2,7 @@ import { Image } from 'expo-image';
 import { StyleSheet, View } from 'react-native';
 import type { CurriculumImageAsset } from '@/src/content/image-registry';
 import { useReducedMotion } from '@/src/hooks/useReducedMotion';
+import { palette, radius } from '@/src/theme/tokens';
 
 export function CurriculumImage({ asset, locale, compact = false }: { asset: CurriculumImageAsset; locale: 'en' | 'es'; compact?: boolean }) {
   const reducedMotion = useReducedMotion();
@@ -18,7 +19,8 @@ export function CurriculumImage({ asset, locale, compact = false }: { asset: Cur
 }
 
 const styles = StyleSheet.create({
-  frame: { alignSelf: 'stretch' },
+  // No rounded clipping: several diagrams carry attribution text in their corners.
+  frame: { alignSelf: 'stretch', alignItems: 'center', borderRadius: radius.xs, backgroundColor: palette.white },
   compact: { width: 82, alignSelf: 'center' },
   image: { width: '100%', maxHeight: 420 },
 });

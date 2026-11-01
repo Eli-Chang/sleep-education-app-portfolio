@@ -26,12 +26,12 @@ export function LessonVideoCard({ video, locale }: { video: LessonVideo; locale:
 
 const styles = StyleSheet.create({
   card: { gap: spacing.sm, borderWidth: 1, borderColor: palette.border, borderRadius: radius.lg, padding: spacing.sm, backgroundColor: palette.surfaceSoft },
-  thumbnailButton: { position: 'relative', overflow: 'hidden', borderRadius: radius.md, backgroundColor: palette.raised },
+  thumbnailButton: { position: 'relative', overflow: 'hidden', borderRadius: radius.md, backgroundColor: palette.sunken },
   thumbnail: { width: '100%', aspectRatio: 16 / 9 },
-  playBadge: { position: 'absolute', left: '50%', top: '50%', width: 48, height: 48, marginLeft: -24, marginTop: -24, borderRadius: 24, alignItems: 'center', justifyContent: 'center', backgroundColor: 'rgba(18,26,51,0.86)' },
+  playBadge: { position: 'absolute', left: '50%', top: '50%', width: 52, height: 52, marginLeft: -26, marginTop: -26, borderRadius: 26, alignItems: 'center', justifyContent: 'center', backgroundColor: 'rgba(24,35,74,0.88)' },
   playIcon: { color: palette.white, fontSize: 19, marginLeft: 3 },
-  title: { color: palette.white, fontFamily: fontFamily.heading, fontSize: 16, lineHeight: 22, fontWeight: '800' },
-  watchButton: { minHeight: touchTarget, justifyContent: 'center' },
-  watchLabel: { color: palette.accent, fontFamily: fontFamily.body, fontSize: 14, lineHeight: 20, fontWeight: '800', textDecorationLine: 'underline' },
+  title: { color: palette.ink, fontFamily: fontFamily.heading, fontSize: 18, lineHeight: 23, fontWeight: 'normal', paddingHorizontal: 4 },
+  watchButton: { minHeight: touchTarget, justifyContent: 'center', paddingHorizontal: 4 },
+  watchLabel: { color: palette.primary, fontFamily: fontFamily.bodyBold, fontSize: 15, lineHeight: 20, fontWeight: 'normal', textDecorationLine: 'underline' },
   pressed: { opacity: 0.72 },
 });

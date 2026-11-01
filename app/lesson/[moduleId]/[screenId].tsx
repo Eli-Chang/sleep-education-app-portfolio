@@ -1,47 +1,106 @@
-import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { router, useLocalSearchParams, type Href } from 'expo-router';
+import { Redirect, router, useLocalSearchParams, usePathname, type Href } from 'expo-router';
 import React, { useEffect, useRef, useState } from 'react';
-import { Alert, Animated, BackHandler, Easing, Keyboard, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Alert, Animated, BackHandler, Easing, Keyboard, Platform, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { getModule } from '@/src/content';
 import { useApp } from '@/src/state/AppProvider';
 import { LessonRenderer } from '@/src/components/LessonRenderer';
-import { ActionButton, AppScreen, GradientSurface, ProgressMeter } from '@/src/components/ui';
+import { ActionButton, AppScreen, ProgressMeter } from '@/src/components/ui';
 import { chooseVoice, isNarrationSpeaking, replayNarration, speakFeedback, speakScreen, stopNarration } from '@/src/services/narration';
-import { fontFamily, palette, radius, spacing, touchTarget } from '@/src/theme/tokens';
+import { palette, radius, spacing, touchTarget, type as typeScale } from '@/src/theme/tokens';
 import { useReducedMotion } from '@/src/hooks/useReducedMotion';
 
 type NarrationState = 'listen' | 'pause' | 'replay' | 'unavailable';
 
 export default function LessonScreen() {
-  const { moduleId, screenId, direction } = useLocalSearchParams<{ moduleId: string; screenId: string; direction?: 'forward' | 'backward' }>();
+  const { moduleId, screenId, direction } = useLocalSearchParams<{ moduleId: string; screenId?: string; direction?: 'forward' | 'backward' }>();
+  const pathname = usePathname();
+  const isStableLessonRoute = pathname === `/lesson/${moduleId}`;
   const { t } = useTranslation();
   const { state, completeScreen, setVoice, saveNow, setPendingVelaActivity } = useApp();
   const module = getModule(state.language, moduleId);
-  const index = module?.screens.findIndex((screen) => screen.id === screenId) ?? -1;
+  const requestedScreenId = screenId ?? module?.screens[0]?.id;
+  const legacyLessonHref = !isStableLessonRoute && screenId
+    ? `/lesson/${moduleId}?screenId=${encodeURIComponent(screenId)}&direction=${direction ?? 'forward'}` as Href
+    : undefined;
+  const [displayedScreenId, setDisplayedScreenId] = useState(requestedScreenId);
+  const displayedScreenIdRef = useRef(requestedScreenId);
+  const [isTransitioning, setIsTransitioning] = useState(false);
+  const initialEntryRef = useRef(true);
+  const transitionAnimation = useRef<Animated.CompositeAnimation | null>(null);
+  const transition = React.useRef(new Animated.Value(0)).current;
+  const { width: viewportWidth } = useWindowDimensions();
+  const lessonWidth = Math.max(viewportWidth, 1);
+  // Narrow phones keep Previous as a labelled icon button so Next never truncates.
+  const compactControls = viewportWidth < 360;
+  const entryOffset = direction === 'backward' ? -lessonWidth : lessonWidth;
+  const index = module?.screens.findIndex((candidate) => candidate.id === displayedScreenId) ?? -1;
   const screen = index >= 0 ? module?.screens[index] : undefined;
-  const latestAttempt = state.answerAttempts[screenId]?.at(-1);
+  const incomingScreen = module?.screens.find((candidate) => candidate.id === requestedScreenId);
+  const latestAttempt = state.answerAttempts[displayedScreenId ?? '']?.at(-1);
   const [submittedNow, setSubmittedNow] = useState(Boolean(latestAttempt));
   const [submissionCorrect, setSubmissionCorrect] = useState(latestAttempt?.correct === true);
-  const [homeFocused, setHomeFocused] = useState(false);
   const [keyboardVisible, setKeyboardVisible] = useState(false);
   const [narrationState, setNarrationState] = useState<NarrationState>('listen');
   const navigationLocked = useRef(false);
   const reducedMotion = useReducedMotion();
-  const transition = React.useRef(new Animated.Value(0)).current;
-  const entryOffset = direction === 'backward' ? -12 : 12;
-  useEffect(() => { transition.setValue(reducedMotion ? 1 : 0); if (!reducedMotion) Animated.timing(transition, { toValue: 1, duration: 260, easing: Easing.inOut(Easing.cubic), useNativeDriver: Platform.OS !== 'web' }).start(); }, [screenId, reducedMotion, transition]);
+  useEffect(() => {
+    if (!requestedScreenId) return;
+    transitionAnimation.current?.stop();
+    if (requestedScreenId === displayedScreenIdRef.current) {
+      // A re-run while the entry animation is in flight (saved language loading,
+      // reduced motion being detected) stopped it above; settle the lesson in place
+      // instead of leaving it translated off-screen.
+      if (!initialEntryRef.current) { transition.setValue(1); return; }
+      initialEntryRef.current = false;
+      transition.setValue(reducedMotion ? 1 : 0);
+      if (!reducedMotion) {
+        const animation = Animated.timing(transition, { toValue: 1, duration: 260, easing: Easing.inOut(Easing.cubic), useNativeDriver: Platform.OS !== 'web' });
+        transitionAnimation.current = animation;
+        animation.start(() => { transitionAnimation.current = null; });
+      }
+      return;
+    }
+
+    initialEntryRef.current = false;
+    if (reducedMotion) {
+      displayedScreenIdRef.current = requestedScreenId;
+      setDisplayedScreenId(requestedScreenId);
+      setIsTransitioning(false);
+      transition.setValue(1);
+      return;
+    }
+
+    if (!incomingScreen) return;
+    setIsTransitioning(true);
+    transition.setValue(0);
+    const animation = Animated.timing(transition, { toValue: 1, duration: 260, easing: Easing.inOut(Easing.cubic), useNativeDriver: Platform.OS !== 'web' });
+    transitionAnimation.current = animation;
+    animation.start(({ finished }) => {
+      if (!finished) return;
+      displayedScreenIdRef.current = requestedScreenId;
+      setDisplayedScreenId(requestedScreenId);
+      setIsTransitioning(false);
+      transitionAnimation.current = null;
+      transition.setValue(1);
+    });
+    return () => animation.stop();
+  }, [direction, incomingScreen, lessonWidth, reducedMotion, requestedScreenId, transition]);
+  // Read the saved voice through a ref: saving the voice on the first Listen must not re-run the reset
+  // below, which would flip the control back to "Listen" while narration is still playing.
+  const savedVoicesRef = useRef(state.voiceByLocale);
+  savedVoicesRef.current = state.voiceByLocale;
   useEffect(() => {
     let active = true;
     setNarrationState(state.narrationEnabled ? 'listen' : 'unavailable');
-    if (state.narrationEnabled) void chooseVoice(state.language, state.voiceByLocale[state.language]).then((voice) => { if (active) setNarrationState(voice ? 'listen' : 'unavailable'); });
+    if (state.narrationEnabled) void chooseVoice(state.language, savedVoicesRef.current[state.language]).then((voice) => { if (active) setNarrationState((current) => voice ? current : 'unavailable'); });
     return () => { active = false; };
-  }, [screenId, state.language, state.narrationEnabled, state.voiceByLocale]);
+  }, [displayedScreenId, state.language, state.narrationEnabled]);
   useEffect(() => {
-    const attempt = state.answerAttempts[screenId]?.at(-1);
+    const attempt = state.answerAttempts[displayedScreenId ?? '']?.at(-1);
     setSubmittedNow(Boolean(attempt));
     setSubmissionCorrect(attempt?.correct === true);
-  }, [screenId, state.answerAttempts]);
+  }, [displayedScreenId, state.answerAttempts]);
   useEffect(() => {
     if (narrationState !== 'pause') return;
     let active = true;
@@ -49,25 +108,44 @@ export default function LessonScreen() {
     const start = setTimeout(() => { poll = setInterval(() => { void isNarrationSpeaking().then((speaking) => { if (active && !speaking) setNarrationState('replay'); }); }, 500); }, 500);
     return () => { active = false; clearTimeout(start); if (poll) clearInterval(poll); };
   }, [narrationState]);
-  useEffect(() => () => { void stopNarration(); }, [screenId, state.language]);
+  useEffect(() => () => { void stopNarration(); }, [displayedScreenId, state.language]);
+  const backToModules = () => {
+    if (router.canDismiss()) router.dismissTo('/' as Href);
+    else router.replace('/' as Href);
+  };
+  const leaveLesson = () => {
+    void (async () => {
+      await saveNow();
+      await stopNarration();
+      if (router.canDismiss()) router.dismissTo(`/module/${moduleId}` as Href);
+      else router.replace(`/module/${moduleId}` as Href);
+    })();
+  };
   useEffect(() => {
     const show = Keyboard.addListener('keyboardDidShow', () => setKeyboardVisible(true));
     const hide = Keyboard.addListener('keyboardDidHide', () => setKeyboardVisible(false));
     const back = BackHandler.addEventListener('hardwareBackPress', () => {
       if (keyboardVisible) { Keyboard.dismiss(); setKeyboardVisible(false); return true; }
-      router.replace(`/module/${moduleId}` as Href);
+      leaveLesson();
       return true;
     });
     return () => { show.remove(); hide.remove(); back.remove(); };
-  }, [keyboardVisible, moduleId]);
-  if (!module || !screen || index < 0) return <AppScreen><Text style={styles.title}>{state.language === 'es' ? 'Lección no encontrada' : 'Lesson not found'}</Text><ActionButton label={t('backToModules')} icon="arrow-left" onPress={() => router.replace('/' as Href)} /></AppScreen>;
+  }, [keyboardVisible, moduleId, saveNow]);
+  if (legacyLessonHref) return <Redirect href={legacyLessonHref} />;
+  if (!module || !screen || index < 0) return <AppScreen><Text style={styles.title}>{state.language === 'es' ? 'Lección no encontrada' : 'Lesson not found'}</Text><ActionButton label={t('backToModules')} icon="arrow-left" onPress={backToModules} /></AppScreen>;
   const previous = module.screens[index - 1];
   const next = module.screens[index + 1];
   const isReflection = screen.type === 'reflection' || ('questionKind' in screen && screen.questionKind === 'reflection');
-  const isObjectiveQuestion = (screen.type === 'singleChoice' || screen.type === 'multiSelect' || screen.type === 'scenario') && !isReflection;
   const isScoredQuestion = (screen.type === 'singleChoice' && Boolean(screen.correctChoiceId)) || (screen.type === 'multiSelect' && Boolean(screen.correctChoiceIds?.length));
   const canContinue = !isScoredQuestion || submissionCorrect === true;
-  const navigate = (targetId: string, move: 'forward' | 'backward') => { if (navigationLocked.current) return; navigationLocked.current = true; void stopNarration(); router.replace({ pathname: `/lesson/${module.id}/${targetId}`, params: { direction: move } } as Href); setTimeout(() => { navigationLocked.current = false; }, 320); };
+  const navigate = (targetId: string, move: 'forward' | 'backward') => {
+    if (navigationLocked.current) return;
+    navigationLocked.current = true;
+    void stopNarration();
+    if (isStableLessonRoute) router.setParams({ screenId: targetId, direction: move });
+    else router.replace(`/lesson/${module.id}?screenId=${encodeURIComponent(targetId)}&direction=${move}` as Href);
+    setTimeout(() => { navigationLocked.current = false; }, 320);
+  };
   const continueNext = () => {
     if (isScoredQuestion && submissionCorrect !== true) return;
     completeScreen(screen.id, module.id, next?.id, !next);
@@ -76,53 +154,90 @@ export default function LessonScreen() {
   };
   const play = async () => {
     if (narrationState === 'pause') { await stopNarration(); setNarrationState('replay'); return; }
-    if (narrationState === 'replay') { await replayNarration(); setNarrationState('pause'); return; }
-    const voice = await speakScreen(screen, state.language, state.narrationRate, state.voiceByLocale[state.language], state.narrationPitch);
-    if (voice) { setVoice(state.language, voice); setNarrationState('pause'); }
-    else Alert.alert(
+    if (narrationState === 'replay') { if ((await replayNarration()).status === 'speaking') setNarrationState('pause'); return; }
+    const outcome = await speakScreen(screen, state.language, state.narrationRate, state.voiceByLocale[state.language], state.narrationPitch);
+    if (outcome.status === 'speaking') { if (state.voiceByLocale[state.language] !== outcome.voice) setVoice(state.language, outcome.voice); setNarrationState('pause'); }
+    else if (outcome.status === 'unavailable') Alert.alert(
       state.language === 'es' ? 'Voz no disponible' : 'Narration voice unavailable',
       state.language === 'es' ? 'Revise los ajustes de idioma o voz del dispositivo. Puede continuar leyendo la lección.' : 'Check the device language or speech settings. You can continue reading the lesson.',
     );
   };
   const narrationLabel = narrationState === 'pause' ? t('stop') : narrationState === 'replay' ? t('replay') : state.language === 'es' ? 'Escuchar' : 'Listen';
+  // When narration is on but this device has no voice for the lesson language, say so to screen readers.
+  const narrationAccessibilityLabel = state.narrationEnabled && narrationState === 'unavailable'
+    ? (state.language === 'es' ? 'Escuchar: no hay una voz en español disponible en este dispositivo' : 'Listen: no English voice is available on this device')
+    : narrationLabel;
   const narrationIcon = narrationState === 'pause' ? 'pause' : narrationState === 'replay' ? 'replay' : narrationState === 'unavailable' ? 'volume-off' : 'volume-high';
   const nextLabel = isReflection && !submittedNow ? t('skipOptional') : next ? t('next') : t('completeModule');
-  return <AppScreen contentStyle={styles.lessonContent}>
-    <View style={styles.topRow}><Pressable accessibilityRole="button" accessibilityLabel={`${t('backToModule')}: ${module.shortTitle}`} onFocus={() => setHomeFocused(true)} onBlur={() => setHomeFocused(false)} onPress={() => { void (async () => { await saveNow(); await stopNarration(); router.replace(`/module/${module.id}` as Href); })(); }} style={({ pressed }) => [styles.back, homeFocused && styles.focused, pressed && styles.pressed]}><MaterialCommunityIcons name="arrow-left" size={20} color={palette.ink} /><Text style={styles.backModule}>{module.shortTitle}</Text></Pressable><Text style={styles.step}>{state.language === 'es' ? 'Paso' : 'Step'} {index + 1} {state.language === 'es' ? 'de' : 'of'} {module.screens.length}</Text></View>
-    <ProgressMeter compact value={Math.round(((index + 1) / module.screens.length) * 100)} label={`${state.language === 'es' ? 'Paso' : 'Step'} ${index + 1} ${state.language === 'es' ? 'de' : 'of'} ${module.screens.length}`} />
-    <View style={styles.controls}>
-      {previous ? <ActionButton wrapperStyle={styles.controlSlot} buttonStyle={[styles.controlButton, styles.previousControlButton]} variant="secondary" label={t('previous')} icon="arrow-left" iconColor={palette.body} textColor={palette.body} textStyle={styles.controlText} onPress={() => navigate(previous.id, 'backward')} /> : <View style={styles.controlSpacer} />}
-      <ActionButton wrapperStyle={styles.controlNarration} buttonStyle={styles.controlButton} variant="primary" label={narrationLabel} icon={narrationIcon} iconColor={palette.onPrimary} textStyle={styles.narrationText} disabled={!state.narrationEnabled || narrationState === 'unavailable'} onPress={() => void play()} />
-      <ActionButton wrapperStyle={styles.controlSlot} buttonStyle={styles.controlButton} label={nextLabel} icon={isReflection && !submittedNow ? 'arrow-right' : next ? 'arrow-right' : 'check'} iconPosition="trailing" textStyle={styles.controlText} disabled={!canContinue} onPress={continueNext} />
-    </View>
-    <Animated.View testID="lesson-surface" style={[isObjectiveQuestion ? styles.lessonSurface : styles.lessonSurfaceTransparent, { opacity: transition, transform: [{ translateX: transition.interpolate({ inputRange: [0, 1], outputRange: [entryOffset, 0] }) }] }]}>{isObjectiveQuestion ? <GradientSurface /> : null}<LessonRenderer screen={screen} onOpenVelaActivity={(activity, text) => {
+  const renderLessonContent = (lesson: NonNullable<typeof screen>) => {
+    const lessonIsReflection = lesson.type === 'reflection' || ('questionKind' in lesson && lesson.questionKind === 'reflection');
+    const lessonIsScored = (lesson.type === 'singleChoice' && Boolean(lesson.correctChoiceId)) || (lesson.type === 'multiSelect' && Boolean(lesson.correctChoiceIds?.length));
+    const lessonIndex = module.screens.findIndex((candidate) => candidate.id === lesson.id);
+    const lessonNext = module.screens[lessonIndex + 1];
+    return <LessonRenderer screen={lesson} onOpenVelaActivity={(activity, text) => {
       setPendingVelaActivity({ activityId: activity.id, text });
-      router.push({ pathname: '/ai', params: { activityId: activity.id, kind: activity.activityKind, returnTo: `/lesson/${module.id}/${screen.id}` } } as Href);
+      router.push({ pathname: '/ai', params: { activityId: activity.id, kind: activity.activityKind, returnTo: `/lesson/${module.id}?screenId=${encodeURIComponent(screen.id)}` } } as Href);
     }} onEditingChange={(editing) => {
-      if (editing) {
+      if (editing && lesson.id === screen.id) {
         setSubmittedNow(false);
         setSubmissionCorrect(false);
       }
     }} onSubmitted={(correct) => {
+      if (lesson.id !== screen.id) return;
       setSubmittedNow(true);
       setSubmissionCorrect(correct === true);
-      if (!isScoredQuestion || correct === true) completeScreen(screen.id, module.id, next?.id, !next);
-      if (state.narrationEnabled && 'feedback' in screen && screen.feedback && screen.questionKind !== 'reflection') void speakFeedback(screen.feedback, state.language, state.narrationRate, state.voiceByLocale[state.language], state.narrationPitch);
-    }} /></Animated.View>
+      if (!lessonIsScored || correct === true) completeScreen(lesson.id, module.id, lessonNext?.id, !lessonNext);
+      if (state.narrationEnabled && 'feedback' in lesson && lesson.feedback && lesson.questionKind !== 'reflection') void speakFeedback(lesson.feedback, state.language, state.narrationRate, state.voiceByLocale[state.language], state.narrationPitch);
+    }} />;
+  };
+  const surfaceStyle = (lesson: NonNullable<typeof screen>) => ((lesson.type === 'singleChoice' || lesson.type === 'multiSelect' || lesson.type === 'scenario') && !('questionKind' in lesson && lesson.questionKind === 'reflection')) ? styles.lessonSurface : styles.lessonSurfaceTransparent;
+  const renderSurface = (lesson: NonNullable<typeof screen>, style: object, transform: Animated.AnimatedInterpolation<number>, pointerEvents: 'auto' | 'none' = 'auto') => <Animated.View style={[style, { pointerEvents, transform: [{ translateX: transform }] }]}>{renderLessonContent(lesson)}</Animated.View>;
+  const outgoingOffset = direction === 'backward' ? lessonWidth : -lessonWidth;
+  const incomingOffset = direction === 'backward' ? -lessonWidth : lessonWidth;
+  const activeTransform = transition.interpolate({ inputRange: [0, 1], outputRange: [entryOffset, 0] });
+  const outgoingTransform = transition.interpolate({ inputRange: [0, 1], outputRange: [0, outgoingOffset] });
+  const incomingTransform = transition.interpolate({ inputRange: [0, 1], outputRange: [incomingOffset, 0] });
+  const stepLabel = `${state.language === 'es' ? 'Paso' : 'Step'} ${index + 1} ${state.language === 'es' ? 'de' : 'of'} ${module.screens.length}`;
+  const footer = <View style={styles.controls}>
+    {previous ? <ActionButton wrapperStyle={compactControls ? undefined : styles.controlSlot} buttonStyle={styles.footerButton} compact={compactControls} variant="secondary" accessibilityLabel={t('previous')} label={t('previous')} labelNumberOfLines={2} icon="arrow-left" onPress={() => navigate(previous.id, 'backward')} /> : null}
+    <ActionButton wrapperStyle={styles.controlNext} buttonStyle={styles.footerButton} label={nextLabel} icon={isReflection && !submittedNow ? 'arrow-right' : next ? 'arrow-right' : 'check'} iconPosition="trailing" labelNumberOfLines={2} disabled={!canContinue} onPress={continueNext} />
+  </View>;
+  return <AppScreen width="reading" scrollKey={requestedScreenId ?? displayedScreenId} contentStyle={styles.lessonContent} footer={footer}>
+    <View style={styles.topRow}>
+      <ActionButton wrapperStyle={styles.backWrapper} buttonStyle={styles.back} variant="ghost" accessibilityLabel={`${t('backToModule')}: ${module.shortTitle}`} label={module.shortTitle} labelNumberOfLines={2} icon="arrow-left" textStyle={styles.backModule} onPress={leaveLesson} />
+      <ActionButton buttonStyle={styles.listen} variant="quiet" label={narrationLabel} accessibilityLabel={narrationAccessibilityLabel} icon={narrationIcon} textStyle={styles.listenText} disabled={!state.narrationEnabled || narrationState === 'unavailable'} onPress={() => void play()} />
+    </View>
+    <View style={styles.progressBlock}>
+      <View style={styles.progressLabels}><Text style={styles.moduleLabel}>{state.language === 'es' ? 'Módulo' : 'Module'} {module.order}</Text><Text style={styles.step}>{stepLabel}</Text></View>
+      <ProgressMeter compact steps={{ total: module.screens.length, current: index + 1 }} value={Math.round(((index + 1) / module.screens.length) * 100)} label={stepLabel} />
+    </View>
+    <View testID="lesson-surface" style={styles.lessonSurfaceViewport}>
+      {isTransitioning && incomingScreen ? <>
+        {renderSurface(screen, [surfaceStyle(screen), styles.outgoingSurface], outgoingTransform, 'none')}
+        {renderSurface(incomingScreen, surfaceStyle(incomingScreen), incomingTransform, 'none')}
+      </> : renderSurface(screen, surfaceStyle(screen), activeTransform)}
+    </View>
   </AppScreen>;
 }
 const styles = StyleSheet.create({
-  lessonContent: { gap: 12, paddingTop: Platform.OS === 'web' ? 54 : 10 },
-  topRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: spacing.sm }, back: { width: 132, maxWidth: '100%', minHeight: 44, flexDirection: 'row', alignItems: 'center', gap: 0, paddingLeft: 16, paddingRight: 0, borderRadius: radius.sm }, backModule: { color: palette.ink, fontFamily: fontFamily.body, fontSize: 14, lineHeight: 18, fontWeight: '600' }, iconButton: { width: touchTarget, height: touchTarget, alignItems: 'center', justifyContent: 'center', borderWidth: 1, borderColor: palette.border, borderRadius: radius.md }, focused: { outlineWidth: 2, outlineColor: palette.focus, outlineOffset: 2 }, pressed: { opacity: 0.72 },
-  step: { color: palette.inkMuted, fontFamily: fontFamily.body, fontSize: 12, lineHeight: 17, fontWeight: '600' },
-  eyebrow: { color: palette.primary, fontFamily: fontFamily.body, fontSize: 13, fontWeight: '900', letterSpacing: 1, textTransform: 'uppercase', marginBottom: spacing.sm },
-  lessonIntro: { gap: spacing.md },
-  title: { color: palette.ink, fontFamily: fontFamily.heading, fontSize: 29, lineHeight: 36, fontWeight: '900', letterSpacing: -0.4 },
-  controls: { flexDirection: 'row', gap: 6, alignItems: 'stretch' },
+  lessonContent: { gap: 14, paddingTop: Platform.OS === 'web' ? 18 : 8 },
+  topRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: spacing.sm },
+  backWrapper: { flexShrink: 1, minWidth: 0 },
+  back: { paddingLeft: 6, paddingRight: 14, minHeight: touchTarget, justifyContent: 'flex-start' },
+  backModule: { fontSize: 16, textAlign: 'left' },
+  listen: { minHeight: touchTarget - 2, paddingHorizontal: 14, gap: 6 },
+  listenText: { fontSize: 15 },
+  progressBlock: { gap: 8 },
+  progressLabels: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' },
+  moduleLabel: { ...typeScale.eyebrow, color: palette.dawnInk },
+  step: { ...typeScale.meta, color: palette.inkMuted },
+  title: { ...typeScale.title, color: palette.ink },
+  controls: { flexDirection: 'row', gap: 10, alignItems: 'stretch' },
   controlSlot: { flex: 1, minWidth: 0 },
-  controlNarration: { flex: 0.68, minWidth: 0 },
-  controlButton: { width: '100%', minWidth: 0, paddingHorizontal: 4 }, previousControlButton: { backgroundColor: palette.raised, borderColor: 'rgba(255,255,255,0.1)' }, controlText: { fontSize: 14, lineHeight: 18, fontWeight: '600' }, narrationText: { fontSize: 13, lineHeight: 18, fontWeight: '600' },
-  controlSpacer: { flex: 1 },
-  lessonSurface: { backgroundColor: 'transparent', borderWidth: 1, borderColor: 'rgba(255,255,255,0.09)', borderRadius: radius.lg, paddingHorizontal: 17, paddingVertical: 20, overflow: 'hidden' },
+  footerButton: { paddingHorizontal: 14, gap: 8 },
+  controlNext: { flex: 1.3, minWidth: 0 },
+  lessonSurfaceViewport: { position: 'relative', overflow: 'hidden', marginHorizontal: -4, paddingHorizontal: 4, paddingBottom: 8 },
+  outgoingSurface: { position: 'absolute', top: 0, right: 4, bottom: 0, left: 4 },
+  lessonSurface: { backgroundColor: palette.surface, borderWidth: 1, borderColor: palette.border, borderRadius: radius.xl, paddingHorizontal: 18, paddingVertical: 22, overflow: 'hidden' },
   lessonSurfaceTransparent: { backgroundColor: 'transparent' },
 });

@@ -35,4 +35,4 @@ const currentScreens = [
 ];
 const preservedCurrentScreenIds = new Set(['m3-02', 'm3-03', 'm3-ai1', 'm3-ai2', 'm3-q2']);
 const screens = [...ciasScreensByModule.m3, ...currentScreens.filter((screen) => preservedCurrentScreenIds.has(screen.id))];
-export const module03: EducationModule = { id:'m3',order:3,title:'OSA Outcomes and Motivation',shortTitle:'Outcomes & Motivation',description:'Understand health associations, PAP barriers, and realistic next steps without fear or blame.',screens,sourceScreenshotIds:[],curriculumVersion:4,translationStatus:'source',clinicalReviewStatus:'not_reviewed' };
+export const module03: EducationModule = { id:'m3',order:3,title:'OSA Outcomes and Motivation',shortTitle:'Outcomes & Motivation',description:'Understand health associations, PAP barriers, and realistic next steps without fear or blame.',screens,sourceScreenshotIds:[],curriculumVersion:5,translationStatus:'source',clinicalReviewStatus:'not_reviewed' };

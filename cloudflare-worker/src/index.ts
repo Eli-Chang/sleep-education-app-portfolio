@@ -510,7 +510,7 @@ export async function handleRequest(request: Request, env: Env): Promise<Respons
     audit(requestId, 'health', 'complete', 200);
     return json(request, env, requestId, {
       ok: true,
-      service: 'lifespan-sleep-education-ai',
+      service: 'sleep-education-ai-worker',
       configured: Boolean(env.GROQ_API_KEY && env.GROQ_MODEL && modelConfig.allowedModels.includes(env.GROQ_MODEL as never) && (env.CONVERSATION_STATE_SIGNING_SECRET?.length ?? 0) >= 32 && env.CONVERSATION_STATE),
       evidence_enabled: evidenceEnabled(env),
       conversation_state_signing_configured: (env.CONVERSATION_STATE_SIGNING_SECRET?.length ?? 0) >= 32,

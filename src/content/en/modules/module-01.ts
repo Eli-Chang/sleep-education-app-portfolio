@@ -68,6 +68,6 @@ const screens = [...ciasScreensByModule.m1, ...currentScreens.filter((screen) =>
 export const module01: EducationModule = {
   id: 'm1', order: 1, title: 'Intro to Sleep Apnea', shortTitle: 'Sleep Apnea',
   description: 'Understand obstructive breathing, symptoms, evaluation, and how PAP supports an open airway.',
-  screens, sourceScreenshotIds: [], curriculumVersion: 4, translationStatus: 'source',
+  screens, sourceScreenshotIds: [], curriculumVersion:5, translationStatus: 'source',
   clinicalReviewStatus: 'not_reviewed',
 };

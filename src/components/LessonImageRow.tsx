@@ -2,7 +2,7 @@ import { Image } from 'expo-image';
 import { StyleSheet, View } from 'react-native';
 import type { CurriculumImageAsset } from '@/src/content/image-registry';
 import { useReducedMotion } from '@/src/hooks/useReducedMotion';
-import { spacing } from '@/src/theme/tokens';
+import { palette, radius, spacing } from '@/src/theme/tokens';
 
 export function LessonImageRow({ assets, locale }: { assets: CurriculumImageAsset[]; locale: 'en' | 'es' }) {
   const reducedMotion = useReducedMotion();
@@ -26,6 +26,6 @@ export function LessonImageRow({ assets, locale }: { assets: CurriculumImageAsse
 const styles = StyleSheet.create({
   wrapper: { gap: spacing.sm },
   row: { flexDirection: 'row', gap: spacing.sm, alignItems: 'stretch' },
-  cell: { flex: 1, minWidth: 0 },
+  cell: { flex: 1, minWidth: 0, borderRadius: radius.xs, backgroundColor: palette.white },
   image: { width: '100%', maxHeight: 220 },
 });

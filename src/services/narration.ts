@@ -10,10 +10,12 @@ export interface NarrationRequest {
   pitch?: number;
 }
 
+export type NarrationOutcome = { status: 'speaking'; voice: string } | { status: 'cancelled' } | { status: 'unavailable' };
+
 export interface NarrationProvider {
-  play(request: NarrationRequest): Promise<void>;
+  play(request: NarrationRequest): Promise<NarrationOutcome>;
   stop(): Promise<void>;
-  replay(): Promise<void>;
+  replay(): Promise<NarrationOutcome>;
   isAvailable(locale: string): Promise<boolean>;
 }
 
@@ -38,8 +40,19 @@ const qualityScore = (voice: Voice) => {
     : quality.includes('default') ? 1 : 0;
 };
 
+// On the web, expo-speech waits for a `voiceschanged` event when the browser has not listed any voices
+// yet. A browser or device with no speech voices never fires it, so cap the wait and treat it as none.
+const VOICE_LIST_TIMEOUT_MS = 3000;
+const availableVoices = () => new Promise<Voice[]>((resolve) => {
+  const timer = setTimeout(() => resolve([]), VOICE_LIST_TIMEOUT_MS);
+  Speech.getAvailableVoicesAsync()
+    .then((voices) => resolve(voices))
+    .catch(() => resolve([]))
+    .finally(() => clearTimeout(timer));
+});
+
 export const getVoiceInventory = async (): Promise<VoiceInventoryItem[]> =>
-  (await Speech.getAvailableVoicesAsync()).map((voice) => ({
+  (await availableVoices()).map((voice) => ({
     identifier: voice.identifier,
     name: voice.name,
     language: voice.language,
@@ -51,7 +64,7 @@ export const getVoiceInventory = async (): Promise<VoiceInventoryItem[]> =>
   })).sort((a, b) => a.language.localeCompare(b.language) || a.name.localeCompare(b.name));
 
 export async function chooseVoice(locale: SupportedLocale, selected?: string) {
-  const voices = await Speech.getAvailableVoicesAsync();
+  const voices = await availableVoices();
   const compatible = voices.filter((voice) => isCompatible(voice, locale));
   const saved = compatible.find((voice) => voice.identifier === selected);
   if (saved) return saved.identifier;
@@ -66,7 +79,7 @@ const splitNarration = (text: string, max = 700) => {
   const paragraphs = text.split(/\n{2,}/).map((value) => value.trim()).filter(Boolean);
   const sections = paragraphs.length ? paragraphs : [text];
   return sections.flatMap((section) => {
-    const sentences = section.match(/[^.!?]+[.!?]+|[^.!?]+$/g) ?? [section];
+    const sentences = section.match(/[^.!?]+[.!?]+["”’)\]]*|[^.!?]+$/g) ?? [section];
     return sentences.reduce<string[]>((result, sentence) => {
       const last = result[result.length - 1];
       if (last && `${last} ${sentence}`.length <= max) result[result.length - 1] = `${last} ${sentence}`.trim();
@@ -78,11 +91,16 @@ const splitNarration = (text: string, max = 700) => {
 
 export class DeviceSpeechNarrationProvider implements NarrationProvider {
   private lastRequest?: NarrationRequest;
+  // Bumped by every play() and stop(). A play() that resolves its voice after a newer play() or a
+  // stop() (for example, the learner left the lesson while the voice list loaded) must not speak.
+  private generation = 0;
 
-  async play(request: NarrationRequest) {
+  async play(request: NarrationRequest): Promise<NarrationOutcome> {
+    const generation = ++this.generation;
     await Speech.stop();
     const voice = await chooseVoice(request.locale, request.voice);
-    if (!voice) throw new Error(`NO_${request.locale.toUpperCase()}_VOICE`);
+    if (generation !== this.generation) return { status: 'cancelled' };
+    if (!voice) return { status: 'unavailable' };
     this.lastRequest = { ...request, voice };
     const language = request.locale === 'es' ? 'es-US' : 'en-US';
     for (const text of splitNarration(request.text)) {
@@ -93,14 +111,16 @@ export class DeviceSpeechNarrationProvider implements NarrationProvider {
         pitch: request.pitch ?? 1,
       });
     }
+    return { status: 'speaking', voice };
   }
 
   stop() {
+    this.generation += 1;
     return Speech.stop();
   }
 
-  async replay() {
-    if (this.lastRequest) await this.play(this.lastRequest);
+  async replay(): Promise<NarrationOutcome> {
+    return this.lastRequest ? this.play(this.lastRequest) : { status: 'unavailable' };
   }
 
   async isAvailable(locale: string) {
@@ -121,19 +141,12 @@ export const narrationText = (screen: LessonScreen) => {
   return [screen.title, screen.prompt, ...screen.choices.map((choice) => choice.label)].join('. ');
 };
 
-export async function speakScreen(screen: LessonScreen, locale: SupportedLocale, rate: number, selected?: string, pitch = 1) {
-  const voice = await chooseVoice(locale, selected);
-  if (!voice) return undefined;
-  await deviceSpeechNarrationProvider.play({ text: narrationText(screen), locale, rate, voice, pitch });
-  return voice;
-}
+// Voice selection happens inside play(), so a stop() issued while voices load cancels the request.
+export const speakScreen = (screen: LessonScreen, locale: SupportedLocale, rate: number, selected?: string, pitch = 1) =>
+  deviceSpeechNarrationProvider.play({ text: narrationText(screen), locale, rate, voice: selected, pitch });
 
-export async function speakFeedback(text: string, locale: SupportedLocale, rate: number, selected?: string, pitch = 1) {
-  const voice = await chooseVoice(locale, selected);
-  if (!voice) return undefined;
-  await deviceSpeechNarrationProvider.play({ text, locale, rate, voice, pitch });
-  return voice;
-}
+export const speakFeedback = (text: string, locale: SupportedLocale, rate: number, selected?: string, pitch = 1) =>
+  deviceSpeechNarrationProvider.play({ text, locale, rate, voice: selected, pitch });
 
 export const stopNarration = () => deviceSpeechNarrationProvider.stop();
 export const replayNarration = () => deviceSpeechNarrationProvider.replay();
